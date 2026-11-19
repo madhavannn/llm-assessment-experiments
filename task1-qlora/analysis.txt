@@ -1,0 +1,12 @@
+Task 1 | Qwen2.5-0.5B-Instruct on a free Colab Tesla T4
+
+Across the same 100 held-out requests, the 4-bit base model scored 1/100 and the QLoRA model scored 6/100 (+5 percentage points). Scoring requires the entire response to parse as a JSON object with exactly the expected keys and values. No time conversion, text extraction or repair is applied by the scorer.
+
+The tuned model produced 100 valid objects and extracted all 100 task names. Time accuracy fell from 50/100 to 21/100. The training requests contain no AM/PM markers, while 79 test requests contain them. That shift makes copying a time string a poor strategy on this test. Priority accuracy also declined, from 50/100 to 43/100.
+
+Three actual fine-tuned failures, using one-based row numbers in test.jsonl:
+1. Row 1, garage cleanup: four fields matched. The model copied 5:00 PM, whereas the schema requires 17:00. The training inputs gave it little reason to learn AM/PM conversion.
+2. Row 5, plant watering: the model chose schedule for Take ... off my calendar, retained 11:30 AM, and wrote top for high. One plausible explanation is that calendar suggested scheduling while the model missed the cancellation expressed by take ... off. It also copied the priority wording instead of mapping it to the allowed label.
+3. Row 64, photography session: it produced null for today and top for high. It identified the cancellation correctly. Here the explicit date appeared without a clock time, and the model omitted it. This example shows date extraction can fail even when no time conversion is required.
+
+Training used one pass, batch size 8 with two-step accumulation, learning rate 2e-4, rank 8, alpha 16, dropout 0.05, and attention and MLP projections. The adapter contains 4,399,104 trainable parameters. One epoch and a small adapter limit training cost for this repeated schema. The learning rate was fixed in advance; this run does not establish that it is optimal.

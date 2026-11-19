@@ -1,0 +1,2702 @@
+[
+  {
+    "test_row": 1,
+    "input": "Give me a nudge about garage cleanup \u2014 Friday at 5:00 PM. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "garage cleanup",
+      "date": "Friday",
+      "time": "17:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"garage cleanup\", \"date\": \"Friday\", \"time\": \"5:00 PM\", \"priority\": \"high\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "garage cleanup",
+      "date": "Friday",
+      "time": "5:00 PM",
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "17:00",
+        "predicted": "5:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 2,
+    "input": "Give me a nudge about photography session \u2014 Friday at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "photography session",
+      "date": "Friday",
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"photography session\", \"date\": \"Friday\", \"time\": \"9:00 AM\", \"priority\": \"high\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "photography session",
+      "date": "Friday",
+      "time": "9:00 AM",
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 3,
+    "input": "Call off bike repair \u2014 tomorrow at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "cancel",
+      "task": "bike repair",
+      "date": "tomorrow",
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"bike repair\", \"date\": \"tomorrow\", \"time\": \"9:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "bike repair",
+      "date": "tomorrow",
+      "time": "9:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 4,
+    "input": "Give me a nudge about garage cleanup \u2014 Tuesday at 10:00 AM. No rush.",
+    "expected": {
+      "action": "remind",
+      "task": "garage cleanup",
+      "date": "Tuesday",
+      "time": "10:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"garage cleanup\", \"date\": \"Tuesday\", \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "garage cleanup",
+      "date": "Tuesday",
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 5,
+    "input": "Take plant watering off my calendar \u2014 tomorrow at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "cancel",
+      "task": "plant watering",
+      "date": "tomorrow",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"plant watering\", \"date\": \"tomorrow\", \"time\": \"11:30 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "plant watering",
+      "date": "tomorrow",
+      "time": "11:30 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "cancel",
+        "predicted": "schedule"
+      },
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 6,
+    "input": "Give me a nudge about garage cleanup \u2014 Tuesday. No rush.",
+    "expected": {
+      "action": "remind",
+      "task": "garage cleanup",
+      "date": "Tuesday",
+      "time": null,
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"garage cleanup\", \"date\": \"Tuesday\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "garage cleanup",
+      "date": "Tuesday",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 7,
+    "input": "Put museum visit on my checklist \u2014 Tuesday. No rush.",
+    "expected": {
+      "action": "create",
+      "task": "museum visit",
+      "date": "Tuesday",
+      "time": null,
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"museum visit\", \"date\": \"Tuesday\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "museum visit",
+      "date": "Tuesday",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 8,
+    "input": "Please reserve a slot for science exhibition \u2014 Friday at 10:00 AM.",
+    "expected": {
+      "action": "schedule",
+      "task": "science exhibition",
+      "date": "Friday",
+      "time": "10:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"science exhibition\", \"date\": \"Friday\", \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "science exhibition",
+      "date": "Friday",
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 9,
+    "input": "Can you pencil in museum visit \u2014 Friday at 11:30 AM. No rush.",
+    "expected": {
+      "action": "schedule",
+      "task": "museum visit",
+      "date": "Friday",
+      "time": "11:30",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"museum visit\", \"date\": \"Friday\", \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "museum visit",
+      "date": "Friday",
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 10,
+    "input": "Tick off piano recital as finished \u2014 Tuesday at 2:00 PM. No rush.",
+    "expected": {
+      "action": "complete",
+      "task": "piano recital",
+      "date": "Tuesday",
+      "time": "14:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"piano recital\", \"date\": \"Tuesday\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "piano recital",
+      "date": "Tuesday",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 11,
+    "input": "Can you pencil in design workshop \u2014 Friday at 10:00 AM. No rush.",
+    "expected": {
+      "action": "schedule",
+      "task": "design workshop",
+      "date": "Friday",
+      "time": "10:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"design workshop\", \"date\": \"Friday\", \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "design workshop",
+      "date": "Friday",
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 12,
+    "input": "Take piano recital off my calendar \u2014 at 11:30 AM.",
+    "expected": {
+      "action": "cancel",
+      "task": "piano recital",
+      "date": null,
+      "time": "11:30",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"piano recital\", \"date\": null, \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "piano recital",
+      "date": null,
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      }
+    }
+  },
+  {
+    "test_row": 13,
+    "input": "I finished passport renewal; check it off \u2014 Friday at 11:30 AM. No rush.",
+    "expected": {
+      "action": "complete",
+      "task": "passport renewal",
+      "date": "Friday",
+      "time": "11:30",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"passport renewal\", \"date\": \"Friday\", \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "passport renewal",
+      "date": "Friday",
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 14,
+    "input": "Can you pencil in bike repair \u2014 Tuesday at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "schedule",
+      "task": "bike repair",
+      "date": "Tuesday",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"bike repair\", \"date\": \"Tuesday\", \"time\": \"11:30 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "bike repair",
+      "date": "Tuesday",
+      "time": "11:30 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 15,
+    "input": "Can you pencil in garage cleanup \u2014 Friday at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "schedule",
+      "task": "garage cleanup",
+      "date": "Friday",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"garage cleanup\", \"date\": \"Friday\", \"time\": \"11:30 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "garage cleanup",
+      "date": "Friday",
+      "time": "11:30 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 16,
+    "input": "I finished piano recital; check it off \u2014 Friday at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "complete",
+      "task": "piano recital",
+      "date": "Friday",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"piano recital\", \"date\": \"Friday\", \"time\": \"11:30 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "piano recital",
+      "date": "Friday",
+      "time": "11:30 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 17,
+    "input": "Tick off design workshop as finished \u2014 Tuesday at 11:30 AM.",
+    "expected": {
+      "action": "complete",
+      "task": "design workshop",
+      "date": "Tuesday",
+      "time": "11:30",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"design workshop\", \"date\": \"Tuesday\", \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "design workshop",
+      "date": "Tuesday",
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      }
+    }
+  },
+  {
+    "test_row": 18,
+    "input": "Give me a nudge about neighborhood cleanup \u2014 Monday at 2:00 PM. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "neighborhood cleanup",
+      "date": "Monday",
+      "time": "14:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"neighborhood cleanup\", \"date\": \"Monday\", \"time\": \"2:00 PM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "neighborhood cleanup",
+      "date": "Monday",
+      "time": "2:00 PM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 19,
+    "input": "I need a new to-do item for photography session \u2014 Monday at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "photography session",
+      "date": "Monday",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"create\", \"task\": \"photography session\", \"date\": \"Monday\", \"time\": \"11:30 AM\", \"priority\": \"high\"}",
+    "parsed": {
+      "action": "create",
+      "task": "photography session",
+      "date": "Monday",
+      "time": "11:30 AM",
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      }
+    }
+  },
+  {
+    "test_row": 20,
+    "input": "Call off bike repair \u2014 Friday at 2:00 PM.",
+    "expected": {
+      "action": "cancel",
+      "task": "bike repair",
+      "date": "Friday",
+      "time": "14:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"bike repair\", \"date\": \"Friday\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "bike repair",
+      "date": "Friday",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 22,
+    "input": "Do not let me forget passport renewal \u2014 Friday. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "passport renewal",
+      "date": "Friday",
+      "time": null,
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"passport renewal\", \"date\": \"Friday\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "passport renewal",
+      "date": "Friday",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "remind",
+        "predicted": "cancel"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 23,
+    "input": "Call off science exhibition \u2014 Monday at 10:00 AM.",
+    "expected": {
+      "action": "cancel",
+      "task": "science exhibition",
+      "date": "Monday",
+      "time": "10:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"science exhibition\", \"date\": \"Monday\", \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "science exhibition",
+      "date": "Monday",
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 24,
+    "input": "Do not let me forget science exhibition \u2014 tomorrow at 10:00 AM. No rush.",
+    "expected": {
+      "action": "remind",
+      "task": "science exhibition",
+      "date": "tomorrow",
+      "time": "10:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"science exhibition\", \"date\": \"tomorrow\", \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "science exhibition",
+      "date": "tomorrow",
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "remind",
+        "predicted": "cancel"
+      },
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 25,
+    "input": "Tick off photography session as finished \u2014 Friday. No rush.",
+    "expected": {
+      "action": "complete",
+      "task": "photography session",
+      "date": "Friday",
+      "time": null,
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"photography session\", \"date\": \"Friday\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "photography session",
+      "date": "Friday",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 27,
+    "input": "I need a new to-do item for bike repair \u2014 Tuesday at 9:00 AM.",
+    "expected": {
+      "action": "create",
+      "task": "bike repair",
+      "date": "Tuesday",
+      "time": "09:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"create\", \"task\": \"bike repair\", \"date\": \"Tuesday\", \"time\": \"9:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "create",
+      "task": "bike repair",
+      "date": "Tuesday",
+      "time": "9:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 28,
+    "input": "Tick off science exhibition as finished \u2014 Friday at 9:00 AM. No rush.",
+    "expected": {
+      "action": "complete",
+      "task": "science exhibition",
+      "date": "Friday",
+      "time": "09:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"science exhibition\", \"date\": \"Friday\", \"time\": \"9:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "science exhibition",
+      "date": "Friday",
+      "time": "9:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 29,
+    "input": "Do not let me forget neighborhood cleanup \u2014 Tuesday at 10:00 AM. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "neighborhood cleanup",
+      "date": "Tuesday",
+      "time": "10:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"neighborhood cleanup\", \"date\": \"Tuesday\", \"time\": \"10:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "neighborhood cleanup",
+      "date": "Tuesday",
+      "time": "10:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "remind",
+        "predicted": "cancel"
+      },
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 30,
+    "input": "Please reserve a slot for bike repair \u2014 Friday at 2:00 PM. No rush.",
+    "expected": {
+      "action": "schedule",
+      "task": "bike repair",
+      "date": "Friday",
+      "time": "14:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"bike repair\", \"date\": \"Friday\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "bike repair",
+      "date": "Friday",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 31,
+    "input": "Please reserve a slot for neighborhood cleanup \u2014 tomorrow. No rush.",
+    "expected": {
+      "action": "schedule",
+      "task": "neighborhood cleanup",
+      "date": "tomorrow",
+      "time": null,
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"neighborhood cleanup\", \"date\": \"tomorrow\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "neighborhood cleanup",
+      "date": "tomorrow",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 32,
+    "input": "Can you pencil in garage cleanup \u2014 at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "schedule",
+      "task": "garage cleanup",
+      "date": null,
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"garage cleanup\", \"date\": null, \"time\": \"9:00 AM\", \"priority\": \"high\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "garage cleanup",
+      "date": null,
+      "time": "9:00 AM",
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 33,
+    "input": "Give me a nudge about piano recital \u2014 today at 2:00 PM.",
+    "expected": {
+      "action": "remind",
+      "task": "piano recital",
+      "date": "today",
+      "time": "14:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"piano recital\", \"date\": \"today\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "piano recital",
+      "date": "today",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 34,
+    "input": "Call off garage cleanup \u2014 today at 2:00 PM. Top priority.",
+    "expected": {
+      "action": "cancel",
+      "task": "garage cleanup",
+      "date": "today",
+      "time": "14:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"garage cleanup\", \"date\": \"today\", \"time\": \"2:00 PM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "garage cleanup",
+      "date": "today",
+      "time": "2:00 PM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 35,
+    "input": "Can you pencil in garage cleanup \u2014 Friday at 9:00 AM. No rush.",
+    "expected": {
+      "action": "schedule",
+      "task": "garage cleanup",
+      "date": "Friday",
+      "time": "09:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"garage cleanup\", \"date\": \"Friday\", \"time\": \"9:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "garage cleanup",
+      "date": "Friday",
+      "time": "9:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 36,
+    "input": "Please reserve a slot for passport renewal \u2014 tomorrow at 2:00 PM.",
+    "expected": {
+      "action": "schedule",
+      "task": "passport renewal",
+      "date": "tomorrow",
+      "time": "14:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"passport renewal\", \"date\": \"tomorrow\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "passport renewal",
+      "date": "tomorrow",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 37,
+    "input": "Please reserve a slot for science exhibition \u2014 Tuesday at 2:00 PM. No rush.",
+    "expected": {
+      "action": "schedule",
+      "task": "science exhibition",
+      "date": "Tuesday",
+      "time": "14:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"science exhibition\", \"date\": \"Tuesday\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "science exhibition",
+      "date": "Tuesday",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 38,
+    "input": "I finished plant watering; check it off \u2014 Monday. Top priority.",
+    "expected": {
+      "action": "complete",
+      "task": "plant watering",
+      "date": "Monday",
+      "time": null,
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"plant watering\", \"date\": \"Monday\", \"time\": null, \"priority\": \"top\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "plant watering",
+      "date": "Monday",
+      "time": null,
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 39,
+    "input": "Put bike repair on my checklist \u2014 Monday. No rush.",
+    "expected": {
+      "action": "create",
+      "task": "bike repair",
+      "date": "Monday",
+      "time": null,
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"bike repair\", \"date\": \"Monday\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "bike repair",
+      "date": "Monday",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 40,
+    "input": "Give me a nudge about museum visit \u2014 Tuesday. No rush.",
+    "expected": {
+      "action": "remind",
+      "task": "museum visit",
+      "date": "Tuesday",
+      "time": null,
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"museum visit\", \"date\": \"Tuesday\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "museum visit",
+      "date": "Tuesday",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 41,
+    "input": "Put neighborhood cleanup on my checklist \u2014 Friday at 9:00 AM.",
+    "expected": {
+      "action": "create",
+      "task": "neighborhood cleanup",
+      "date": "Friday",
+      "time": "09:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"neighborhood cleanup\", \"date\": \"Friday\", \"time\": \"9:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "neighborhood cleanup",
+      "date": "Friday",
+      "time": "9:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      },
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 42,
+    "input": "I finished bike repair; check it off \u2014 Monday at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "complete",
+      "task": "bike repair",
+      "date": "Monday",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"bike repair\", \"date\": \"Monday\", \"time\": \"11:30 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "bike repair",
+      "date": "Monday",
+      "time": "11:30 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 43,
+    "input": "Please reserve a slot for photography session \u2014 at 2:00 PM. No rush.",
+    "expected": {
+      "action": "schedule",
+      "task": "photography session",
+      "date": null,
+      "time": "14:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"photography session\", \"date\": null, \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "photography session",
+      "date": null,
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 44,
+    "input": "Please reserve a slot for museum visit \u2014 Monday at 9:00 AM. No rush.",
+    "expected": {
+      "action": "schedule",
+      "task": "museum visit",
+      "date": "Monday",
+      "time": "09:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"museum visit\", \"date\": \"Monday\", \"time\": \"9:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "museum visit",
+      "date": "Monday",
+      "time": "9:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 45,
+    "input": "Tick off bike repair as finished \u2014 tomorrow at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "complete",
+      "task": "bike repair",
+      "date": "tomorrow",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"bike repair\", \"date\": \"tomorrow\", \"time\": \"11:30 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "bike repair",
+      "date": "tomorrow",
+      "time": "11:30 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 46,
+    "input": "Call off piano recital \u2014 at 2:00 PM.",
+    "expected": {
+      "action": "cancel",
+      "task": "piano recital",
+      "date": null,
+      "time": "14:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"piano recital\", \"date\": null, \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "piano recital",
+      "date": null,
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 48,
+    "input": "Can you pencil in science exhibition \u2014 tomorrow at 9:00 AM.",
+    "expected": {
+      "action": "schedule",
+      "task": "science exhibition",
+      "date": "tomorrow",
+      "time": "09:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"science exhibition\", \"date\": \"tomorrow\", \"time\": \"9:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "science exhibition",
+      "date": "tomorrow",
+      "time": "9:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 49,
+    "input": "I need a new to-do item for neighborhood cleanup \u2014 Monday at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "neighborhood cleanup",
+      "date": "Monday",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"create\", \"task\": \"neighborhood cleanup\", \"date\": \"Monday\", \"time\": \"11:30 AM\", \"priority\": \"high\"}",
+    "parsed": {
+      "action": "create",
+      "task": "neighborhood cleanup",
+      "date": "Monday",
+      "time": "11:30 AM",
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      }
+    }
+  },
+  {
+    "test_row": 51,
+    "input": "Take bike repair off my calendar \u2014 Friday at 5:00 PM.",
+    "expected": {
+      "action": "cancel",
+      "task": "bike repair",
+      "date": "Friday",
+      "time": "17:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"bike repair\", \"date\": \"Friday\", \"time\": \"5:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "bike repair",
+      "date": "Friday",
+      "time": "5:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "17:00",
+        "predicted": "5:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 52,
+    "input": "I need a new to-do item for bike repair \u2014 at 10:00 AM. No rush.",
+    "expected": {
+      "action": "create",
+      "task": "bike repair",
+      "date": null,
+      "time": "10:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"create\", \"task\": \"bike repair\", \"date\": null, \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "create",
+      "task": "bike repair",
+      "date": null,
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 54,
+    "input": "Do not let me forget photography session \u2014 at 10:00 AM. No rush.",
+    "expected": {
+      "action": "remind",
+      "task": "photography session",
+      "date": null,
+      "time": "10:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"photography session\", \"date\": null, \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "photography session",
+      "date": null,
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "remind",
+        "predicted": "cancel"
+      },
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 55,
+    "input": "Take neighborhood cleanup off my calendar \u2014 tomorrow at 5:00 PM. Top priority.",
+    "expected": {
+      "action": "cancel",
+      "task": "neighborhood cleanup",
+      "date": "tomorrow",
+      "time": "17:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"neighborhood cleanup\", \"date\": \"tomorrow\", \"time\": \"5:00 PM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "neighborhood cleanup",
+      "date": "tomorrow",
+      "time": "5:00 PM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "17:00",
+        "predicted": "5:00 PM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 56,
+    "input": "I finished plant watering; check it off \u2014 Friday at 9:00 AM.",
+    "expected": {
+      "action": "complete",
+      "task": "plant watering",
+      "date": "Friday",
+      "time": "09:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"plant watering\", \"date\": \"Friday\", \"time\": \"9:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "plant watering",
+      "date": "Friday",
+      "time": "9:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 57,
+    "input": "Give me a nudge about passport renewal \u2014 at 2:00 PM. No rush.",
+    "expected": {
+      "action": "remind",
+      "task": "passport renewal",
+      "date": null,
+      "time": "14:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"passport renewal\", \"date\": null, \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "passport renewal",
+      "date": null,
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 58,
+    "input": "Put design workshop on my checklist \u2014 Tuesday at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "design workshop",
+      "date": "Tuesday",
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"design workshop\", \"date\": \"Tuesday\", \"time\": \"9:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "design workshop",
+      "date": "Tuesday",
+      "time": "9:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      },
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 59,
+    "input": "Put plant watering on my checklist \u2014 tomorrow at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "plant watering",
+      "date": "tomorrow",
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"plant watering\", \"date\": \"tomorrow\", \"time\": \"9:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "plant watering",
+      "date": "tomorrow",
+      "time": "9:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      },
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 60,
+    "input": "Tick off museum visit as finished \u2014 Monday at 2:00 PM.",
+    "expected": {
+      "action": "complete",
+      "task": "museum visit",
+      "date": "Monday",
+      "time": "14:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"museum visit\", \"date\": \"Monday\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "museum visit",
+      "date": "Monday",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 61,
+    "input": "Do not let me forget piano recital \u2014 Tuesday at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "piano recital",
+      "date": "Tuesday",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"piano recital\", \"date\": \"Tuesday\", \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "piano recital",
+      "date": "Tuesday",
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "remind",
+        "predicted": "cancel"
+      },
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 62,
+    "input": "Do not let me forget design workshop \u2014 Monday at 5:00 PM. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "design workshop",
+      "date": "Monday",
+      "time": "17:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"design workshop\", \"date\": \"Monday\", \"time\": \"5:00 PM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "design workshop",
+      "date": "Monday",
+      "time": "5:00 PM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "remind",
+        "predicted": "cancel"
+      },
+      "time": {
+        "expected": "17:00",
+        "predicted": "5:00 PM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 63,
+    "input": "Take passport renewal off my calendar \u2014 Tuesday at 5:00 PM.",
+    "expected": {
+      "action": "cancel",
+      "task": "passport renewal",
+      "date": "Tuesday",
+      "time": "17:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"passport renewal\", \"date\": \"Tuesday\", \"time\": \"5:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "passport renewal",
+      "date": "Tuesday",
+      "time": "5:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "17:00",
+        "predicted": "5:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 64,
+    "input": "Take photography session off my calendar \u2014 today. Top priority.",
+    "expected": {
+      "action": "cancel",
+      "task": "photography session",
+      "date": "today",
+      "time": null,
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"photography session\", \"date\": null, \"time\": null, \"priority\": \"top\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "photography session",
+      "date": null,
+      "time": null,
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "date": {
+        "expected": "today",
+        "predicted": null
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 65,
+    "input": "Call off science exhibition \u2014 Monday at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "cancel",
+      "task": "science exhibition",
+      "date": "Monday",
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"science exhibition\", \"date\": \"Monday\", \"time\": \"9:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "science exhibition",
+      "date": "Monday",
+      "time": "9:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 66,
+    "input": "Tick off plant watering as finished \u2014 today at 11:30 AM.",
+    "expected": {
+      "action": "complete",
+      "task": "plant watering",
+      "date": "today",
+      "time": "11:30",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"plant watering\", \"date\": \"today\", \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "plant watering",
+      "date": "today",
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      }
+    }
+  },
+  {
+    "test_row": 67,
+    "input": "Tick off museum visit as finished \u2014 Tuesday at 10:00 AM.",
+    "expected": {
+      "action": "complete",
+      "task": "museum visit",
+      "date": "Tuesday",
+      "time": "10:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"museum visit\", \"date\": \"Tuesday\", \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "museum visit",
+      "date": "Tuesday",
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 68,
+    "input": "Put photography session on my checklist \u2014 Monday at 10:00 AM. No rush.",
+    "expected": {
+      "action": "create",
+      "task": "photography session",
+      "date": "Monday",
+      "time": "10:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"photography session\", \"date\": \"Monday\", \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "photography session",
+      "date": "Monday",
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      },
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 69,
+    "input": "I finished bike repair; check it off \u2014 at 11:30 AM.",
+    "expected": {
+      "action": "complete",
+      "task": "bike repair",
+      "date": null,
+      "time": "11:30",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"bike repair\", \"date\": null, \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "bike repair",
+      "date": null,
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      }
+    }
+  },
+  {
+    "test_row": 70,
+    "input": "I need a new to-do item for museum visit \u2014 Tuesday at 5:00 PM.",
+    "expected": {
+      "action": "create",
+      "task": "museum visit",
+      "date": "Tuesday",
+      "time": "17:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"create\", \"task\": \"museum visit\", \"date\": \"Tuesday\", \"time\": \"5:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "create",
+      "task": "museum visit",
+      "date": "Tuesday",
+      "time": "5:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "17:00",
+        "predicted": "5:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 71,
+    "input": "Please reserve a slot for science exhibition \u2014 Tuesday at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "schedule",
+      "task": "science exhibition",
+      "date": "Tuesday",
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"science exhibition\", \"date\": \"Tuesday\", \"time\": \"9:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "science exhibition",
+      "date": "Tuesday",
+      "time": "9:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 72,
+    "input": "Put piano recital on my checklist \u2014 today at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "piano recital",
+      "date": "today",
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"piano recital\", \"date\": \"today\", \"time\": \"9:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "piano recital",
+      "date": "today",
+      "time": "9:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      },
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 73,
+    "input": "I finished piano recital; check it off \u2014 today at 2:00 PM. No rush.",
+    "expected": {
+      "action": "complete",
+      "task": "piano recital",
+      "date": "today",
+      "time": "14:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"piano recital\", \"date\": \"today\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "piano recital",
+      "date": "today",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 74,
+    "input": "Give me a nudge about bike repair \u2014 today at 2:00 PM.",
+    "expected": {
+      "action": "remind",
+      "task": "bike repair",
+      "date": "today",
+      "time": "14:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"bike repair\", \"date\": \"today\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "bike repair",
+      "date": "today",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 75,
+    "input": "Call off passport renewal \u2014 tomorrow at 11:30 AM. No rush.",
+    "expected": {
+      "action": "cancel",
+      "task": "passport renewal",
+      "date": "tomorrow",
+      "time": "11:30",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"passport renewal\", \"date\": \"tomorrow\", \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "passport renewal",
+      "date": "tomorrow",
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 76,
+    "input": "Can you pencil in design workshop \u2014 Monday at 5:00 PM. Top priority.",
+    "expected": {
+      "action": "schedule",
+      "task": "design workshop",
+      "date": "Monday",
+      "time": "17:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"design workshop\", \"date\": \"Monday\", \"time\": \"5:00 PM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "design workshop",
+      "date": "Monday",
+      "time": "5:00 PM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "17:00",
+        "predicted": "5:00 PM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 78,
+    "input": "Give me a nudge about photography session \u2014 today at 2:00 PM.",
+    "expected": {
+      "action": "remind",
+      "task": "photography session",
+      "date": "today",
+      "time": "14:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"photography session\", \"date\": \"today\", \"time\": \"2:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "photography session",
+      "date": "today",
+      "time": "2:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 79,
+    "input": "Put museum visit on my checklist \u2014 Monday at 11:30 AM.",
+    "expected": {
+      "action": "create",
+      "task": "museum visit",
+      "date": "Monday",
+      "time": "11:30",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"create\", \"task\": \"museum visit\", \"date\": \"Monday\", \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "create",
+      "task": "museum visit",
+      "date": "Monday",
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      }
+    }
+  },
+  {
+    "test_row": 80,
+    "input": "I finished plant watering; check it off \u2014 today. No rush.",
+    "expected": {
+      "action": "complete",
+      "task": "plant watering",
+      "date": "today",
+      "time": null,
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"plant watering\", \"date\": \"today\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "plant watering",
+      "date": "today",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 81,
+    "input": "Put garage cleanup on my checklist \u2014 tomorrow at 10:00 AM. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "garage cleanup",
+      "date": "tomorrow",
+      "time": "10:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"garage cleanup\", \"date\": \"tomorrow\", \"time\": \"10:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "garage cleanup",
+      "date": "tomorrow",
+      "time": "10:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      },
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 82,
+    "input": "Do not let me forget bike repair \u2014 Tuesday. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "bike repair",
+      "date": "Tuesday",
+      "time": null,
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"bike repair\", \"date\": \"Tuesday\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "bike repair",
+      "date": "Tuesday",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "remind",
+        "predicted": "cancel"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 83,
+    "input": "Tick off piano recital as finished \u2014 Friday at 5:00 PM. No rush.",
+    "expected": {
+      "action": "complete",
+      "task": "piano recital",
+      "date": "Friday",
+      "time": "17:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"piano recital\", \"date\": \"Friday\", \"time\": \"5:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "piano recital",
+      "date": "Friday",
+      "time": "5:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "17:00",
+        "predicted": "5:00 PM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 84,
+    "input": "I need a new to-do item for piano recital \u2014 Monday at 10:00 AM. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "piano recital",
+      "date": "Monday",
+      "time": "10:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"create\", \"task\": \"piano recital\", \"date\": \"Monday\", \"time\": \"10:00 AM\", \"priority\": \"high\"}",
+    "parsed": {
+      "action": "create",
+      "task": "piano recital",
+      "date": "Monday",
+      "time": "10:00 AM",
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 85,
+    "input": "Do not let me forget museum visit \u2014 today at 10:00 AM. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "museum visit",
+      "date": "today",
+      "time": "10:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"museum visit\", \"date\": null, \"time\": \"10:00 AM\", \"priority\": \"high\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "museum visit",
+      "date": null,
+      "time": "10:00 AM",
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "remind",
+        "predicted": "cancel"
+      },
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      },
+      "date": {
+        "expected": "today",
+        "predicted": null
+      }
+    }
+  },
+  {
+    "test_row": 86,
+    "input": "Call off science exhibition \u2014 Tuesday at 5:00 PM. No rush.",
+    "expected": {
+      "action": "cancel",
+      "task": "science exhibition",
+      "date": "Tuesday",
+      "time": "17:00",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"science exhibition\", \"date\": \"Tuesday\", \"time\": \"5:00 PM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "science exhibition",
+      "date": "Tuesday",
+      "time": "5:00 PM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "17:00",
+        "predicted": "5:00 PM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 87,
+    "input": "Call off garage cleanup \u2014 Monday at 11:30 AM. No rush.",
+    "expected": {
+      "action": "cancel",
+      "task": "garage cleanup",
+      "date": "Monday",
+      "time": "11:30",
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"garage cleanup\", \"date\": \"Monday\", \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "garage cleanup",
+      "date": "Monday",
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 88,
+    "input": "Can you pencil in neighborhood cleanup \u2014 tomorrow at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "schedule",
+      "task": "neighborhood cleanup",
+      "date": "tomorrow",
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"neighborhood cleanup\", \"date\": \"tomorrow\", \"time\": \"11:30 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "neighborhood cleanup",
+      "date": "tomorrow",
+      "time": "11:30 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 89,
+    "input": "Tick off science exhibition as finished \u2014 Monday at 10:00 AM.",
+    "expected": {
+      "action": "complete",
+      "task": "science exhibition",
+      "date": "Monday",
+      "time": "10:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"science exhibition\", \"date\": \"Monday\", \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "science exhibition",
+      "date": "Monday",
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 90,
+    "input": "Call off plant watering \u2014 tomorrow. No rush.",
+    "expected": {
+      "action": "cancel",
+      "task": "plant watering",
+      "date": "tomorrow",
+      "time": null,
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"plant watering\", \"date\": \"tomorrow\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "plant watering",
+      "date": "tomorrow",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 91,
+    "input": "Put neighborhood cleanup on my checklist \u2014 at 11:30 AM. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "neighborhood cleanup",
+      "date": null,
+      "time": "11:30",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"neighborhood cleanup\", \"date\": null, \"time\": \"11:30 AM\", \"priority\": \"high\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "neighborhood cleanup",
+      "date": null,
+      "time": "11:30 AM",
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      },
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      }
+    }
+  },
+  {
+    "test_row": 92,
+    "input": "Give me a nudge about passport renewal \u2014 Friday at 2:00 PM. Top priority.",
+    "expected": {
+      "action": "remind",
+      "task": "passport renewal",
+      "date": "Friday",
+      "time": "14:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"remind\", \"task\": \"passport renewal\", \"date\": \"Friday\", \"time\": \"2:00 PM\", \"priority\": \"high\"}",
+    "parsed": {
+      "action": "remind",
+      "task": "passport renewal",
+      "date": "Friday",
+      "time": "2:00 PM",
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "14:00",
+        "predicted": "2:00 PM"
+      }
+    }
+  },
+  {
+    "test_row": 93,
+    "input": "Take passport renewal off my calendar \u2014 Friday at 10:00 AM.",
+    "expected": {
+      "action": "cancel",
+      "task": "passport renewal",
+      "date": "Friday",
+      "time": "10:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"cancel\", \"task\": \"passport renewal\", \"date\": \"Friday\", \"time\": \"10:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "cancel",
+      "task": "passport renewal",
+      "date": "Friday",
+      "time": "10:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "10:00",
+        "predicted": "10:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 94,
+    "input": "Can you pencil in bike repair \u2014 today at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "schedule",
+      "task": "bike repair",
+      "date": "today",
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"bike repair\", \"date\": \"today\", \"time\": \"9:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "bike repair",
+      "date": "today",
+      "time": "9:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 95,
+    "input": "Take plant watering off my calendar \u2014 today.",
+    "expected": {
+      "action": "cancel",
+      "task": "plant watering",
+      "date": "today",
+      "time": null,
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"plant watering\", \"date\": \"today\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "plant watering",
+      "date": "today",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "cancel",
+        "predicted": "schedule"
+      }
+    }
+  },
+  {
+    "test_row": 96,
+    "input": "Tick off neighborhood cleanup as finished \u2014 today. No rush.",
+    "expected": {
+      "action": "complete",
+      "task": "neighborhood cleanup",
+      "date": "today",
+      "time": null,
+      "priority": "low"
+    },
+    "raw": "{\"action\": \"complete\", \"task\": \"neighborhood cleanup\", \"date\": \"today\", \"time\": null, \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "complete",
+      "task": "neighborhood cleanup",
+      "date": "today",
+      "time": null,
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "priority": {
+        "expected": "low",
+        "predicted": "normal"
+      }
+    }
+  },
+  {
+    "test_row": 97,
+    "input": "I need a new to-do item for bike repair \u2014 today at 9:00 AM.",
+    "expected": {
+      "action": "create",
+      "task": "bike repair",
+      "date": "today",
+      "time": "09:00",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"create\", \"task\": \"bike repair\", \"date\": \"today\", \"time\": \"9:00 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "create",
+      "task": "bike repair",
+      "date": "today",
+      "time": "9:00 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      }
+    }
+  },
+  {
+    "test_row": 98,
+    "input": "Can you pencil in photography session \u2014 Tuesday at 11:30 AM.",
+    "expected": {
+      "action": "schedule",
+      "task": "photography session",
+      "date": "Tuesday",
+      "time": "11:30",
+      "priority": "normal"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"photography session\", \"date\": \"Tuesday\", \"time\": \"11:30 AM\", \"priority\": \"normal\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "photography session",
+      "date": "Tuesday",
+      "time": "11:30 AM",
+      "priority": "normal"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "11:30",
+        "predicted": "11:30 AM"
+      }
+    }
+  },
+  {
+    "test_row": 99,
+    "input": "I need a new to-do item for museum visit \u2014 Monday at 9:00 AM. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "museum visit",
+      "date": "Monday",
+      "time": "09:00",
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"create\", \"task\": \"museum visit\", \"date\": \"Monday\", \"time\": \"9:00 AM\", \"priority\": \"top\"}",
+    "parsed": {
+      "action": "create",
+      "task": "museum visit",
+      "date": "Monday",
+      "time": "9:00 AM",
+      "priority": "top"
+    },
+    "correct": false,
+    "differences": {
+      "time": {
+        "expected": "09:00",
+        "predicted": "9:00 AM"
+      },
+      "priority": {
+        "expected": "high",
+        "predicted": "top"
+      }
+    }
+  },
+  {
+    "test_row": 100,
+    "input": "Put plant watering on my checklist \u2014 Monday. Top priority.",
+    "expected": {
+      "action": "create",
+      "task": "plant watering",
+      "date": "Monday",
+      "time": null,
+      "priority": "high"
+    },
+    "raw": "{\"action\": \"schedule\", \"task\": \"plant watering\", \"date\": \"Monday\", \"time\": null, \"priority\": \"high\"}",
+    "parsed": {
+      "action": "schedule",
+      "task": "plant watering",
+      "date": "Monday",
+      "time": null,
+      "priority": "high"
+    },
+    "correct": false,
+    "differences": {
+      "action": {
+        "expected": "create",
+        "predicted": "schedule"
+      }
+    }
+  }
+]

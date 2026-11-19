@@ -1,0 +1,18 @@
+{
+  "baseline": {
+    "action": 34,
+    "task": 68,
+    "date": 10,
+    "time": 50,
+    "priority": 50,
+    "valid_object": 80
+  },
+  "finetuned": {
+    "action": 80,
+    "task": 100,
+    "date": 98,
+    "time": 21,
+    "priority": 43,
+    "valid_object": 100
+  }
+}
