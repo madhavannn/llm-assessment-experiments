@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3,
+    "added_terms": "git clean untracked nested -f",
+    "original_rank": 442,
+    "expanded_rank": 1
+  },
+  {
+    "id": 5,
+    "added_terms": "linked worktree prune administrative files portable device",
+    "original_rank": 322,
+    "expanded_rank": 1
+  }
+]

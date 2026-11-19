@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "question": "My automated bisect check sometimes lands on a revision that cannot build. Which exit status tells Git to skip it?",
+    "page": "bisect",
+    "passage": "The special exit code 125 should be used when the current source code cannot be tested. If the script exits with this code, the current revision will be skipped",
+    "answer": "Return 125."
+  },
+  {
+    "id": 2,
+    "question": "After someone renamed a whole file, do I need an option to trace who last edited its lines before the rename?",
+    "page": "blame",
+    "passage": "The origin of lines is automatically followed across whole-file renames (currently there is no option to turn the rename-following off).",
+    "answer": "No. Git blame follows whole-file renames automatically."
+  },
+  {
+    "id": 3,
+    "question": "Why did a nested repository survive cleanup when I already supplied one force flag?",
+    "page": "clean",
+    "passage": "Git will refuse to modify untracked nested git repositories (directories with a .git subdirectory) unless a second -f is given.",
+    "answer": "An untracked nested repository has extra protection. Removing it requires a second -f."
+  },
+  {
+    "id": 4,
+    "question": "What is the default age cutoff for ordinary reflog expiration when I leave the configuration alone?",
+    "page": "reflog",
+    "passage": "the expiration time is taken from the configuration setting gc.reflogExpire , which in turn defaults to 90 days.",
+    "answer": "90 days."
+  },
+  {
+    "id": 5,
+    "question": "My secondary checkout lives on a USB drive. How do I keep Git from tidying away its bookkeeping while the drive is unplugged?",
+    "page": "worktree",
+    "passage": "you can prevent its administrative files from being pruned by issuing the git worktree lock command",
+    "answer": "Use git worktree lock on the linked worktree."
+  },
+  {
+    "id": 6,
+    "question": "My stash pop produced conflicts. Where is my saved work, and how do I remove the entry after resolving them?",
+    "page": "stash",
+    "passage": "Applying the state can fail with conflicts; in this case, it is not removed from the stash list. You need to resolve the conflicts by hand and call git stash drop manually afterwards.",
+    "answer": "The entry remains in the stash list. Resolve the conflicts and then use git stash drop."
+  },
+  {
+    "id": 7,
+    "question": "A faulty change is already in shared history. Which operation records its reversal as another commit?",
+    "page": "revert",
+    "passage": "git revert is used to record some new commits to reverse the effect of some earlier commits",
+    "answer": "Use git revert."
+  },
+  {
+    "id": 8,
+    "question": "I want a shallow clone of depth five, but I need the tips of every branch. What do I need in addition to the depth option?",
+    "page": "clone",
+    "passage": "Implies --single-branch unless --no-single-branch is given to fetch the histories near the tips of all branches.",
+    "answer": "Add --no-single-branch."
+  },
+  {
+    "id": 9,
+    "question": "Which attribute lets me keep test fixtures in the repository while leaving them out of release archives?",
+    "page": "archive",
+    "passage": "Files and directories with the attribute export-ignore won’t be added to archive files.",
+    "answer": "Set export-ignore on those paths."
+  },
+  {
+    "id": 10,
+    "question": "I made a lightweight tag. Why might git describe ignore it when I run the command without options?",
+    "page": "describe",
+    "passage": "By default (without --all or --tags ) git describe only shows annotated tags.",
+    "answer": "By default git describe considers only annotated tags."
+  },
+  {
+    "id": 11,
+    "question": "Before using a bundle, how do I check that this receiving repository has the commits it depends on?",
+    "page": "bundle",
+    "passage": "verify <file> Used to check that a bundle file is valid and will apply cleanly to the current repository. This includes checks on the bundle format itself as well as checking that the prerequisite commits exist and are fully linked in the current repository.",
+    "answer": "Run git bundle verify <file> in the receiving repository."
+  },
+  {
+    "id": 12,
+    "question": "I took over someone else's change while amending it. Which flag makes me the author and refreshes the author timestamp?",
+    "page": "commit",
+    "passage": "--reset-author When used with -C / -c / --amend options, or when committing after a conflicting cherry-pick, declare that the authorship of the resulting commit now belongs to the committer. This also renews the author timestamp.",
+    "answer": "Use --reset-author with --amend."
+  },
+  {
+    "id": 13,
+    "question": "While fetching, how can I discard local remote-tracking references whose counterparts were deleted upstream?",
+    "page": "fetch",
+    "passage": "-p --prune Before fetching, remove any remote-tracking references that no longer exist on the remote.",
+    "answer": "Use git fetch --prune."
+  },
+  {
+    "id": 14,
+    "question": "How can I register a new path in the index now but leave its contents unstaged for review?",
+    "page": "add",
+    "passage": "-N --intent-to-add Record only the fact that the path will be added later. An entry for the path is placed in the index with no content.",
+    "answer": "Use git add -N on that path."
+  },
+  {
+    "id": 15,
+    "question": "I want to attach a review comment to an existing commit without changing its object ID. What Git facility does that?",
+    "page": "notes",
+    "passage": "Adds, removes, or reads notes attached to objects, without touching the objects themselves.",
+    "answer": "Use Git notes."
+  }
+]

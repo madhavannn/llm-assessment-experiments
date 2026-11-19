@@ -1,0 +1,37 @@
+{
+  "question": "My stash pop produced conflicts. Where is my saved work, and how do I remove the entry after resolving them?",
+  "size": 80,
+  "answer": "[3] git-stash | to view the second most recent entry in patch form). If no <diff-option> is provided, the default behavior will be given by the stash.showStat , and stash.showPatch config variables. You can also use stash.showIncludeUntracked to set whether --include-untracked is enabled by default. pop [ --index ] [ -q | --quiet ] [ <stash> ] Remove a single stashed state from the stash list and apply",
+  "evidence": [
+    {
+      "page": "checkout",
+      "start": 1664,
+      "text": "before the switch and reapplied afterwards. If the local changes do not overlap with the differences between branches, the switch proceeds without stashing. If reapplying the stash results in conflicts, the entry is saved to the stash list. Resolve the conflicts and run git stash drop when done, or clear the working tree (e.g. with git reset --hard ) before running git stash pop later to re-apply your changes. When checking out paths from the index, this option lets you",
+      "score": 0.7663478255271912
+    },
+    {
+      "page": "stash",
+      "start": 832,
+      "text": "apply it on top of the current working tree state, i.e., do the inverse operation of git stash push . The working directory must match the index. Applying the state can fail with conflicts; in this case, it is not removed from the stash list. You need to resolve the conflicts by hand and call git stash drop manually afterwards. apply [ --index ] [ -q | --quiet ] [ <stash> ] Like pop , but do not remove the",
+      "score": 0.7580330967903137
+    },
+    {
+      "page": "stash",
+      "start": 768,
+      "text": "to view the second most recent entry in patch form). If no <diff-option> is provided, the default behavior will be given by the stash.showStat , and stash.showPatch config variables. You can also use stash.showIncludeUntracked to set whether --include-untracked is enabled by default. pop [ --index ] [ -q | --quiet ] [ <stash> ] Remove a single stashed state from the stash list and apply it on top of the current working tree state, i.e., do the inverse operation of",
+      "score": 0.7384369373321533
+    },
+    {
+      "page": "stash",
+      "start": 1024,
+      "text": "entry is applied on top of the commit that was HEAD at the time git stash was run, it restores the originally stashed state with no conflicts. clear Remove all the stash entries. Note that those entries will then be subject to pruning, and may be impossible to recover (see EXAMPLES below for a possible strategy). drop [ -q | --quiet ] [ <stash> ] Remove a single stash entry from the list of stash entries. create Create a stash",
+      "score": 0.7351313829421997
+    },
+    {
+      "page": "stash",
+      "start": 960,
+      "text": "was originally created, applies the changes recorded in <stash> to the new working tree and index. If that succeeds, and <stash> is a reference of the form stash@ { <revision> }, it then drops the <stash> . This is useful if the branch on which you ran git stash push has changed enough that git stash apply fails due to conflicts. Since the stash entry is applied on top of the commit that was HEAD at the time git stash",
+      "score": 0.7079679369926453
+    }
+  ]
+}

@@ -1,0 +1,1096 @@
+{
+  "80": {
+    "chunks": 2199,
+    "hits": 6,
+    "recall_at_5": 0.4,
+    "rows": [
+      {
+        "id": 1,
+        "gold_rank": 33,
+        "top5": [
+          {
+            "page": "bisect",
+            "start": 2368,
+            "text": "among the last 10 $ git bisect run ~/test.sh $ git bisect reset # quit the bisect session Here we use a test.sh custom script. In this script, if make fails, we skip the current commit. check_test_case.sh should exit 0 if the test case passes, and exit 1 otherwise. It is safer if both test.sh and check_test_case.sh are outside the repository to prevent interactions between the bisect, make and test processes and the scripts. Automatically bisect with temporary modifications (hot-fix):",
+            "score": 0.8043864965438843
+          },
+          {
+            "page": "bisect",
+            "start": 1344,
+            "text": "# oops, that is uninteresting. $ git reset --hard HEAD~3 # try 3 revisions before what # was suggested Then compile and test the chosen revision, and afterwards mark the revision as good or bad in the usual manner. Bisect skip Instead of choosing a nearby commit by yourself, you can ask Git to do it for you by issuing the command: $ git bisect skip # Current version cannot be tested However, if you skip a commit adjacent to",
+            "score": 0.7982029914855957
+          },
+          {
+            "page": "bisect",
+            "start": 384,
+            "text": "something similar to the following: Bisecting: 675 revisions left to test after this (roughly 10 steps) You should now compile the checked-out version and test it. If that version works correctly, type $ git bisect good If that version is broken, type $ git bisect bad Then git bisect will respond with something like Bisecting: 337 revisions left to test after this (roughly 9 steps) Keep repeating the process: compile the tree, test it, and depending on whether it is",
+            "score": 0.7929531931877136
+          },
+          {
+            "page": "bisect",
+            "start": 320,
+            "text": "your project. You start a bisect session as follows: $ git bisect start $ git bisect bad # Current version is bad $ git bisect good v2.6.13-rc2 # v2.6.13-rc2 is known to be good Once you have specified at least one bad and one good commit, git bisect selects a commit in the middle of that range of history, checks it out, and outputs something similar to the following: Bisecting: 675 revisions left to test after this (roughly 10 steps)",
+            "score": 0.7917970418930054
+          },
+          {
+            "page": "bisect",
+            "start": 1280,
+            "text": "test (e.g. it fails to build and you know that the failure does not have anything to do with the bug you are chasing), you can manually select a nearby commit and test that one instead. For example: $ git bisect good/bad # previous round was good or bad. Bisecting: 337 revisions left to test after this (roughly 9 steps) $ git bisect visualize # oops, that is uninteresting. $ git reset --hard HEAD~3 # try 3 revisions before what",
+            "score": 0.7874815464019775
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "gold_rank": 2,
+        "top5": [
+          {
+            "page": "diff",
+            "start": 7680,
+            "text": "number of added lines; a tab; the number of deleted lines; a tab; a NUL (only exists if renamed/copied); pathname in preimage; a NUL (only exists if renamed/copied); pathname in postimage (only exists if renamed/copied); a NUL. The extra NUL before the preimage path in renamed case is to allow scripts that read the output to tell if the current record being read is a single-path record or a rename/copy record without reading ahead. After reading added and deleted lines,",
+            "score": 0.6219547986984253
+          },
+          {
+            "page": "blame",
+            "start": 128,
+            "text": "or more times, -L restricts annotation to the requested lines. The origin of lines is automatically followed across whole-file renames (currently there is no option to turn the rename-following off). To follow lines moved from one file to another, or to follow lines that were copied and pasted from another file, etc., see the -C and -M options. The report does not tell you anything about lines which have been deleted or replaced; you need to use a tool such",
+            "score": 0.5853801965713501
+          },
+          {
+            "page": "show",
+            "start": 8256,
+            "text": "rename/copy is involved. Especially, even for a creation or a deletion, /dev/null is not used in place of the a/ or b/ filenames. When a rename/copy is involved, file1 and file2 show the name of the source file of the rename/copy and the name of the file that the rename/copy produces, respectively. It is followed by one or more extended header lines: old mode <mode> new mode <mode> deleted file mode <mode> new file mode <mode> copy from <path> copy",
+            "score": 0.5448520183563232
+          },
+          {
+            "page": "diff",
+            "start": 6464,
+            "text": "for a creation or a deletion, /dev/null is not used in place of the a/ or b/ filenames. When a rename/copy is involved, file1 and file2 show the name of the source file of the rename/copy and the name of the file that the rename/copy produces, respectively. It is followed by one or more extended header lines: old mode <mode> new mode <mode> deleted file mode <mode> new file mode <mode> copy from <path> copy to <path> rename from <path>",
+            "score": 0.5417800545692444
+          },
+          {
+            "page": "log",
+            "start": 14912,
+            "text": "for a creation or a deletion, /dev/null is not used in place of the a/ or b/ filenames. When a rename/copy is involved, file1 and file2 show the name of the source file of the rename/copy and the name of the file that the rename/copy produces, respectively. It is followed by one or more extended header lines: old mode <mode> new mode <mode> deleted file mode <mode> new file mode <mode> copy from <path> copy to <path> rename from <path>",
+            "score": 0.5400987267494202
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "gold_rank": 442,
+        "top5": [
+          {
+            "page": "clone",
+            "start": 768,
+            "text": "the --dissociate option. --dissociate Borrow the objects from reference repositories specified with the --reference options only to reduce network transfer, and stop borrowing from them after a clone is made by making necessary local copies of borrowed objects. This option can also be used when cloning locally from a repository that already borrows objects from another repository—the new repository will borrow objects from the same repository, and this option can be used to stop the borrowing. -q --quiet Operate quietly.",
+            "score": 0.6073849201202393
+          },
+          {
+            "page": "clone",
+            "start": 448,
+            "text": "if you are trying to make a back-up of your repository. -s --shared When the repository to clone is on the local machine, instead of using hard links, automatically setup . git/objects/info/alternates to share the objects with the source repository. The resulting repository starts out without any object of its own. Note this is a possibly dangerous operation; do not use it unless you understand what it does. If you clone your repository using this option and then delete branches",
+            "score": 0.5570417642593384
+          },
+          {
+            "page": "clone",
+            "start": 576,
+            "text": "If these objects are removed and were referenced by the cloned repository, then the cloned repository will become corrupt. Note that running git repack without the --local option in a repository cloned with --shared will copy objects from the source repository into a pack in the cloned repository, removing the disk space savings of clone --shared . It is safe, however, to run git gc , which uses the --local option by default. If you want to break the dependency",
+            "score": 0.5412589311599731
+          },
+          {
+            "page": "clone",
+            "start": 320,
+            "text": "local optimizations). Specifying --no-local will override the default when /path/to/repo is given, using the regular Git transport instead. If the repository’s $GIT_DIR/objects has symbolic links or is a symbolic link, the clone will fail. This is a security measure to prevent the unintentional copying of files by dereferencing the symbolic links. This option does not work with repositories owned by other users for security reasons, and --no-local must be specified for the clone to succeed. NOTE : this operation can",
+            "score": 0.5196980237960815
+          },
+          {
+            "page": "clone",
+            "start": 640,
+            "text": "gc , which uses the --local option by default. If you want to break the dependency of a repository cloned with --shared on its source repository, you can simply run git repack -a to copy all objects from the source repository into a pack in the cloned repository. --reference= <repository> --reference-if-able= <repository> If the reference <repository> is on the local machine, automatically setup . git/objects/info/alternates to obtain objects from the reference <repository> . Using an already existing repository as an",
+            "score": 0.5135457515716553
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "gold_rank": 4,
+        "top5": [
+          {
+            "page": "reflog",
+            "start": 640,
+            "text": "). --expire-unreachable= <time> Prune entries older than <time> that are not reachable from the current tip of the branch. If this option is not specified, the expiration time is taken from the configuration setting gc.reflogExpireUnreachable , which in turn defaults to 30 days. --expire-unreachable=all prunes unreachable entries regardless of their age; --expire-unreachable=never turns off early pruning of unreachable entries (but see --expire ). --updateref Update the reference to the value of the top reflog entry (i.e. <ref>@{0}) if the previous",
+            "score": 0.6226683259010315
+          },
+          {
+            "page": "reflog",
+            "start": 448,
+            "text": "from the reflog. This is typically not used directly by end users — instead, see git-gc(1) . OPTIONS Options for show git reflog show accepts any of the options accepted by git log . Options for delete git reflog delete accepts options --updateref , --rewrite , -n , --dry-run , and --verbose , with the same meanings as when they are used with expire . Options for drop --all Drop the reflogs of all references from all worktrees. --single-worktree By",
+            "score": 0.5899257659912109
+          },
+          {
+            "page": "reflog",
+            "start": 384,
+            "text": "by end users. The \"drop\" subcommand completely removes the reflog for the specified references. This is in contrast to \"expire\" and \"delete\", both of which can be used to delete reflog entries, but not the reflog itself. The \"expire\" subcommand prunes older reflog entries. Entries older than expire time, or entries older than expire-unreachable time and not reachable from the current tip, are removed from the reflog. This is typically not used directly by end users — instead, see git-gc(1)",
+            "score": 0.5894660949707031
+          },
+          {
+            "page": "reflog",
+            "start": 576,
+            "text": "processed. This option limits the processing to reflogs from the current working tree only. --expire= <time> Prune entries older than the specified time. If this option is not specified, the expiration time is taken from the configuration setting gc.reflogExpire , which in turn defaults to 90 days. --expire=all prunes entries regardless of their age; --expire=never turns off pruning of reachable entries (but see --expire-unreachable ). --expire-unreachable= <time> Prune entries older than <time> that are not reachable from the current tip",
+            "score": 0.5429612994194031
+          },
+          {
+            "page": "branch",
+            "start": 2368,
+            "text": "same restrictions as for <branch-name> apply. CONFIGURATION pager.branch is only respected when listing branches, i.e., when --list is used or implied. The default is to use a pager. See git-config(1) . Everything above this line in this section isn’t included from the git-config(1) documentation. The content that follows is the same as what’s found there: branch.autoSetupMerge Tells git branch , git switch and git checkout to set up new branches so that git-pull(1) will appropriately merge from the starting point",
+            "score": 0.5390724539756775
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "gold_rank": 322,
+        "top5": [
+          {
+            "page": "checkout",
+            "start": 128,
+            "text": ") [ <tree-ish> ] [ -- ] [ <pathspec> …] DESCRIPTION git checkout has two main modes: Switch branches , with git checkout <branch> Restore a different version of a file , for example with git checkout <commit> <filename> or git checkout <filename> See ARGUMENT DISAMBIGUATION below for how Git decides which one to do. git checkout [ <branch> ] Switch to <branch> . This sets the current branch to <branch> and updates the files in your working directory. The",
+            "score": 0.6041163802146912
+          },
+          {
+            "page": "checkout",
+            "start": 3712,
+            "text": "with a <something> reference. This setting allows for setting the name of a preferred remote that should always win when it comes to disambiguation. The typical use-case is to set this to origin . Currently this is used by git-switch(1) and git-checkout(1) when git checkout <something> or git switch <something> will checkout the <something> branch on another remote, and by git-worktree(1) when git worktree add refers to a remote branch. This setting might be used for other checkout-like commands or",
+            "score": 0.5974177122116089
+          },
+          {
+            "page": "checkout",
+            "start": 3776,
+            "text": "add refers to a remote branch. This setting might be used for other checkout-like commands or functionality in the future. checkout.guess Provides the default value for the --guess or --no-guess option in git checkout and git switch . See git-switch(1) and git-checkout(1) . checkout.workers The number of parallel workers to use when updating the working tree. The default is one, i.e. sequential execution. If set to a value less than one, Git will use as many workers as the number",
+            "score": 0.5888016223907471
+          },
+          {
+            "page": "checkout",
+            "start": 3904,
+            "text": "the logical core count on a machine with many cores, is silently reduced to the cap. Note Parallel checkout usually delivers better performance for repositories located on SSDs or over NFS. For repositories on spinning disks and/or machines with a small number of cores, the default sequential checkout often performs better. The size and compression level of a repository might also influence how well the parallel version performs. checkout.thresholdForParallelism When running parallel checkout with a small number of files, the",
+            "score": 0.5699870586395264
+          },
+          {
+            "page": "checkout",
+            "start": 3648,
+            "text": "below this line in this section is selectively included from the git-config(1) documentation. The content is the same as what’s found there: checkout.defaultRemote When you run git checkout <something> or git switch <something> and only have one remote, it may implicitly fall back on checking out and tracking e.g. origin/ <something> . This stops working as soon as you have more than one remote with a <something> reference. This setting allows for setting the name of a preferred remote that",
+            "score": 0.5581956505775452
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "gold_rank": 2,
+        "top5": [
+          {
+            "page": "checkout",
+            "start": 1664,
+            "text": "before the switch and reapplied afterwards. If the local changes do not overlap with the differences between branches, the switch proceeds without stashing. If reapplying the stash results in conflicts, the entry is saved to the stash list. Resolve the conflicts and run git stash drop when done, or clear the working tree (e.g. with git reset --hard ) before running git stash pop later to re-apply your changes. When checking out paths from the index, this option lets you",
+            "score": 0.7663477659225464
+          },
+          {
+            "page": "stash",
+            "start": 832,
+            "text": "apply it on top of the current working tree state, i.e., do the inverse operation of git stash push . The working directory must match the index. Applying the state can fail with conflicts; in this case, it is not removed from the stash list. You need to resolve the conflicts by hand and call git stash drop manually afterwards. apply [ --index ] [ -q | --quiet ] [ <stash> ] Like pop , but do not remove the",
+            "score": 0.7580330967903137
+          },
+          {
+            "page": "stash",
+            "start": 768,
+            "text": "to view the second most recent entry in patch form). If no <diff-option> is provided, the default behavior will be given by the stash.showStat , and stash.showPatch config variables. You can also use stash.showIncludeUntracked to set whether --include-untracked is enabled by default. pop [ --index ] [ -q | --quiet ] [ <stash> ] Remove a single stashed state from the stash list and apply it on top of the current working tree state, i.e., do the inverse operation of",
+            "score": 0.7384369373321533
+          },
+          {
+            "page": "stash",
+            "start": 1024,
+            "text": "entry is applied on top of the commit that was HEAD at the time git stash was run, it restores the originally stashed state with no conflicts. clear Remove all the stash entries. Note that those entries will then be subject to pruning, and may be impossible to recover (see EXAMPLES below for a possible strategy). drop [ -q | --quiet ] [ <stash> ] Remove a single stash entry from the list of stash entries. create Create a stash",
+            "score": 0.7351314425468445
+          },
+          {
+            "page": "stash",
+            "start": 960,
+            "text": "was originally created, applies the changes recorded in <stash> to the new working tree and index. If that succeeds, and <stash> is a reference of the form stash@ { <revision> }, it then drops the <stash> . This is useful if the branch on which you ran git stash push has changed enough that git stash apply fails due to conflicts. Since the stash entry is applied on top of the commit that was HEAD at the time git stash",
+            "score": 0.70796799659729
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "gold_rank": 437,
+        "top5": [
+          {
+            "page": "log",
+            "start": 5248,
+            "text": "is performance. Unlike any previous option, the --simplify-merges option requires walking the entire commit history before returning a single result. This can make the option difficult to use for very large repositories. The second issue is one of auditing. When many contributors are working on the same repository, it is important which merge commits introduced a change into an important branch. The problematic merge R above is not likely to be the merge commit that was used to merge into",
+            "score": 0.5933551788330078
+          },
+          {
+            "page": "merge",
+            "start": 2112,
+            "text": "local changes, and now you want to update to a newer upstream revision. In this case, a new commit is not needed to store the combined history; instead, the HEAD (along with the index) is updated to point at the named commit, without creating an extra merge commit. This behavior can be suppressed with the --no-ff option. TRUE MERGE Except in a fast-forward merge (see above), the branches to be merged must be tied together by a merge commit that",
+            "score": 0.573570728302002
+          },
+          {
+            "page": "log",
+            "start": 5312,
+            "text": "R above is not likely to be the merge commit that was used to merge into an important branch. Instead, the merge N was used to merge R and X into the important branch. This commit may have information about why the change X came to override the changes from A and B in its commit message. --show-pulls In addition to the commits shown in the default history, show each merge commit that is not TREESAME to its first parent",
+            "score": 0.5557487607002258
+          },
+          {
+            "page": "push",
+            "start": 5120,
+            "text": "(or more in general, a ref) that used to point at commit A to point at another commit B, it is called a fast-forward update if and only if B is a descendant of A. In a fast-forward update from A to B, the set of commits that the original commit A built on top of is a subset of the commits the new commit B builds on top of. Hence, it does not lose any history. In contrast, a",
+            "score": 0.546012282371521
+          },
+          {
+            "page": "push",
+            "start": 5184,
+            "text": "commit B builds on top of. Hence, it does not lose any history. In contrast, a non-fast-forward update will lose history. For example, suppose you and somebody else started at the same commit X, and you built a history leading to commit B while the other person built a history leading to commit A. The history looks like this: B / ---X---A Further suppose that the other person already pushed changes leading to A back to the original repository from",
+            "score": 0.5422587394714355
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "gold_rank": 8,
+        "top5": [
+          {
+            "page": "clone",
+            "start": 1728,
+            "text": "unless --no-single-branch is given to fetch the histories near the tips of all branches. If you want to clone submodules shallowly, also pass --shallow-submodules . --shallow-since= <date> Create a shallow clone with a history after the specified time. --shallow-exclude= <ref> Create a shallow clone with a history, excluding commits reachable from a specified remote branch or tag. This option can be specified multiple times. --single-branch --no-single-branch Clone only the history leading to the tip of a single branch, either specified",
+            "score": 0.7031868696212769
+          },
+          {
+            "page": "fetch",
+            "start": 320,
+            "text": "fetching to the specified number of commits from the tip of each remote branch history. If fetching to a shallow repository created by git clone with --depth= <depth> option (see git-clone(1) ), deepen or shorten the history to the specified number of commits. Tags for the deepened commits are not fetched. --deepen= <depth> Similar to --depth , except it specifies the number of commits from the current shallow boundary instead of from the tip of each remote branch history. --shallow-since=",
+            "score": 0.6760985255241394
+          },
+          {
+            "page": "pull",
+            "start": 1856,
+            "text": "a specified remote branch or tag. This option can be specified multiple times. --unshallow If the source repository is complete, convert a shallow repository to a complete one, removing all the limitations imposed by shallow repositories. If the source repository is shallow, fetch as much as possible so that the current repository has the same history as the source repository. --update-shallow By default when fetching from a shallow repository, git fetch refuses refs that require updating . git/shallow . This",
+            "score": 0.6647471785545349
+          },
+          {
+            "page": "pull",
+            "start": 1792,
+            "text": "fetched. --deepen= <depth> Similar to --depth , except it specifies the number of commits from the current shallow boundary instead of from the tip of each remote branch history. --shallow-since= <date> Deepen or shorten the history of a shallow repository to include all reachable commits after <date> . --shallow-exclude= <ref> Deepen or shorten the history of a shallow repository to exclude commits reachable from a specified remote branch or tag. This option can be specified multiple times. --unshallow If the",
+            "score": 0.6595097780227661
+          },
+          {
+            "page": "fetch",
+            "start": 384,
+            "text": "from the current shallow boundary instead of from the tip of each remote branch history. --shallow-since= <date> Deepen or shorten the history of a shallow repository to include all reachable commits after <date> . --shallow-exclude= <ref> Deepen or shorten the history of a shallow repository to exclude commits reachable from a specified remote branch or tag. This option can be specified multiple times. --unshallow If the source repository is complete, convert a shallow repository to a complete one, removing all",
+            "score": 0.6528940200805664
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "gold_rank": 973,
+        "top5": [
+          {
+            "page": "clone",
+            "start": 448,
+            "text": "if you are trying to make a back-up of your repository. -s --shared When the repository to clone is on the local machine, instead of using hard links, automatically setup . git/objects/info/alternates to share the objects with the source repository. The resulting repository starts out without any object of its own. Note this is a possibly dangerous operation; do not use it unless you understand what it does. If you clone your repository using this option and then delete branches",
+            "score": 0.5550265312194824
+          },
+          {
+            "page": "bisect",
+            "start": 2496,
+            "text": "status=125 fi # undo the tweak to allow clean flipping to the next commit git reset --hard # return control exit $status This applies modifications from a hot-fix branch before each test run, e.g. in case your build or test environment changed so that older revisions may need a fix which newer ones have already. (Make sure the hot-fix branch is based off a commit which is contained in all revisions which you are bisecting, so that the merge does",
+            "score": 0.5540529489517212
+          },
+          {
+            "page": "clone",
+            "start": 640,
+            "text": "gc , which uses the --local option by default. If you want to break the dependency of a repository cloned with --shared on its source repository, you can simply run git repack -a to copy all objects from the source repository into a pack in the cloned repository. --reference= <repository> --reference-if-able= <repository> If the reference <repository> is on the local machine, automatically setup . git/objects/info/alternates to obtain objects from the reference <repository> . Using an already existing repository as an",
+            "score": 0.5312741994857788
+          },
+          {
+            "page": "clone",
+            "start": 384,
+            "text": "reasons, and --no-local must be specified for the clone to succeed. NOTE : this operation can race with concurrent modification to the source repository, similar to running cp -r <src> <dst> while modifying <src> . --no-hardlinks Force the cloning process from a repository on a local filesystem to copy the files under the . git/objects directory instead of using hardlinks. This may be desirable if you are trying to make a back-up of your repository. -s --shared When the repository",
+            "score": 0.5288196206092834
+          },
+          {
+            "page": "bisect",
+            "start": 2368,
+            "text": "among the last 10 $ git bisect run ~/test.sh $ git bisect reset # quit the bisect session Here we use a test.sh custom script. In this script, if make fails, we skip the current commit. check_test_case.sh should exit 0 if the test case passes, and exit 1 otherwise. It is safer if both test.sh and check_test_case.sh are outside the repository to prevent interactions between the bisect, make and test processes and the scripts. Automatically bisect with temporary modifications (hot-fix):",
+            "score": 0.5211708545684814
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "gold_rank": 3,
+        "top5": [
+          {
+            "page": "tag",
+            "start": 320,
+            "text": "and an optional cryptographic signature. Whereas a \"lightweight\" tag is simply a name for an object (usually a commit object). Annotated tags are meant for release while lightweight tags are meant for private or temporary object labels. For this reason, some git commands for naming objects (like git describe ) will ignore lightweight tags by default. OPTIONS -a --annotate Make an unsigned, annotated tag object -s --sign Make a cryptographically signed tag, using the default signing key. The signing backend",
+            "score": 0.631503701210022
+          },
+          {
+            "page": "describe",
+            "start": 0,
+            "text": "SYNOPSIS git describe [ --all ] [ --tags ] [ --contains ] [ --abbrev= <n> ] [ <commit-ish> …] git describe [ --all ] [ --tags ] [ --contains ] [ --abbrev= <n> ] --dirty [ = <mark> ] git describe <blob> DESCRIPTION The command finds the most recent tag that is reachable from a commit. If the tag points to the commit, then only the tag is shown. Otherwise, it suffixes the tag name with the number of additional",
+            "score": 0.6068890690803528
+          },
+          {
+            "page": "describe",
+            "start": 64,
+            "text": "only the tag is shown. Otherwise, it suffixes the tag name with the number of additional commits on top of the tagged object and the abbreviated object name of the most recent commit. The result is a \"human-readable\" object name which can also be used to identify the commit to other git commands. By default (without --all or --tags ) git describe only shows annotated tags. For more information about creating annotated tags see the -a and -s options to",
+            "score": 0.59711754322052
+          },
+          {
+            "page": "describe",
+            "start": 960,
+            "text": "the version of a software depending on the SCM the software is managed with. This is useful in an environment where people may use different SCMs. Doing a git describe on a tag-name will just show the tag name: [torvalds@g5 git]$ git describe v1.0.4 v1.0.4 With --all , the command can use branch heads as references, so the output shows the reference path as well: [torvalds@g5 git]$ git describe --all --abbrev=4 v1.0.5^2 tags/v1.0.0-21-g975b [torvalds@g5 git]$ git describe --all --abbrev=4 HEAD^",
+            "score": 0.570973813533783
+          },
+          {
+            "page": "describe",
+            "start": 1088,
+            "text": "ran these commands, as your Git repository may have new commits whose object names begin with 975b that did not exist back then, and \"-g975b\" suffix alone may not be sufficient to disambiguate these commits. SEARCH STRATEGY For each commit-ish supplied, git describe will first look for a tag which tags exactly that commit. Annotated tags will always be preferred over lightweight tags, and tags with newer dates will always be preferred over tags with older dates. If an exact",
+            "score": 0.5637717247009277
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "gold_rank": 5,
+        "top5": [
+          {
+            "page": "bundle",
+            "start": 1152,
+            "text": "as these are ignored when unpacking at the destination. If you want to provide the same set of refs that a clone directly from the source repository would get, use --branches --tags for the <git-rev-list-args> . The git bundle verify command can be used to check whether your recipient repository has the required prerequisite commits for a bundle. EXAMPLES We’ll discuss two cases: Taking a full backup of a repository Transferring the history of a repository to another machine when",
+            "score": 0.7573177814483643
+          },
+          {
+            "page": "bundle",
+            "start": 1728,
+            "text": "of commits: $ git bundle create mybundle -10 master You can run git-bundle verify to see if you can extract from a bundle that was created with a prerequisite: $ git bundle verify mybundle This will list what commits you must have in order to extract from the bundle and will error out if you do not have them. A bundle from a recipient repository’s point of view is just like a regular repository which it fetches or pulls from.",
+            "score": 0.7532943487167358
+          },
+          {
+            "page": "bundle",
+            "start": 1216,
+            "text": "a full backup of a repository Transferring the history of a repository to another machine when the two machines have no direct connection First let’s consider a full backup of the repository. The following command will take a full backup of the repository in the sense that all refs are included in the bundle: $ git bundle create backup.bundle --all But note again that this is only for the refs, i.e. you will only include refs and commits reachable from",
+            "score": 0.7394169569015503
+          },
+          {
+            "page": "bundle",
+            "start": 64,
+            "text": "to create both incremental and full backups of a repository (see the \"full backup\" example in \"EXAMPLES\"), and to relay the state of the references in one repository to another (see the second example). Git commands that fetch or otherwise \"read\" via protocols such as ssh:// and https:// can also operate on bundle files. It is possible git-clone(1) a new repository from a bundle, to use git-fetch(1) to fetch from one, and to list the references contained within it with",
+            "score": 0.738193154335022
+          },
+          {
+            "page": "bundle",
+            "start": 320,
+            "text": "bundle contents. options contains the options specific to the git bundle create subcommand. If file is - , the bundle is written to stdout. verify <file> Used to check that a bundle file is valid and will apply cleanly to the current repository. This includes checks on the bundle format itself as well as checking that the prerequisite commits exist and are fully linked in the current repository. Then, git bundle prints a list of missing commits, if any. Finally,",
+            "score": 0.7375842332839966
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "gold_rank": 73,
+        "top5": [
+          {
+            "page": "commit",
+            "start": 3136,
+            "text": "refuses to run when given pathnames (but see -i option). COMMIT INFORMATION Author and committer information is taken from the following environment variables, if set: GIT_AUTHOR_NAME GIT_AUTHOR_EMAIL GIT_AUTHOR_DATE GIT_COMMITTER_NAME GIT_COMMITTER_EMAIL GIT_COMMITTER_DATE (nb \"<\", \">\" and \"\\n\"s are stripped) The author and committer names are by convention some form of a personal name (that is, the name by which other humans refer to you), although Git does not enforce or require any particular form. Arbitrary Unicode may be used, subject to",
+            "score": 0.6566818952560425
+          },
+          {
+            "page": "blame",
+            "start": 1920,
+            "text": "starts a group of lines from a different commit than the previous one, the number of lines in this group. On subsequent lines this field is absent. This header line is followed by the following information at least once for each commit: the author name ( author ), email ( author-mail ), time ( author-time ), and time zone ( author-tz ); similarly for committer. the filename in the commit that the line is attributed to. the first line of",
+            "score": 0.6475849151611328
+          },
+          {
+            "page": "log",
+            "start": 7552,
+            "text": "This format is used to refer to another commit in a commit message and is the same as --pretty= 'format:%C( auto ) %h ( %s, %ad )'. By default, the date is formatted with --date=short unless another --date option is explicitly specified. As with any format: with format placeholders, its output is not affected by other options like --decorate and --walk-reflogs . email From <hash> <date> From: <author> Date: <author-date> Subject: [ PATCH ] <title-line> <full-commit-message> mboxrd Like email ,",
+            "score": 0.6452747583389282
+          },
+          {
+            "page": "am",
+            "start": 768,
+            "text": "skipped. --committer-date-is-author-date By default the command records the date from the e-mail message as the commit author date, and uses the time of commit creation as the committer date. This allows the user to lie about the committer date by using the same value as the author date. Warning The history walking machinery assumes that commits have non-decreasing commit timestamps. You should consider if you really need to use this option. Then you should only use this option to override",
+            "score": 0.6362035274505615
+          },
+          {
+            "page": "am",
+            "start": 832,
+            "text": "you really need to use this option. Then you should only use this option to override the committer date when applying commits on top of a base which commit is older (in terms of the commit date) than the oldest patch you are applying. --ignore-date By default the command records the date from the e-mail message as the commit author date, and uses the time of commit creation as the committer date. This allows the user to lie about the",
+            "score": 0.6325193047523499
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "gold_rank": 56,
+        "top5": [
+          {
+            "page": "fetch",
+            "start": 4608,
+            "text": "local references to branches on remotes that have themselves deleted those branches. If left to accumulate, these stale references might make performance worse on big and busy repos that have a lot of branch churn, and e.g. make the output of commands like git branch -a --contains <commit> needlessly verbose, as well as impacting anything else that’ll work with the complete set of known references. These remote-tracking references can be deleted as a one-off with either of: # While fetching",
+            "score": 0.6575928330421448
+          },
+          {
+            "page": "fetch",
+            "start": 4224,
+            "text": "automatically set the upstream the first time you push a branch. Checking out a remote-tracking branch with git checkout <branch> will automatically create a local branch with that name and set the upstream to the remote branch. Note Upstream branches are sometimes referred to as \"tracking information\", as in \"set the branch’s tracking information\". CONFIGURED REMOTE-TRACKING BRANCHES You often interact with the same remote repository by regularly and repeatedly fetching from it. In order to keep track of the progress",
+            "score": 0.6260783076286316
+          },
+          {
+            "page": "branch",
+            "start": 704,
+            "text": "to delete remote-tracking branches if they no longer exist in the remote repository or if git fetch was configured not to fetch them again. See also the prune subcommand of git-remote(1) for a way to clean up all obsolete remote-tracking branches. OPTIONS -d --delete Delete a branch. The branch must be fully merged in its upstream branch, or in HEAD if no upstream was set with --track or --set-upstream-to . -D Shortcut for --delete --force . --create-reflog Create the branch’s",
+            "score": 0.614730715751648
+          },
+          {
+            "page": "fetch",
+            "start": 4672,
+            "text": "references. These remote-tracking references can be deleted as a one-off with either of: # While fetching $ git fetch --prune <name> # Only prune, don't fetch $ git remote prune <name> To prune references as part of your normal workflow without needing to remember to run that, set fetch.prune globally, or remote. <name> .prune per-remote in the config. See git-config(1) . Here’s where things get tricky and more specific. The pruning feature doesn’t actually care about branches, instead it’ll prune",
+            "score": 0.6065123081207275
+          },
+          {
+            "page": "fetch",
+            "start": 4736,
+            "text": "get tricky and more specific. The pruning feature doesn’t actually care about branches, instead it’ll prune local ←→ remote-references as a function of the refspec of the remote (see <refspec> and CONFIGURED REMOTE-TRACKING BRANCHES above). Therefore if the refspec for the remote includes e.g. refs/tags/*:refs/tags/* , or you manually run e.g. git fetch --prune <name> \"refs/tags/*:refs/tags/*\" it won’t be stale remote tracking branches that are deleted, but any local tag that doesn’t exist on the remote. This might not be",
+            "score": 0.5987063646316528
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "gold_rank": 3,
+        "top5": [
+          {
+            "page": "add",
+            "start": 2496,
+            "text": "working tree, the working tree will appear to \"undo\" the change in the index. For example, introducing a new line into the index that is in neither the HEAD nor the working tree will stage the new line for commit, but the line will appear to be reverted in the working tree. Avoid using these constructs, or do so with extreme caution. removing untouched content Content which does not differ between the index and working tree may be shown on",
+            "score": 0.6150000095367432
+          },
+          {
+            "page": "add",
+            "start": 960,
+            "text": "by adding new files that are unknown to the index and files modified in the working tree, but ignore files that have been removed from the working tree. This option is a no-op when no <pathspec> is used. This option is primarily to help users who are used to older versions of Git, whose git add <pathspec> ... was a synonym for git add --no-all <pathspec> ..., i.e. ignored removed files. -N --intent-to-add Record only the fact that the path",
+            "score": 0.5872575640678406
+          },
+          {
+            "page": "add",
+            "start": 1024,
+            "text": "--no-all <pathspec> ..., i.e. ignored removed files. -N --intent-to-add Record only the fact that the path will be added later. An entry for the path is placed in the index with no content. This is useful for, among other things, showing the unstaged content of such files with git diff and committing them with git commit -a . --refresh Don’t add the file(s), but only refresh their stat() information in the index. --ignore-errors If some files could not be added",
+            "score": 0.5793522596359253
+          },
+          {
+            "page": "add",
+            "start": 512,
+            "text": "add refuses to update index entries whose paths do not fit within the sparse-checkout cone, since those files might be removed from the working tree without warning. See git-sparse-checkout(1) for more details. -i --interactive Add modified contents in the working tree interactively to the index. Optional path arguments may be supplied to limit operation to a subset of the working tree. See “Interactive mode” for details. -p --patch Interactively choose hunks of patch between the index and the work tree",
+            "score": 0.5762465000152588
+          },
+          {
+            "page": "add",
+            "start": 1984,
+            "text": "very similar UI to update and revert , and lets you add untracked paths to the index. patch This lets you choose one path out of a status like selection. After choosing the path, it presents the diff between the index and the working tree file and asks you if you want to stage the change of each hunk. You can select one of the following options and type return: y - stage this hunk n - do not stage",
+            "score": 0.5724524855613708
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "gold_rank": 895,
+        "top5": [
+          {
+            "page": "push",
+            "start": 4992,
+            "text": "a tag with an entirely different tag is also allowed, if it points to the same commit, as well as pushing a peeled tag, i.e. pushing the commit that existing tag object points to, or a new tag object which an existing commit points to. You can override these rules by passing --force or by adding the optional leading + to a refspec. The only exceptions are that no amount of forcing will make a branch accept a non-commit object,",
+            "score": 0.5804570317268372
+          },
+          {
+            "page": "push",
+            "start": 4928,
+            "text": "source is a tree or blob object, any updates will be rejected If the source is a tag or commit object, any fast-forward update is allowed, even in cases where what’s being fast-forwarded is not a commit, but a tag object which happens to point to a new commit which is a fast-forward of the commit the last tag (or commit) it’s replacing. Replacing a tag with an entirely different tag is also allowed, if it points to the same",
+            "score": 0.560811460018158
+          },
+          {
+            "page": "rebase",
+            "start": 5824,
+            "text": "will not look at them but at the commit names (\"deadbee\" and \"fa1afe1\" in this example), so do not delete or edit the names. By replacing the command \"pick\" with the command \"edit\", you can tell git rebase to stop after applying that commit, so that you can edit the files and/or the commit message, amend the commit, and continue rebasing. To interrupt the rebase (just like an \"edit\" command would do, but without cherry-picking any commit first), use the",
+            "score": 0.535220742225647
+          },
+          {
+            "page": "commit",
+            "start": 576,
+            "text": "when creating the commit. -c <commit> --reedit-message= <commit> Like -C , but with -c the editor is invoked, so that the user can further edit the commit message. --fixup= [( amend | reword ) : ] <commit> Create a new commit which \"fixes up\" <commit> when applied with git rebase --autosquash . Plain --fixup= <commit> creates a \"fixup!\" commit which changes the content of <commit> but leaves its log message untouched. --fixup=amend: <commit> is similar but creates an \"amend!\" commit",
+            "score": 0.5348274111747742
+          },
+          {
+            "page": "pull",
+            "start": 3776,
+            "text": "what’s not allowed as an update can be overridden by adding an optional leading + to a refspec (or using the --force command line option). The only exception to this is that no amount of forcing will make the refs/heads/* namespace accept a non-commit object. Note When the remote branch you want to fetch is known to be rewound and rebased regularly, it is expected that its new tip will not be a descendant of its previous tip (as stored",
+            "score": 0.5342988967895508
+          }
+        ]
+      }
+    ]
+  },
+  "240": {
+    "chunks": 638,
+    "hits": 5,
+    "recall_at_5": 0.3333333333333333,
+    "rows": [
+      {
+        "id": 1,
+        "gold_rank": 6,
+        "top5": [
+          {
+            "page": "bisect",
+            "start": 2464,
+            "text": "then attempt a build if git merge --no-commit --no-ff hot-fix && make then # run project specific test and report its status ~/check_test_case.sh status=$? else # tell the caller this is untestable status=125 fi # undo the tweak to allow clean flipping to the next commit git reset --hard # return control exit $status This applies modifications from a hot-fix branch before each test run, e.g. in case your build or test environment changed so that older revisions may need a fix which newer ones have already. (Make sure the hot-fix branch is based off a commit which is contained in all revisions which you are bisecting, so that the merge does not pull in too much, or use git cherry-pick instead of git merge .) Automatically bisect a broken test case: $ git bisect start HEAD HEAD~10 -- # culprit is among the last 10 $ git bisect run sh -c \"make || exit 125; ~/check_test_case.sh\" $ git bisect reset # quit the bisect session This shows that you can do without a run script if you write the test on a single line. Locate a good region of the object graph in a damaged repository $ git bisect start HEAD <known-good-commit> [ <boundary-commit> ... ] --no-checkout $ git bisect run sh -c ' GOOD=$(git for-each-ref \"--format=%(objectname)\" refs/bisect/good-*) && git rev-list --objects BISECT_HEAD --not $GOOD >tmp.$$ && git pack-objects --stdout >/dev/null <tmp.$$ rc=$? rm -f tmp.$$ test $rc =",
+            "score": 0.8082152009010315
+          },
+          {
+            "page": "bisect",
+            "start": 1120,
+            "text": "desktop sessions. MSYSTEM which is set under Msys2 and Git for Windows. SECURITYSESSIONID which may be set on macOS in interactive desktop sessions. If none of these environment variables is set, git log is used instead. You can also give command-line options such as -p and --stat . $ git bisect visualize --stat Bisect log and bisect replay After having marked revisions as good or bad, issue the following command to show what has been done so far: $ git bisect log If you discover that you made a mistake in specifying the status of a revision, you can save the output of this command to a file, edit it to remove the incorrect entries, and then issue the following commands to return to a corrected state: $ git bisect reset $ git bisect replay that-file Avoiding testing a commit If, in the middle of a bisect session, you know that the suggested revision is not a good one to test (e.g. it fails to build and you know that the failure does not have anything to do with the bug you are chasing), you can manually select a nearby commit and test that one instead. For example: $ git bisect good/bad # previous round was good or bad. Bisecting: 337 revisions left to test after this (roughly 9 steps) $ git bisect visualize # oops, that is uninteresting. $ git reset --hard HEAD~3 # try 3 revisions before what",
+            "score": 0.7983092069625854
+          },
+          {
+            "page": "bisect",
+            "start": 224,
+            "text": "can be used to find the commit that changed any property of your project; e.g., the commit that fixed a bug, or the commit that caused a benchmark’s performance to improve. To support this more general usage, the terms \"old\" and \"new\" can be used in place of \"good\" and \"bad\", or you can choose your own terms. See section \"Alternate terms\" below for more information. Basic bisect commands: start, bad, good As an example, suppose you are trying to find the commit that broke a feature that was known to work in version v2.6.13-rc2 of your project. You start a bisect session as follows: $ git bisect start $ git bisect bad # Current version is bad $ git bisect good v2.6.13-rc2 # v2.6.13-rc2 is known to be good Once you have specified at least one bad and one good commit, git bisect selects a commit in the middle of that range of history, checks it out, and outputs something similar to the following: Bisecting: 675 revisions left to test after this (roughly 10 steps) You should now compile the checked-out version and test it. If that version works correctly, type $ git bisect good If that version is broken, type $ git bisect bad Then git bisect will respond with something like Bisecting: 337 revisions left to test after this (roughly 9 steps) Keep repeating the process: compile the tree, test it, and depending on whether it is",
+            "score": 0.7870999574661255
+          },
+          {
+            "page": "bisect",
+            "start": 2240,
+            "text": "with --no-checkout . EXAMPLES Automatically bisect a broken build between v1.2 and HEAD : $ git bisect start HEAD v1.2 -- # HEAD is bad, v1.2 is good $ git bisect run make # \"make\" builds the app $ git bisect reset # quit the bisect session Automatically bisect a test failure between origin and HEAD : $ git bisect start HEAD origin -- # HEAD is bad, origin is good $ git bisect run make test # \"make test\" builds and tests $ git bisect reset # quit the bisect session Automatically bisect a broken test case: $ cat ~/test.sh #!/bin/sh make || exit 125 # this skips broken builds ~/check_test_case.sh # does the test case pass? $ git bisect start HEAD HEAD~10 -- # culprit is among the last 10 $ git bisect run ~/test.sh $ git bisect reset # quit the bisect session Here we use a test.sh custom script. In this script, if make fails, we skip the current commit. check_test_case.sh should exit 0 if the test case passes, and exit 1 otherwise. It is safer if both test.sh and check_test_case.sh are outside the repository to prevent interactions between the bisect, make and test processes and the scripts. Automatically bisect with temporary modifications (hot-fix): $ cat ~/test.sh #!/bin/sh # tweak the working tree by merging the hot-fix branch # and then attempt a build if git merge --no-commit --no-ff hot-fix && make then # run project",
+            "score": 0.7870904207229614
+          },
+          {
+            "page": "bisect",
+            "start": 1344,
+            "text": "# oops, that is uninteresting. $ git reset --hard HEAD~3 # try 3 revisions before what # was suggested Then compile and test the chosen revision, and afterwards mark the revision as good or bad in the usual manner. Bisect skip Instead of choosing a nearby commit by yourself, you can ask Git to do it for you by issuing the command: $ git bisect skip # Current version cannot be tested However, if you skip a commit adjacent to the one you are looking for, Git will be unable to tell exactly which of those commits was the first bad one. You can also skip a range of commits, instead of just one commit, using range notation. For example: $ git bisect skip v2.5..v2.6 This tells the bisect process that no commit after v2.5 , up to and including v2.6 , should be tested. Note that if you also want to skip the first commit of the range you would issue the command: $ git bisect skip v2.5 v2.5..v2.6 This tells the bisect process that the commits between v2.5 and v2.6 (inclusive) should be skipped. Bisect next Normally, after marking a revision as good or bad, Git automatically computes and checks out the next revision to test. However, if you need to explicitly request the next bisection step, you can use: $ git bisect next You might use this to resume the bisection process after interrupting it by checking",
+            "score": 0.7804713249206543
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "gold_rank": 32,
+        "top5": [
+          {
+            "page": "diff",
+            "start": 7616,
+            "text": "like this: 1 2 README 3 1 arch/{i386 => x86}/Makefile That is, from left to right: the number of added lines; a tab; the number of deleted lines; a tab; pathname (possibly with rename/copy information); a newline. When -z output option is in effect, the output is formatted this way: 1 2 README NUL 3 1 NUL arch/i386/Makefile NUL arch/x86/Makefile NUL That is: the number of added lines; a tab; the number of deleted lines; a tab; a NUL (only exists if renamed/copied); pathname in preimage; a NUL (only exists if renamed/copied); pathname in postimage (only exists if renamed/copied); a NUL. The extra NUL before the preimage path in renamed case is to allow scripts that read the output to tell if the current record being read is a single-path record or a rename/copy record without reading ahead. After reading added and deleted lines, reading up to NUL would yield the pathname, but if that is NUL , the record will show two paths. EXAMPLES Various ways to check your working tree $ git diff (1) $ git diff --cached (2) $ git diff HEAD (3) $ git diff AUTO_MERGE (4) Changes in the working tree not yet staged for the next commit. Changes between the index and your last commit; what you would be committing if you run git commit without -a option. Changes in the working tree since your last commit; what you would be committing if you",
+            "score": 0.5542033910751343
+          },
+          {
+            "page": "show",
+            "start": 8288,
+            "text": "the name of the source file of the rename/copy and the name of the file that the rename/copy produces, respectively. It is followed by one or more extended header lines: old mode <mode> new mode <mode> deleted file mode <mode> new file mode <mode> copy from <path> copy to <path> rename from <path> rename to <path> similarity index <number> dissimilarity index <number> index <hash> .. <hash> <mode> File modes <mode> are printed as 6-digit octal numbers including the file type and file permission bits. Path names in extended headers do not include the a/ and b/ prefixes. The similarity index is the percentage of unchanged lines, and the dissimilarity index is the percentage of changed lines. It is a rounded down integer, followed by a percent sign. The similarity index value of 100% is thus reserved for two equal files, while 100% dissimilarity means that no line from the old file made it into the new one. The index line includes the blob object names before and after the change. The <mode> is included if the file mode does not change; otherwise, separate lines indicate the old and the new mode. Pathnames with \"unusual\" characters are quoted as explained for the configuration variable core.quotePath (see git-config(1) ). All the file1 files in the output refer to files before the commit, and all the file2 files refer to files after the commit. It is incorrect to apply each change to each",
+            "score": 0.5110991597175598
+          },
+          {
+            "page": "log",
+            "start": 15008,
+            "text": "<mode> are printed as 6-digit octal numbers including the file type and file permission bits. Path names in extended headers do not include the a/ and b/ prefixes. The similarity index is the percentage of unchanged lines, and the dissimilarity index is the percentage of changed lines. It is a rounded down integer, followed by a percent sign. The similarity index value of 100% is thus reserved for two equal files, while 100% dissimilarity means that no line from the old file made it into the new one. The index line includes the blob object names before and after the change. The <mode> is included if the file mode does not change; otherwise, separate lines indicate the old and the new mode. Pathnames with \"unusual\" characters are quoted as explained for the configuration variable core.quotePath (see git-config(1) ). All the file1 files in the output refer to files before the commit, and all the file2 files refer to files after the commit. It is incorrect to apply each change to each file sequentially. For example, this patch will swap a and b: diff --git a/a b/b rename from a rename to b diff --git a/b b/a rename from b rename to a Hunk headers mention the name of the function to which the hunk applies. See \"Defining a custom hunk-header\" in gitattributes(5) for details of how to tailor this to specific languages. Combined diff format Any diff-generating command can take",
+            "score": 0.5072427988052368
+          },
+          {
+            "page": "diff",
+            "start": 6496,
+            "text": "file of the rename/copy and the name of the file that the rename/copy produces, respectively. It is followed by one or more extended header lines: old mode <mode> new mode <mode> deleted file mode <mode> new file mode <mode> copy from <path> copy to <path> rename from <path> rename to <path> similarity index <number> dissimilarity index <number> index <hash> .. <hash> <mode> File modes <mode> are printed as 6-digit octal numbers including the file type and file permission bits. Path names in extended headers do not include the a/ and b/ prefixes. The similarity index is the percentage of unchanged lines, and the dissimilarity index is the percentage of changed lines. It is a rounded down integer, followed by a percent sign. The similarity index value of 100% is thus reserved for two equal files, while 100% dissimilarity means that no line from the old file made it into the new one. The index line includes the blob object names before and after the change. The <mode> is included if the file mode does not change; otherwise, separate lines indicate the old and the new mode. Pathnames with \"unusual\" characters are quoted as explained for the configuration variable core.quotePath (see git-config(1) ). All the file1 files in the output refer to files before the commit, and all the file2 files refer to files after the commit. It is incorrect to apply each change to each file sequentially. For example, this",
+            "score": 0.5049057602882385
+          },
+          {
+            "page": "rebase",
+            "start": 3808,
+            "text": "then the new files will be left behind in the old directory without any warning at the time of rebasing that you may want to move these files into the new directory. Directory rename detection works with the merge backend to provide you warnings in such cases. Context The apply backend works by creating a sequence of patches (by calling format-patch internally), and then applying the patches in sequence (calling am internally). Patches are composed of multiple hunks, each with line numbers, a context region, and the actual changes. The line numbers have to be taken with some offset, since the other side will likely have inserted or deleted lines earlier in the file. The context region is meant to help find how to adjust the line numbers in order to apply the changes to the right lines. However, if multiple areas of the code have the same surrounding lines of context, the wrong one can be picked. There are real-world cases where this has caused commits to be reapplied incorrectly with no conflicts reported. Setting diff.context to a larger value may prevent such types of problems, but increases the chance of spurious conflicts (since it will require more lines of matching context to apply). The merge backend works with a full copy of each relevant file, insulating it from these types of problems. Labelling of conflicts markers When there are content conflicts, the merge machinery tries to annotate each",
+            "score": 0.4844129681587219
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "gold_rank": 217,
+        "top5": [
+          {
+            "page": "clone",
+            "start": 224,
+            "text": "remote.origin.fetch configuration variables. OPTIONS -l --local When the repository to clone from is on a local machine, this flag bypasses the normal \"Git aware\" transport mechanism and clones the repository by making a copy of HEAD and everything under objects and refs directories. The files under . git/objects/ directory are hardlinked to save space when possible. If the repository is specified as a local path (e.g., /path/to/repo ), this is the default, and --local is essentially a no-op. If the repository is specified as a URL, then this flag is ignored (and we never use the local optimizations). Specifying --no-local will override the default when /path/to/repo is given, using the regular Git transport instead. If the repository’s $GIT_DIR/objects has symbolic links or is a symbolic link, the clone will fail. This is a security measure to prevent the unintentional copying of files by dereferencing the symbolic links. This option does not work with repositories owned by other users for security reasons, and --no-local must be specified for the clone to succeed. NOTE : this operation can race with concurrent modification to the source repository, similar to running cp -r <src> <dst> while modifying <src> . --no-hardlinks Force the cloning process from a repository on a local filesystem to copy the files under the . git/objects directory instead of using hardlinks. This may be desirable if you are trying to make a back-up of your repository. -s --shared When the repository",
+            "score": 0.5648219585418701
+          },
+          {
+            "page": "clone",
+            "start": 672,
+            "text": "-a to copy all objects from the source repository into a pack in the cloned repository. --reference= <repository> --reference-if-able= <repository> If the reference <repository> is on the local machine, automatically setup . git/objects/info/alternates to obtain objects from the reference <repository> . Using an already existing repository as an alternate will require fewer objects to be copied from the repository being cloned, reducing network and local storage costs. When using the --reference-if-able , a non existing directory is skipped with a warning instead of aborting the clone. Note see the NOTE for the --shared option, and also the --dissociate option. --dissociate Borrow the objects from reference repositories specified with the --reference options only to reduce network transfer, and stop borrowing from them after a clone is made by making necessary local copies of borrowed objects. This option can also be used when cloning locally from a repository that already borrows objects from another repository—the new repository will borrow objects from the same repository, and this option can be used to stop the borrowing. -q --quiet Operate quietly. Progress is not reported to the standard error stream. -v --verbose Run verbosely. Does not affect the reporting of progress status to the standard error stream. --progress Report progress status on the standard error stream by default when attached to a terminal, unless --quiet is specified. This flag forces progress status even if the standard error stream is not directed to a terminal. --server-option=",
+            "score": 0.5574448108673096
+          },
+          {
+            "page": "clone",
+            "start": 448,
+            "text": "if you are trying to make a back-up of your repository. -s --shared When the repository to clone is on the local machine, instead of using hard links, automatically setup . git/objects/info/alternates to share the objects with the source repository. The resulting repository starts out without any object of its own. Note this is a possibly dangerous operation; do not use it unless you understand what it does. If you clone your repository using this option and then delete branches (or use any other Git command that makes any existing commit unreferenced) in the source repository, some objects may become unreferenced (or dangling). These objects may be removed by normal Git operations (such as git commit ) which automatically call git maintenance run --auto . (See git-maintenance(1) .) If these objects are removed and were referenced by the cloned repository, then the cloned repository will become corrupt. Note that running git repack without the --local option in a repository cloned with --shared will copy objects from the source repository into a pack in the cloned repository, removing the disk space savings of clone --shared . It is safe, however, to run git gc , which uses the --local option by default. If you want to break the dependency of a repository cloned with --shared on its source repository, you can simply run git repack -a to copy all objects from the source repository into a pack in the cloned repository.",
+            "score": 0.531196653842926
+          },
+          {
+            "page": "clone",
+            "start": 896,
+            "text": "forces progress status even if the standard error stream is not directed to a terminal. --server-option= <option> Transmit the given string to the server when communicating using protocol version 2. The given string must not contain a NUL or LF character. The server’s handling of server options, including unknown ones, is server-specific. When multiple --server-option= <option> are given, they are all sent to the other side in the order listed on the command line. When no --server-option= <option> is given from the command line, the values of configuration variable remote. <name> .serverOption are used instead. -n --no-checkout Do not checkout HEAD after the clone is complete. --no-reject-shallow --reject-shallow Fail if the source repository is a shallow repository. The clone.rejectShallow configuration variable can be used to specify the default. --bare Make a bare Git repository. That is, instead of creating <directory> and placing the administrative files in <directory> /.git , make the <directory> itself the $GIT_DIR . This obviously implies the --no-checkout because there is nowhere to check out the working tree. Also the branch heads at the remote are copied directly to corresponding local branch heads, without mapping them to refs/remotes/origin/ . When this option is used, neither remote-tracking branches nor the related configuration variables are created. --sparse Employ a sparse-checkout, with only files in the toplevel directory initially being present. The git-sparse-checkout(1) command can be used to grow the working directory as needed. --filter= <filter-spec> Use the partial clone",
+            "score": 0.46154284477233887
+          },
+          {
+            "page": "bundle",
+            "start": 1120,
+            "text": "cloned from (i.e., new , but not old .. new ). It is okay to err on the side of caution, causing the bundle file to contain objects already in the destination, as these are ignored when unpacking at the destination. If you want to provide the same set of refs that a clone directly from the source repository would get, use --branches --tags for the <git-rev-list-args> . The git bundle verify command can be used to check whether your recipient repository has the required prerequisite commits for a bundle. EXAMPLES We’ll discuss two cases: Taking a full backup of a repository Transferring the history of a repository to another machine when the two machines have no direct connection First let’s consider a full backup of the repository. The following command will take a full backup of the repository in the sense that all refs are included in the bundle: $ git bundle create backup.bundle --all But note again that this is only for the refs, i.e. you will only include refs and commits reachable from those refs. You will not include other local state, such as the contents of the index, working tree, the stash, per-repository configuration, hooks, etc. You can later recover that repository by using for example git-clone(1) : $ git clone backup.bundle <new directory> For the next example, assume you want to transfer the history from a repository R1 on machine A to another repository R2",
+            "score": 0.45270422101020813
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "gold_rank": 1,
+        "top5": [
+          {
+            "page": "reflog",
+            "start": 448,
+            "text": "from the reflog. This is typically not used directly by end users — instead, see git-gc(1) . OPTIONS Options for show git reflog show accepts any of the options accepted by git log . Options for delete git reflog delete accepts options --updateref , --rewrite , -n , --dry-run , and --verbose , with the same meanings as when they are used with expire . Options for drop --all Drop the reflogs of all references from all worktrees. --single-worktree By default when --all is specified, reflogs from all working trees are dropped. This option limits the processing to reflogs from the current working tree only. Options for expire --all Process the reflogs of all references. --single-worktree By default when --all is specified, reflogs from all working trees are processed. This option limits the processing to reflogs from the current working tree only. --expire= <time> Prune entries older than the specified time. If this option is not specified, the expiration time is taken from the configuration setting gc.reflogExpire , which in turn defaults to 90 days. --expire=all prunes entries regardless of their age; --expire=never turns off pruning of reachable entries (but see --expire-unreachable ). --expire-unreachable= <time> Prune entries older than <time> that are not reachable from the current tip of the branch. If this option is not specified, the expiration time is taken from the configuration setting gc.reflogExpireUnreachable , which in turn defaults to 30 days. --expire-unreachable=all prunes unreachable entries regardless",
+            "score": 0.636816143989563
+          },
+          {
+            "page": "reflog",
+            "start": 672,
+            "text": "configuration setting gc.reflogExpireUnreachable , which in turn defaults to 30 days. --expire-unreachable=all prunes unreachable entries regardless of their age; --expire-unreachable=never turns off early pruning of unreachable entries (but see --expire ). --updateref Update the reference to the value of the top reflog entry (i.e. <ref>@{0}) if the previous top entry was pruned. (This option is ignored for symbolic references.) --rewrite If a reflog entry’s predecessor is pruned, adjust its \"old\" SHA-1 to be equal to the \"new\" SHA-1 field of the entry that now precedes it. --stale-fix Prune any reflog entries that point to \"broken commits\". A broken commit is a commit that is not reachable from any of the reference tips and that refers, directly or indirectly, to a missing commit, tree, or blob object. This computation involves traversing all the reachable objects, i.e. it has the same cost as git prune . It is primarily intended to fix corruption caused by garbage collecting using older versions of Git, which didn’t protect objects referred to by reflogs. -n --dry-run Do not actually prune any entries; just show what would have been pruned. --verbose Print extra information on screen. GIT Part of the git(1) suite",
+            "score": 0.6166751384735107
+          },
+          {
+            "page": "reflog",
+            "start": 224,
+            "text": "actions, and in addition the HEAD reflog records branch switching. git reflog show is an alias for git log -g --abbrev-commit --pretty=oneline ; see git-log(1) for more information. The \"list\" subcommand lists all refs which have a corresponding reflog. The \"exists\" subcommand checks whether a ref has a reflog. It exits with zero status if the reflog exists, and non-zero status if it does not. The \"write\" subcommand writes a single entry to the reflog of a given reference. This new entry is appended to the reflog and will thus become the most recent entry. The reference name must be fully qualified. Both the old and new object IDs must not be abbreviated and must point to existing objects. The reflog message gets normalized. The \"delete\" subcommand deletes single entries from the reflog, but not the reflog itself. Its argument must be an exact entry (e.g. \" git reflog delete master@ {2}\"). This subcommand is also typically not used directly by end users. The \"drop\" subcommand completely removes the reflog for the specified references. This is in contrast to \"expire\" and \"delete\", both of which can be used to delete reflog entries, but not the reflog itself. The \"expire\" subcommand prunes older reflog entries. Entries older than expire time, or entries older than expire-unreachable time and not reachable from the current tip, are removed from the reflog. This is typically not used directly by end users — instead, see git-gc(1)",
+            "score": 0.5921424627304077
+          },
+          {
+            "page": "gc",
+            "start": 1344,
+            "text": "this grace period and always prune unreachable objects immediately, or \"never\" may be used to suppress pruning. This feature helps prevent corruption when git gc runs concurrently with another process writing to the repository; see the \"NOTES\" section of git-gc(1) . gc.worktreePruneExpire When git gc is run, it calls git worktree prune --expire 3.months.ago . This config variable can be used to set a different grace period. The value \"now\" may be used to disable the grace period and prune $GIT_DIR/worktrees immediately, or \"never\" may be used to suppress pruning. gc.reflogExpire gc.<pattern>.reflogExpire git reflog expire removes reflog entries older than this time; defaults to 90 days. The value \"now\" expires all entries immediately, and \"never\" suppresses expiration altogether. With \"<pattern>\" (e.g. \"refs/stash\") in the middle the setting applies only to the refs that match the <pattern>. gc.reflogExpireUnreachable gc.<pattern>.reflogExpireUnreachable git reflog expire removes reflog entries older than this time and are not reachable from the current tip; defaults to 30 days. The value \"now\" expires all entries immediately, and \"never\" suppresses expiration altogether. With \"<pattern>\" (e.g. \"refs/stash\") in the middle, the setting applies only to the refs that match the <pattern>. These types of entries are generally created as a result of using git commit --amend or git rebase and are the commits prior to the amend or rebase occurring. Since these changes are not part of the current project most users will want to expire them sooner, which is why",
+            "score": 0.5539782047271729
+          },
+          {
+            "page": "reflog",
+            "start": 0,
+            "text": "SYNOPSIS git reflog [ show ] [ <log-options> ] [ <ref> ] git reflog list git reflog exists <ref> git reflog write <ref> <old-oid> <new-oid> <message> git reflog delete [ --rewrite ] [ --updateref ] [ --dry-run | -n ] [ --verbose ] <ref> @ { <specifier> }… git reflog drop [ --all [ --single-worktree ] | <refs> …] git reflog expire [ --expire= <time> ] [ --expire-unreachable= <time> ] [ --rewrite ] [ --updateref ] [ --stale-fix ] [ --dry-run | -n ] [ --verbose ] [ --all [ --single-worktree ] | <refs> …] DESCRIPTION This command manages the information recorded in the reflogs. Reference logs, or \"reflogs\", record when the tips of branches and other references were updated in the local repository. Reflogs are useful in various Git commands, to specify the old value of a reference. For example, HEAD@ {2} means \"where HEAD used to be two moves ago\", master@ {one. week.ago } means \"where master used to point to one week ago in this local repository\", and so on. See gitrevisions(7) for more details. The command takes various subcommands, and different options depending on the subcommand: The \"show\" subcommand (which is also the default, in the absence of any subcommands) shows the log of the reference provided in the command-line (or HEAD , by default). The reflog covers all recent actions, and in addition the HEAD reflog records branch switching. git reflog show is an alias",
+            "score": 0.5407117605209351
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "gold_rank": 57,
+        "top5": [
+          {
+            "page": "checkout",
+            "start": 3584,
+            "text": "saved and a message is printed: $ git checkout -m mytopic Your local changes are stashed, however applying them resulted in conflicts. You can either resolve the conflicts and then discard the stash with \"git stash drop\", or, if you do not want to resolve them now, run \"git reset --hard\" and apply the local changes later by running \"git stash pop\". CONFIGURATION Everything below this line in this section is selectively included from the git-config(1) documentation. The content is the same as what’s found there: checkout.defaultRemote When you run git checkout <something> or git switch <something> and only have one remote, it may implicitly fall back on checking out and tracking e.g. origin/ <something> . This stops working as soon as you have more than one remote with a <something> reference. This setting allows for setting the name of a preferred remote that should always win when it comes to disambiguation. The typical use-case is to set this to origin . Currently this is used by git-switch(1) and git-checkout(1) when git checkout <something> or git switch <something> will checkout the <something> branch on another remote, and by git-worktree(1) when git worktree add refers to a remote branch. This setting might be used for other checkout-like commands or functionality in the future. checkout.guess Provides the default value for the --guess or --no-guess option in git checkout and git switch . See git-switch(1) and git-checkout(1) . checkout.workers The number of parallel",
+            "score": 0.6352354288101196
+          },
+          {
+            "page": "checkout",
+            "start": 1344,
+            "text": "the \"DETACHED HEAD\" section below for details. --orphan <new-branch> Create a new unborn branch, named <new-branch> , started from <start-point> and switch to it. The first commit made on this new branch will have no parents and it will be the root of a new history totally disconnected from all the other branches and commits. The index and the working tree are adjusted as if you had previously run git checkout <start-point> . This allows you to start a new history that records a set of paths similar to <start-point> by easily running git commit -a to make the root commit. This can be useful when you want to publish the tree from a commit without exposing its full history. You might want to do this to publish an open source branch of a project whose current tree is \"clean\", but whose full history contains proprietary or otherwise encumbered bits of code. If you want to start a disconnected history that records a set of paths that is totally different from the one of <start-point> , then you should clear the index and the working tree right after creating the orphan branch by running git rm -rf . from the top level of the working tree. Afterwards you will be ready to prepare your new files, repopulating the working tree, by copying them from elsewhere, extracting a tarball, etc. --ignore-skip-worktree-bits In sparse checkout mode, git checkout -- <path> ... would",
+            "score": 0.5972862243652344
+          },
+          {
+            "page": "checkout",
+            "start": 3808,
+            "text": "git checkout and git switch . See git-switch(1) and git-checkout(1) . checkout.workers The number of parallel workers to use when updating the working tree. The default is one, i.e. sequential execution. If set to a value less than one, Git will use as many workers as the number of logical cores available. This setting and checkout.thresholdForParallelism affect all commands that perform checkout. E.g. checkout, clone, reset, sparse-checkout, etc. On Windows the number of workers is capped at 62, because the poll () emulation cannot wait on more worker pipes than that. A higher configured value, including the logical core count on a machine with many cores, is silently reduced to the cap. Note Parallel checkout usually delivers better performance for repositories located on SSDs or over NFS. For repositories on spinning disks and/or machines with a small number of cores, the default sequential checkout often performs better. The size and compression level of a repository might also influence how well the parallel version performs. checkout.thresholdForParallelism When running parallel checkout with a small number of files, the cost of subprocess spawning and inter-process communication might outweigh the parallelization gains. This setting allows you to define the minimum number of files for which parallel checkout should be attempted. The default is 100. SEE ALSO git-switch(1) , git-restore(1) GIT Part of the git(1) suite",
+            "score": 0.5701019167900085
+          },
+          {
+            "page": "checkout",
+            "start": 0,
+            "text": "SYNOPSIS git checkout [ -q ] [ -f ] [ -m ] [ <branch> ] git checkout [ -q ] [ -f ] [ -m ] --detach [ <branch> ] git checkout [ -q ] [ -f ] [ -m ] [ --detach ] <commit> git checkout [ -q ] [ -f ] [ -m ] [[ -b | -B | --orphan ] <new-branch> ] [ <start-point> ] git checkout <tree-ish> [ -- ] <pathspec> … git checkout <tree-ish> --pathspec-from-file= <file> [ --pathspec-file-nul ] git checkout [ -f | --ours | --theirs | -m | --conflict= <style> ] [ -- ] <pathspec> … git checkout [ -f | --ours | --theirs | -m | --conflict= <style> ] --pathspec-from-file= <file> [ --pathspec-file-nul ] git checkout ( -p | --patch ) [ <tree-ish> ] [ -- ] [ <pathspec> …] DESCRIPTION git checkout has two main modes: Switch branches , with git checkout <branch> Restore a different version of a file , for example with git checkout <commit> <filename> or git checkout <filename> See ARGUMENT DISAMBIGUATION below for how Git decides which one to do. git checkout [ <branch> ] Switch to <branch> . This sets the current branch to <branch> and updates the files in your working directory. The checkout will fail if there are uncommitted changes to any files where <branch> and your current commit have different content. Uncommitted changes will otherwise be kept. If <branch> is not found but",
+            "score": 0.5472912788391113
+          },
+          {
+            "page": "checkout",
+            "start": 1568,
+            "text": "elsewhere, extracting a tarball, etc. --ignore-skip-worktree-bits In sparse checkout mode, git checkout -- <path> ... would update only entries matched by <paths> and sparse patterns in $GIT_DIR/info/sparse-checkout . This option ignores the sparse patterns and adds back any files in <path> .... -m --merge When switching branches, if you have local modifications to one or more files that are different between the current branch and the branch to which you are switching, the command refuses to switch branches in order to preserve your modifications in context. With this option, the conflicting local changes are automatically stashed before the switch and reapplied afterwards. If the local changes do not overlap with the differences between branches, the switch proceeds without stashing. If reapplying the stash results in conflicts, the entry is saved to the stash list. Resolve the conflicts and run git stash drop when done, or clear the working tree (e.g. with git reset --hard ) before running git stash pop later to re-apply your changes. When checking out paths from the index, this option lets you recreate the conflicted merge in the specified paths. This option cannot be used when checking out paths from a tree-ish. --conflict= <style> The same as --merge option above, but changes the way the conflicting hunks are presented, overriding the merge.conflictStyle configuration variable. Possible values are merge (default), diff3 , and zdiff3 . -p --patch Interactively select hunks in the difference between the <tree-ish> (or",
+            "score": 0.5025877952575684
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "gold_rank": 1,
+        "top5": [
+          {
+            "page": "stash",
+            "start": 672,
+            "text": "on submit: 6ebd0e2... Update git-stash documentation stash@{1}: On master: 9cc0589... Add git-stash The command takes options applicable to the git log command to control what is shown and how. See git-log(1) . show [ -u | --include-untracked | --only-untracked ] [ <diff-options> ] [ <stash> ] Show the changes recorded in the stash entry as a diff between the stashed contents and the commit back when the stash entry was first created. By default, the command shows the diffstat, but it will accept any format known to git diff (e.g., git stash show -p stash@ {1} to view the second most recent entry in patch form). If no <diff-option> is provided, the default behavior will be given by the stash.showStat , and stash.showPatch config variables. You can also use stash.showIncludeUntracked to set whether --include-untracked is enabled by default. pop [ --index ] [ -q | --quiet ] [ <stash> ] Remove a single stashed state from the stash list and apply it on top of the current working tree state, i.e., do the inverse operation of git stash push . The working directory must match the index. Applying the state can fail with conflicts; in this case, it is not removed from the stash list. You need to resolve the conflicts by hand and call git stash drop manually afterwards. apply [ --index ] [ -q | --quiet ] [ <stash> ] Like pop , but do not remove the",
+            "score": 0.7508372068405151
+          },
+          {
+            "page": "stash",
+            "start": 896,
+            "text": "[ -q | --quiet ] [ <stash> ] Like pop , but do not remove the state from the stash list. Unlike pop , <stash> may be any commit that looks like a commit created by stash push or stash create . branch <branchname> [ <stash> ] Creates and checks out a new branch named <branchname> starting from the commit at which the <stash> was originally created, applies the changes recorded in <stash> to the new working tree and index. If that succeeds, and <stash> is a reference of the form stash@ { <revision> }, it then drops the <stash> . This is useful if the branch on which you ran git stash push has changed enough that git stash apply fails due to conflicts. Since the stash entry is applied on top of the commit that was HEAD at the time git stash was run, it restores the originally stashed state with no conflicts. clear Remove all the stash entries. Note that those entries will then be subject to pruning, and may be impossible to recover (see EXAMPLES below for a possible strategy). drop [ -q | --quiet ] [ <stash> ] Remove a single stash entry from the list of stash entries. create Create a stash entry (which is a regular commit object) and return its object name, without storing it anywhere in the ref namespace. This is intended to be useful for scripts. It is probably not",
+            "score": 0.7118831872940063
+          },
+          {
+            "page": "stash",
+            "start": 224,
+            "text": "when you want to record the current state of the working directory and the index, but want to go back to a clean working directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit. The modifications stashed away by this command can be listed with git stash list , inspected with git stash show , and restored (potentially on top of a different commit) with git stash apply . Calling git stash without any arguments is equivalent to git stash push . A stash is by default listed as \"WIP on <branchname> …\", but you can give a more descriptive message on the command line when you create one. The latest stash you created is stored in refs/stash ; older stashes are found in the reflog of this reference and can be named using the usual reflog syntax (e.g. stash@ {0} is the most recently created stash, stash@ {1} is the one before it, stash@ {2. hours.ago } is also possible). Stashes may also be referenced by specifying just the stash index (e.g. the integer <n> is equivalent to stash@ { <n> }). COMMANDS push [ -p | --patch ] [ -S | --staged ] [ -k | -- [ no- ] keep-index ] [ -u | --include-untracked ] [ -a | --all ] [ -q | --quiet ] [( -m | --message ) <message> ] [ --pathspec-from-file= <file> [ --pathspec-file-nul ]]",
+            "score": 0.6484448909759521
+          },
+          {
+            "page": "stash",
+            "start": 2464,
+            "text": "remains ... $ edit/build/test remaining parts $ git commit foo -m 'Remaining parts' Saving unrelated changes for future use When you are in the middle of massive changes and you find some unrelated issue that you don’t want to forget to fix, you can do the change(s), stage them, and use git stash push --staged to stash them out for future use. This is similar to committing the staged changes, only the commit ends-up being in the stash and not on the current branch. # ... hack hack hack ... $ git add --patch foo # add unrelated changes to the index $ git stash push --staged # save these changes to the stash # ... hack hack hack, finish current changes ... $ git commit -m 'Massive' # commit fully tested changes $ git switch fixup-branch # switch to another branch $ git stash pop # to finish work on the saved changes Recovering stash entries that were cleared/dropped erroneously If you mistakenly drop or clear stash entries, they cannot be recovered through the normal safety mechanisms. However, you can try the following incantation to get a list of stash entries that are still in your repository, but not reachable any more: git fsck --unreachable | grep commit | cut -d\\ -f3 | xargs git log --merges --no-walk --grep=WIP CONFIGURATION Everything below this line in this section is selectively included from the git-config(1) documentation. The content is the same",
+            "score": 0.6292454600334167
+          },
+          {
+            "page": "stash",
+            "start": 448,
+            "text": "| --quiet ] [( -m | --message ) <message> ] [ --pathspec-from-file= <file> [ --pathspec-file-nul ]] [ -- ] [ <pathspec> ...] Save your local modifications to a new stash entry and roll them back to HEAD (in the working tree and in the index). The <message> part is optional and gives the description along with the stashed state. For quickly making a snapshot, you can omit \"push\". In this mode, pathspec elements are only allowed after a double hyphen -- to prevent a misspelled subcommand from making an unwanted stash entry. save [ -p | --patch ] [ -S | --staged ] [ -k | -- [ no- ] keep-index ] [ -u | --include-untracked ] [ -a | --all ] [ -q | --quiet ] [ <message> ] This option is deprecated in favour of git stash push . It differs from \"stash push\" in that it cannot take pathspec. Instead, all non-option arguments are concatenated to form the stash message. list [ <log-options> ] List the stash entries that you currently have. Each stash entry is listed with its name (e.g. stash@ {0} is the latest entry, stash@ {1} is the one before, etc.), the name of the branch that was current when the entry was made, and a short description of the commit the entry was based on. stash@{0}: WIP on submit: 6ebd0e2... Update git-stash documentation stash@{1}: On master: 9cc0589... Add git-stash The command takes options",
+            "score": 0.6205364465713501
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "gold_rank": 43,
+        "top5": [
+          {
+            "page": "log",
+            "start": 5152,
+            "text": "to their parent. This also happens to the commit N , resulting in a history view as follows: .-A---M--. / / \\ I B R \\ / / \\ / / `---X--' In this view, we see all of the important single-parent changes from A , B , and X . We also see the carefully-resolved merge M and the not-so-carefully-resolved merge R . This is usually enough information to determine why the commits A and B \"disappeared\" from history in the default view. However, there are a few issues with this approach. The first issue is performance. Unlike any previous option, the --simplify-merges option requires walking the entire commit history before returning a single result. This can make the option difficult to use for very large repositories. The second issue is one of auditing. When many contributors are working on the same repository, it is important which merge commits introduced a change into an important branch. The problematic merge R above is not likely to be the merge commit that was used to merge into an important branch. Instead, the merge N was used to merge R and X into the important branch. This commit may have information about why the change X came to override the changes from A and B in its commit message. --show-pulls In addition to the commits shown in the default history, show each merge commit that is not TREESAME to its first parent",
+            "score": 0.5633354783058167
+          },
+          {
+            "page": "merge",
+            "start": 2016,
+            "text": "there are any changes registered in the index relative to the HEAD commit. (Special narrow exceptions to this rule may exist depending on which merge strategy is in use, but generally, the index must match HEAD .) If all named commits are already ancestors of HEAD , git merge will exit early with the message \"Already up to date.\" FAST-FORWARD MERGE Often the current branch head is an ancestor of the named commit. This is the most common case especially when invoked from git pull : you are tracking an upstream repository, you have committed no local changes, and now you want to update to a newer upstream revision. In this case, a new commit is not needed to store the combined history; instead, the HEAD (along with the index) is updated to point at the named commit, without creating an extra merge commit. This behavior can be suppressed with the --no-ff option. TRUE MERGE Except in a fast-forward merge (see above), the branches to be merged must be tied together by a merge commit that has both of them as its parents. A merged version reconciling the changes from all branches to be merged is committed, and your HEAD , index, and working tree are updated to it. It is possible to have modifications in the working tree as long as they do not overlap; the update will preserve them. When it is not obvious how to reconcile the",
+            "score": 0.5475715398788452
+          },
+          {
+            "page": "push",
+            "start": 5152,
+            "text": "descendant of A. In a fast-forward update from A to B, the set of commits that the original commit A built on top of is a subset of the commits the new commit B builds on top of. Hence, it does not lose any history. In contrast, a non-fast-forward update will lose history. For example, suppose you and somebody else started at the same commit X, and you built a history leading to commit B while the other person built a history leading to commit A. The history looks like this: B / ---X---A Further suppose that the other person already pushed changes leading to A back to the original repository from which you two obtained the original commit X. The push done by the other person updated the branch that used to point at commit X to point at commit A. It is a fast-forward. But if you try to push, you will attempt to update the branch (that now points at A) with commit B. This does not fast-forward. If you did so, the changes introduced by commit A will be lost, because everybody will now start building on top of B. The command by default does not allow an update that is not a fast-forward to prevent such loss of history. If you do not want to lose your work (history from X to B) or the work by the other person (history from X to A),",
+            "score": 0.5376148223876953
+          },
+          {
+            "page": "log",
+            "start": 3360,
+            "text": "<commit2> ^ <commit1> ), and a commit <commit> in that range, only display commits in that range that are ancestors of <commit> , descendants of <commit> , or <commit> itself. If no commit is specified, use <commit1> (the excluded part of the range) as <commit> . Can be passed multiple times; if so, a commit is included if it is any of the commits given or if it is an ancestor or descendant of one of them. A more detailed explanation follows. Suppose you specified foo as the <paths> . We shall call commits that modify foo !TREESAME, and the rest TREESAME. (In a diff filtered for foo , they look different and equal, respectively.) In the following, we will always refer to the same example history to illustrate the differences between simplification settings. We assume that you are filtering for a file foo in this commit graph: .-A---M---N---O---P---Q / / / / / / I B C D E Y \\ / / / / / `-------------' X The horizontal line of history A---Q is taken to be the first parent of each merge. The commits are: I is the initial commit, in which foo exists with contents asdf , and a file quux exists with contents quux . Initial commits are compared to an empty tree, so I is !TREESAME. In A , foo contains just foo . B contains the same change as A . Its merge",
+            "score": 0.5113670825958252
+          },
+          {
+            "page": "log",
+            "start": 5376,
+            "text": "in the default history, show each merge commit that is not TREESAME to its first parent but is TREESAME to a later parent. When a merge commit is included by --show-pulls , the merge is treated as if it \"pulled\" the change from another branch. When using --show-pulls on this example (and no other options) the resulting graph is: I---X---R---N Here, the merge commits R and N are included because they pulled the commits X and R into the base branch, respectively. These merges are the reason the commits A and B do not appear in the default history. When --show-pulls is paired with --simplify-merges , the graph includes all of the necessary information: .-A---M--. N / / \\ / I B R \\ / / \\ / / `---X--' Notice that since M is reachable from R , the edge from N to M was simplified away. However, N still appears in the history as an important commit because it \"pulled\" the change R into the main branch. The --simplify-by-decoration option allows you to view only the big picture of the topology of the history, by omitting commits that are not referenced by tags. Commits are marked as !TREESAME (in other words, kept after history simplification rules described above) if (1) they are referenced by tags, or (2) they change the contents of the paths given on the command line. All other commits are marked as TREESAME (subject to",
+            "score": 0.49300816655158997
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "gold_rank": 2,
+        "top5": [
+          {
+            "page": "pull",
+            "start": 1792,
+            "text": "fetched. --deepen= <depth> Similar to --depth , except it specifies the number of commits from the current shallow boundary instead of from the tip of each remote branch history. --shallow-since= <date> Deepen or shorten the history of a shallow repository to include all reachable commits after <date> . --shallow-exclude= <ref> Deepen or shorten the history of a shallow repository to exclude commits reachable from a specified remote branch or tag. This option can be specified multiple times. --unshallow If the source repository is complete, convert a shallow repository to a complete one, removing all the limitations imposed by shallow repositories. If the source repository is shallow, fetch as much as possible so that the current repository has the same history as the source repository. --update-shallow By default when fetching from a shallow repository, git fetch refuses refs that require updating . git/shallow . This option updates . git/shallow and accepts such refs. --negotiation-restrict= ( <commit> | <glob> ) --negotiation-tip= ( <commit> | <glob> ) By default, Git will report, to the server, commits reachable from all local refs to find common commits in an attempt to reduce the size of the to-be-received packfile. If specified, Git will only report commits reachable from the given tips. This is useful to speed up fetches when the user knows which local ref is likely to have commits in common with the upstream ref being fetched. --negotiation-restrict is the preferred name for this option;",
+            "score": 0.6454002857208252
+          },
+          {
+            "page": "clone",
+            "start": 1568,
+            "text": "which templates will be used; (See the \"TEMPLATE DIRECTORY\" section of git-init(1) .) -c <key> = <value> --config= <key> = <value> Set a configuration variable in the newly-created repository; this takes effect immediately after the repository is initialized, but before the remote history is fetched or any files checked out. The <key> is in the same format as expected by git-config(1) (e.g., core.eol=true ). If multiple values are given for the same key, each value will be written to the config file. This makes it safe, for example, to add additional fetch refspecs to the origin remote. Due to limitations of the current implementation, some configuration variables do not take effect until after the initial fetch and checkout. Configuration variables known to not take effect are: remote. <name> .mirror and remote. <name> .tagOpt . Use the corresponding --mirror and --no-tags options instead. --depth= <depth> Create a shallow clone with a history truncated to the specified number of commits. Implies --single-branch unless --no-single-branch is given to fetch the histories near the tips of all branches. If you want to clone submodules shallowly, also pass --shallow-submodules . --shallow-since= <date> Create a shallow clone with a history after the specified time. --shallow-exclude= <ref> Create a shallow clone with a history, excluding commits reachable from a specified remote branch or tag. This option can be specified multiple times. --single-branch --no-single-branch Clone only the history leading to the tip of a single branch, either specified",
+            "score": 0.6418785452842712
+          },
+          {
+            "page": "fetch",
+            "start": 224,
+            "text": ". This information may be used by scripts or other git commands, such as git-pull(1) . OPTIONS --all --no-all Fetch all remotes, except for the ones that have the remote. <name> .skipFetchAll configuration variable set. This overrides the configuration variable fetch.all . -a --append Append ref names and object names of fetched refs to the existing contents of . git/FETCH_HEAD . Without this option old data in . git/FETCH_HEAD will be overwritten. --atomic Use an atomic transaction to update local refs. Either all refs are updated, or on error, no refs are updated. --depth= <depth> Limit fetching to the specified number of commits from the tip of each remote branch history. If fetching to a shallow repository created by git clone with --depth= <depth> option (see git-clone(1) ), deepen or shorten the history to the specified number of commits. Tags for the deepened commits are not fetched. --deepen= <depth> Similar to --depth , except it specifies the number of commits from the current shallow boundary instead of from the tip of each remote branch history. --shallow-since= <date> Deepen or shorten the history of a shallow repository to include all reachable commits after <date> . --shallow-exclude= <ref> Deepen or shorten the history of a shallow repository to exclude commits reachable from a specified remote branch or tag. This option can be specified multiple times. --unshallow If the source repository is complete, convert a shallow repository to a complete one, removing all",
+            "score": 0.6358062624931335
+          },
+          {
+            "page": "pull",
+            "start": 1568,
+            "text": "commits are included in the rebase (see git-rebase(1) for details). false merge the upstream branch into the current branch. interactive enable the interactive mode of rebase. See pull.rebase , branch. <name> .rebase and branch.autoSetupRebase in git-config(1) if you want to make git pull always use --rebase instead of merging. + Note This is a potentially dangerous mode of operation. It rewrites history, which does not bode well when you published that history already. Do not use this option unless you have read git-rebase(1) carefully. --no-rebase This is shorthand for --rebase=false . Options related to fetching --all --no-all Fetch all remotes, except for the ones that have the remote. <name> .skipFetchAll configuration variable set. This overrides the configuration variable fetch.all . -a --append Append ref names and object names of fetched refs to the existing contents of . git/FETCH_HEAD . Without this option old data in . git/FETCH_HEAD will be overwritten. --atomic Use an atomic transaction to update local refs. Either all refs are updated, or on error, no refs are updated. --depth= <depth> Limit fetching to the specified number of commits from the tip of each remote branch history. If fetching to a shallow repository created by git clone with --depth= <depth> option (see git-clone(1) ), deepen or shorten the history to the specified number of commits. Tags for the deepened commits are not fetched. --deepen= <depth> Similar to --depth , except it specifies the number of commits from the",
+            "score": 0.5686098337173462
+          },
+          {
+            "page": "fetch",
+            "start": 448,
+            "text": "If the source repository is complete, convert a shallow repository to a complete one, removing all the limitations imposed by shallow repositories. If the source repository is shallow, fetch as much as possible so that the current repository has the same history as the source repository. --update-shallow By default when fetching from a shallow repository, git fetch refuses refs that require updating . git/shallow . This option updates . git/shallow and accepts such refs. --negotiation-restrict= ( <commit> | <glob> ) --negotiation-tip= ( <commit> | <glob> ) By default, Git will report, to the server, commits reachable from all local refs to find common commits in an attempt to reduce the size of the to-be-received packfile. If specified, Git will only report commits reachable from the given tips. This is useful to speed up fetches when the user knows which local ref is likely to have commits in common with the upstream ref being fetched. --negotiation-restrict is the preferred name for this option; --negotiation-tip is accepted as a synonym. This option may be specified more than once; if so, Git will report commits reachable from any of the given commits. The argument to this option may be a glob on ref names, a ref, or the (possibly abbreviated) SHA-1 of a commit. Specifying a glob is equivalent to specifying this option multiple times, one for each matching ref name. See also the fetch.negotiationAlgorithm and push.negotiate configuration variables documented in git-config(1) ,",
+            "score": 0.5121576189994812
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "gold_rank": 156,
+        "top5": [
+          {
+            "page": "clone",
+            "start": 448,
+            "text": "if you are trying to make a back-up of your repository. -s --shared When the repository to clone is on the local machine, instead of using hard links, automatically setup . git/objects/info/alternates to share the objects with the source repository. The resulting repository starts out without any object of its own. Note this is a possibly dangerous operation; do not use it unless you understand what it does. If you clone your repository using this option and then delete branches (or use any other Git command that makes any existing commit unreferenced) in the source repository, some objects may become unreferenced (or dangling). These objects may be removed by normal Git operations (such as git commit ) which automatically call git maintenance run --auto . (See git-maintenance(1) .) If these objects are removed and were referenced by the cloned repository, then the cloned repository will become corrupt. Note that running git repack without the --local option in a repository cloned with --shared will copy objects from the source repository into a pack in the cloned repository, removing the disk space savings of clone --shared . It is safe, however, to run git gc , which uses the --local option by default. If you want to break the dependency of a repository cloned with --shared on its source repository, you can simply run git repack -a to copy all objects from the source repository into a pack in the cloned repository.",
+            "score": 0.5671921372413635
+          },
+          {
+            "page": "bisect",
+            "start": 2464,
+            "text": "then attempt a build if git merge --no-commit --no-ff hot-fix && make then # run project specific test and report its status ~/check_test_case.sh status=$? else # tell the caller this is untestable status=125 fi # undo the tweak to allow clean flipping to the next commit git reset --hard # return control exit $status This applies modifications from a hot-fix branch before each test run, e.g. in case your build or test environment changed so that older revisions may need a fix which newer ones have already. (Make sure the hot-fix branch is based off a commit which is contained in all revisions which you are bisecting, so that the merge does not pull in too much, or use git cherry-pick instead of git merge .) Automatically bisect a broken test case: $ git bisect start HEAD HEAD~10 -- # culprit is among the last 10 $ git bisect run sh -c \"make || exit 125; ~/check_test_case.sh\" $ git bisect reset # quit the bisect session This shows that you can do without a run script if you write the test on a single line. Locate a good region of the object graph in a damaged repository $ git bisect start HEAD <known-good-commit> [ <boundary-commit> ... ] --no-checkout $ git bisect run sh -c ' GOOD=$(git for-each-ref \"--format=%(objectname)\" refs/bisect/good-*) && git rev-list --objects BISECT_HEAD --not $GOOD >tmp.$$ && git pack-objects --stdout >/dev/null <tmp.$$ rc=$? rm -f tmp.$$ test $rc =",
+            "score": 0.5267580151557922
+          },
+          {
+            "page": "bundle",
+            "start": 1120,
+            "text": "cloned from (i.e., new , but not old .. new ). It is okay to err on the side of caution, causing the bundle file to contain objects already in the destination, as these are ignored when unpacking at the destination. If you want to provide the same set of refs that a clone directly from the source repository would get, use --branches --tags for the <git-rev-list-args> . The git bundle verify command can be used to check whether your recipient repository has the required prerequisite commits for a bundle. EXAMPLES We’ll discuss two cases: Taking a full backup of a repository Transferring the history of a repository to another machine when the two machines have no direct connection First let’s consider a full backup of the repository. The following command will take a full backup of the repository in the sense that all refs are included in the bundle: $ git bundle create backup.bundle --all But note again that this is only for the refs, i.e. you will only include refs and commits reachable from those refs. You will not include other local state, such as the contents of the index, working tree, the stash, per-repository configuration, hooks, etc. You can later recover that repository by using for example git-clone(1) : $ git clone backup.bundle <new directory> For the next example, assume you want to transfer the history from a repository R1 on machine A to another repository R2",
+            "score": 0.5098386406898499
+          },
+          {
+            "page": "bisect",
+            "start": 1120,
+            "text": "desktop sessions. MSYSTEM which is set under Msys2 and Git for Windows. SECURITYSESSIONID which may be set on macOS in interactive desktop sessions. If none of these environment variables is set, git log is used instead. You can also give command-line options such as -p and --stat . $ git bisect visualize --stat Bisect log and bisect replay After having marked revisions as good or bad, issue the following command to show what has been done so far: $ git bisect log If you discover that you made a mistake in specifying the status of a revision, you can save the output of this command to a file, edit it to remove the incorrect entries, and then issue the following commands to return to a corrected state: $ git bisect reset $ git bisect replay that-file Avoiding testing a commit If, in the middle of a bisect session, you know that the suggested revision is not a good one to test (e.g. it fails to build and you know that the failure does not have anything to do with the bug you are chasing), you can manually select a nearby commit and test that one instead. For example: $ git bisect good/bad # previous round was good or bad. Bisecting: 337 revisions left to test after this (roughly 9 steps) $ git bisect visualize # oops, that is uninteresting. $ git reset --hard HEAD~3 # try 3 revisions before what",
+            "score": 0.4794086813926697
+          },
+          {
+            "page": "bundle",
+            "start": 1568,
+            "text": "some more in the original repository, you can create an incremental bundle to update the other repository: machineA$ cd R1 machineA$ git bundle create file.bundle lastR2bundle..master machineA$ git tag -f lastR2bundle master You then transfer the bundle to the other machine to replace /home/me/tmp/file.bundle, and pull from it. machineB$ cd R2 machineB$ git pull If you know up to what commit the intended recipient repository should have the necessary objects, you can use that knowledge to specify the prerequisites, giving a cut-off point to limit the revisions and objects that go in the resulting bundle. The previous example used the lastR2bundle tag for this purpose, but you can use any other options that you would give to the git-log(1) command. Here are more examples: You can use a tag that is present in both: $ git bundle create mybundle v1.0.0..master You can use a prerequisite based on time: $ git bundle create mybundle --since=10.days master You can use the number of commits: $ git bundle create mybundle -10 master You can run git-bundle verify to see if you can extract from a bundle that was created with a prerequisite: $ git bundle verify mybundle This will list what commits you must have in order to extract from the bundle and will error out if you do not have them. A bundle from a recipient repository’s point of view is just like a regular repository which it fetches or pulls from.",
+            "score": 0.4785042703151703
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "gold_rank": 1,
+        "top5": [
+          {
+            "page": "describe",
+            "start": 0,
+            "text": "SYNOPSIS git describe [ --all ] [ --tags ] [ --contains ] [ --abbrev= <n> ] [ <commit-ish> …] git describe [ --all ] [ --tags ] [ --contains ] [ --abbrev= <n> ] --dirty [ = <mark> ] git describe <blob> DESCRIPTION The command finds the most recent tag that is reachable from a commit. If the tag points to the commit, then only the tag is shown. Otherwise, it suffixes the tag name with the number of additional commits on top of the tagged object and the abbreviated object name of the most recent commit. The result is a \"human-readable\" object name which can also be used to identify the commit to other git commands. By default (without --all or --tags ) git describe only shows annotated tags. For more information about creating annotated tags see the -a and -s options to git-tag(1) . If the given object refers to a blob, it will be described as <commit-ish> : <path> , such that the blob can be found at <path> in the <commit-ish> , which itself describes the first commit in which this blob occurs in a reverse revision walk from HEAD . OPTIONS <commit-ish> ... Commit-ish object names to describe. Defaults to HEAD if omitted. --dirty [ = <mark> ] --broken [ = <mark> ] Describe the state of the working tree. When the working tree matches HEAD , the output is the same as git describe",
+            "score": 0.5912518501281738
+          },
+          {
+            "page": "describe",
+            "start": 896,
+            "text": "\" -g \" + an unambiguous abbreviation for the tip commit of parent (which was 2414721b194453f058079d897d13c4e377f92dc6 ). The length of the abbreviation scales as the repository grows, using the approximate number of objects in the repository and a bit of math around the birthday paradox, and defaults to a minimum of 7. The \"g\" prefix stands for \"git\" and is used to allow describing the version of a software depending on the SCM the software is managed with. This is useful in an environment where people may use different SCMs. Doing a git describe on a tag-name will just show the tag name: [torvalds@g5 git]$ git describe v1.0.4 v1.0.4 With --all , the command can use branch heads as references, so the output shows the reference path as well: [torvalds@g5 git]$ git describe --all --abbrev=4 v1.0.5^2 tags/v1.0.0-21-g975b [torvalds@g5 git]$ git describe --all --abbrev=4 HEAD^ heads/lt/describe-7-g975b With --abbrev set to 0, the command can be used to find the closest tagname without any suffix: [torvalds@g5 git]$ git describe --abbrev=0 v1.0.5^2 tags/v1.0.0 Note that the suffix you get if you type these commands today may be longer than what Linus saw above when he ran these commands, as your Git repository may have new commits whose object names begin with 975b that did not exist back then, and \"-g975b\" suffix alone may not be sufficient to disambiguate these commits. SEARCH STRATEGY For each commit-ish supplied, git describe will first look for a",
+            "score": 0.57728111743927
+          },
+          {
+            "page": "describe",
+            "start": 224,
+            "text": "tree. When the working tree matches HEAD , the output is the same as git describe HEAD . If the working tree has local modification, -dirty is appended to it. If a repository is corrupt and Git cannot determine if there is local modification, Git will error out, unless --broken is given, which appends the suffix -broken instead. --all Instead of using only the annotated tags, use any ref found in refs/ namespace. This option enables matching any known branch, remote-tracking branch, or lightweight tag. --tags Instead of using only the annotated tags, use any tag found in refs/tags namespace. This option enables matching a lightweight (non-annotated) tag. --contains Instead of finding the tag that predates the commit, find the tag that comes after the commit, and thus contains it. Automatically implies --tags . --abbrev= <n> Instead of using the default number of hexadecimal digits (which will vary according to the number of objects in the repository with a default of 7) of the abbreviated object name, use <n> digits, or as many digits as needed to form a unique object name. An <n> of 0 will suppress long format, only showing the closest tag. --candidates= <n> Instead of considering only the 10 most recent tags as candidates to describe the input commit-ish consider up to <n> candidates. Increasing <n> above 10 will take slightly longer but may produce a more accurate result. An <n> of 0 will cause only",
+            "score": 0.5270804762840271
+          },
+          {
+            "page": "describe",
+            "start": 1120,
+            "text": "disambiguate these commits. SEARCH STRATEGY For each commit-ish supplied, git describe will first look for a tag which tags exactly that commit. Annotated tags will always be preferred over lightweight tags, and tags with newer dates will always be preferred over tags with older dates. If an exact match is found, its name will be output and searching will stop. If an exact match was not found, git describe will walk back through the commit history to locate an ancestor commit which has been tagged. The ancestor’s tag will be output along with an abbreviation of the input commit-ish’s SHA-1. If --first-parent was specified then the walk will only consider the first parent of each commit. If multiple tags were found during the walk then the tag which has the fewest commits different from the input commit-ish will be selected and output. Here fewest commits different is defined as the number of commits which would be shown by git log tag .. input will be the smallest number of commits possible. BUGS Tree objects as well as tag objects not pointing at commits, cannot be described. When describing blobs, the lightweight tags pointing at blobs are ignored, but the blob is still described as <commit-ish> : <path> despite the lightweight tag being favorable. GIT Part of the git(1) suite",
+            "score": 0.515324056148529
+          },
+          {
+            "page": "tag",
+            "start": 2464,
+            "text": "standard, for example 2005-04-07T22:13:13 . The parser accepts a space instead of the T character as well. Fractional parts of a second will be ignored, for example 2005-04-07T22:13:13.019 will be treated as 2005-04-07T22:13:13 . Note In addition, the date part is accepted in the following formats: YYYY.MM.DD , MM/DD/YYYY and DD.MM.YYYY . FILES $GIT_DIR/TAG_EDITMSG This file contains the message of an in-progress annotated tag. If git tag exits due to an error before creating an annotated tag then the tag message that has been provided by the user in an editor session will be available in this file, but may be overwritten by the next invocation of git tag . CONFIGURATION Everything below this line in this section is selectively included from the git-config(1) documentation. The content is the same as what’s found there: tag.forceSignAnnotated A boolean to specify whether annotated tags created should be GPG signed. If --annotate is specified on the command line, it takes precedence over this option. tag.sort This variable controls the sort ordering of tags when displayed by git-tag . Without the --sort= <value> option provided, the value of this variable will be used as the default. tag.gpgSign A boolean to specify whether all tags should be GPG signed. Use of this option when running in an automated script can result in a large number of tags being signed. It is therefore convenient to use an agent to avoid typing your GPG passphrase several times.",
+            "score": 0.47716039419174194
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "gold_rank": 6,
+        "top5": [
+          {
+            "page": "bundle",
+            "start": 1120,
+            "text": "cloned from (i.e., new , but not old .. new ). It is okay to err on the side of caution, causing the bundle file to contain objects already in the destination, as these are ignored when unpacking at the destination. If you want to provide the same set of refs that a clone directly from the source repository would get, use --branches --tags for the <git-rev-list-args> . The git bundle verify command can be used to check whether your recipient repository has the required prerequisite commits for a bundle. EXAMPLES We’ll discuss two cases: Taking a full backup of a repository Transferring the history of a repository to another machine when the two machines have no direct connection First let’s consider a full backup of the repository. The following command will take a full backup of the repository in the sense that all refs are included in the bundle: $ git bundle create backup.bundle --all But note again that this is only for the refs, i.e. you will only include refs and commits reachable from those refs. You will not include other local state, such as the contents of the index, working tree, the stash, per-repository configuration, hooks, etc. You can later recover that repository by using for example git-clone(1) : $ git clone backup.bundle <new directory> For the next example, assume you want to transfer the history from a repository R1 on machine A to another repository R2",
+            "score": 0.7682165503501892
+          },
+          {
+            "page": "bundle",
+            "start": 1568,
+            "text": "some more in the original repository, you can create an incremental bundle to update the other repository: machineA$ cd R1 machineA$ git bundle create file.bundle lastR2bundle..master machineA$ git tag -f lastR2bundle master You then transfer the bundle to the other machine to replace /home/me/tmp/file.bundle, and pull from it. machineB$ cd R2 machineB$ git pull If you know up to what commit the intended recipient repository should have the necessary objects, you can use that knowledge to specify the prerequisites, giving a cut-off point to limit the revisions and objects that go in the resulting bundle. The previous example used the lastR2bundle tag for this purpose, but you can use any other options that you would give to the git-log(1) command. Here are more examples: You can use a tag that is present in both: $ git bundle create mybundle v1.0.0..master You can use a prerequisite based on time: $ git bundle create mybundle --since=10.days master You can use the number of commits: $ git bundle create mybundle -10 master You can run git-bundle verify to see if you can extract from a bundle that was created with a prerequisite: $ git bundle verify mybundle This will list what commits you must have in order to extract from the bundle and will error out if you do not have them. A bundle from a recipient repository’s point of view is just like a regular repository which it fetches or pulls from.",
+            "score": 0.7391228675842285
+          },
+          {
+            "page": "bundle",
+            "start": 0,
+            "text": "SYNOPSIS git bundle create [-q | --quiet | --progress] [--version=<version>] <file> <git-rev-list-args> git bundle verify [-q | --quiet] <file> git bundle list-heads <file> [<refname>…] git bundle unbundle [--progress] <file> [<refname>…] DESCRIPTION Create, unpack, and manipulate \"bundle\" files. Bundles are used for the \"offline\" transfer of Git objects without an active \"server\" sitting on the other side of the network connection. They can be used to create both incremental and full backups of a repository (see the \"full backup\" example in \"EXAMPLES\"), and to relay the state of the references in one repository to another (see the second example). Git commands that fetch or otherwise \"read\" via protocols such as ssh:// and https:// can also operate on bundle files. It is possible git-clone(1) a new repository from a bundle, to use git-fetch(1) to fetch from one, and to list the references contained within it with git-ls-remote(1) . There’s no corresponding \"write\" support, i.e. a git push into a bundle is not supported. BUNDLE FORMAT Bundles are . pack files (see git-pack-objects(1) ) with a header indicating what references are contained within the bundle. Like the packed archive format itself bundles can either be self-contained, or be created using exclusions. See the \"OBJECT PREREQUISITES\" section below. Bundles created using revision exclusions are \"thin packs\" created using the --thin option to git-pack-objects(1) , and unbundled using the --fix-thin option to git-index-pack(1) . There is no option to create a \"thick pack\" when using",
+            "score": 0.6932669281959534
+          },
+          {
+            "page": "bundle",
+            "start": 1344,
+            "text": "want to transfer the history from a repository R1 on machine A to another repository R2 on machine B. For whatever reason, direct connection between A and B is not allowed, but we can move data from A to B via some mechanism (CD, email, etc.). We want to update R2 with development made on the branch master in R1. To bootstrap the process, you can first create a bundle that does not have any prerequisites. You can use a tag to remember up to what commit you last processed, in order to make it easy to later update the other repository with an incremental bundle: machineA$ cd R1 machineA$ git bundle create file.bundle master machineA$ git tag -f lastR2bundle master Then you transfer file.bundle to the target machine B. Because this bundle does not require any existing object to be extracted, you can create a new repository on machine B by cloning from it: machineB$ git clone -b master /home/me/tmp/file.bundle R2 This will define a remote called \"origin\" in the resulting repository that lets you fetch and pull from the bundle. The $GIT_DIR/config file in R2 will have an entry like this: [remote \"origin\"] url = /home/me/tmp/file.bundle fetch = refs/heads/*:refs/remotes/origin/* To update the resulting mine.git repository, you can fetch or pull after replacing the bundle stored at /home/me/tmp/file.bundle with incremental updates. After working some more in the original repository, you can create an incremental bundle to update the other",
+            "score": 0.68803870677948
+          },
+          {
+            "page": "bundle",
+            "start": 896,
+            "text": "next) | git bundle create master-and-next.bundle --stdin And so are these (and the same but omitted --stdin examples): $ git bundle create recent-master.bundle master~10..master $ git bundle create recent-updates.bundle master~10..master next~5..next A revision name or a range whose right-hand-side cannot be resolved to a reference is not accepted: $ git bundle create HEAD.bundle $(git rev-parse HEAD) fatal: Refusing to create empty bundle. $ git bundle create master-yesterday.bundle master~10..master~5 fatal: Refusing to create empty bundle. OBJECT PREREQUISITES When creating bundles it is possible to create a self-contained bundle that can be unbundled in a repository with no common history, as well as providing negative revisions to exclude objects needed in the earlier parts of the history. Feeding a revision such as new to git bundle create will create a bundle file that contains all the objects reachable from the revision new . That bundle can be unbundled in any repository to obtain a full history that leads to the revision new : $ git bundle create full.bundle new A revision range such as old .. new will produce a bundle file that will require the revision old (and any objects reachable from it) to exist for the bundle to be \"unbundle\"-able: $ git bundle create full.bundle old..new A self-contained bundle without any prerequisites can be extracted into anywhere, even into an empty repository, or be cloned from (i.e., new , but not old .. new ). It is okay to err",
+            "score": 0.638520359992981
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "gold_rank": 45,
+        "top5": [
+          {
+            "page": "show",
+            "start": 896,
+            "text": "to either another format name, or a format: string, as described below (see git-config(1) ). Here are the details of the built-in formats: oneline <hash> <title-line> This is designed to be as compact as possible. short commit <hash> Author: <author> <title-line> medium commit <hash> Author: <author> Date: <author-date> <title-line> <full-commit-message> full commit <hash> Author: <author> Commit: <committer> <title-line> <full-commit-message> fuller commit <hash> Author: <author> AuthorDate: <author-date> Commit: <committer> CommitDate: <committer-date> <title-line> <full-commit-message> reference <abbrev-hash> ( <title-line> , <short-author-date> ) This format is used to refer to another commit in a commit message and is the same as --pretty= 'format:%C( auto ) %h ( %s, %ad )'. By default, the date is formatted with --date=short unless another --date option is explicitly specified. As with any format: with format placeholders, its output is not affected by other options like --decorate and --walk-reflogs . email From <hash> <date> From: <author> Date: <author-date> Subject: [ PATCH ] <title-line> <full-commit-message> mboxrd Like email , but lines in the commit message starting with \"From \" (preceded by zero or more \">\") are quoted with \">\" so they aren’t confused as starting a new commit. raw The raw format shows the entire commit exactly as stored in the commit object. Notably, the hashes are displayed in full, regardless of whether --abbrev or --no-abbrev are used, and parents information show the true parent commits, without taking grafts or history simplification into account. Note that this format affects the",
+            "score": 0.6218241453170776
+          },
+          {
+            "page": "log",
+            "start": 7392,
+            "text": "line is inserted before the Author: line. This line begins with \"Merge: \" and the hashes of ancestral commits are printed, separated by spaces. Note that the listed commits may not necessarily be the list of the direct parent commits if you have limited your view of history: for example, if you are only interested in changes related to a certain directory or file. There are several built-in formats, and you can define additional formats by setting a pretty.<name> config option to either another format name, or a format: string, as described below (see git-config(1) ). Here are the details of the built-in formats: oneline <hash> <title-line> This is designed to be as compact as possible. short commit <hash> Author: <author> <title-line> medium commit <hash> Author: <author> Date: <author-date> <title-line> <full-commit-message> full commit <hash> Author: <author> Commit: <committer> <title-line> <full-commit-message> fuller commit <hash> Author: <author> AuthorDate: <author-date> Commit: <committer> CommitDate: <committer-date> <title-line> <full-commit-message> reference <abbrev-hash> ( <title-line> , <short-author-date> ) This format is used to refer to another commit in a commit message and is the same as --pretty= 'format:%C( auto ) %h ( %s, %ad )'. By default, the date is formatted with --date=short unless another --date option is explicitly specified. As with any format: with format placeholders, its output is not affected by other options like --decorate and --walk-reflogs . email From <hash> <date> From: <author> Date: <author-date> Subject: [ PATCH ] <title-line> <full-commit-message> mboxrd Like email ,",
+            "score": 0.6207462549209595
+          },
+          {
+            "page": "commit",
+            "start": 3136,
+            "text": "refuses to run when given pathnames (but see -i option). COMMIT INFORMATION Author and committer information is taken from the following environment variables, if set: GIT_AUTHOR_NAME GIT_AUTHOR_EMAIL GIT_AUTHOR_DATE GIT_COMMITTER_NAME GIT_COMMITTER_EMAIL GIT_COMMITTER_DATE (nb \"<\", \">\" and \"\\n\"s are stripped) The author and committer names are by convention some form of a personal name (that is, the name by which other humans refer to you), although Git does not enforce or require any particular form. Arbitrary Unicode may be used, subject to the constraints listed above. This name has no effect on authentication; for that, see the credential.username variable in git-config(1) . In case (some of) these environment variables are not set, the information is taken from the configuration items user.name and user.email , or, if not present, the environment variable EMAIL , or, if that is not set, system user name and the hostname used for outgoing mail (taken from /etc/mailname and falling back to the fully qualified hostname when that file does not exist). The author.name and committer.name and their corresponding email options override user.name and user.email if set and are overridden themselves by the environment variables. The typical usage is to set just the user.name and user.email variables; the other options are provided for more complex use cases. DATE FORMATS The GIT_AUTHOR_DATE and GIT_COMMITTER_DATE environment variables support the following date formats: Git internal format It is <unix-timestamp> <time-zone-offset> , where <unix-timestamp> is the number of seconds since the UNIX",
+            "score": 0.5881342887878418
+          },
+          {
+            "page": "log",
+            "start": 6720,
+            "text": "the time, in YYYY-MM-DD format. --date=raw shows the date as seconds since the epoch (1970-01-01 00:00:00 UTC), followed by a space, and then the timezone as an offset from UTC (a + or - with four digits; the first two are hours, and the second two are minutes). I.e., as if the timestamp were formatted with strftime (\"%s %z \")). Note that the -local option does not affect the seconds-since-epoch value (which is always measured in UTC), but does switch the accompanying timezone value. --date=human shows the timezone if the timezone does not match the current time-zone, and doesn’t print the whole date if that matches (ie skip printing year for dates that are \"this year\", but also skip the whole date itself if it’s in the last few days and we can just say what weekday it was). For older dates the hour and minute is also omitted. --date=unix shows the date as a Unix epoch timestamp (seconds since 1970). As with --raw , this is always in UTC and therefore -local has no effect. --date=format: <format> feeds the <format> to your system strftime , except for %s , %z , and %Z , which are handled internally. Use --date=format:%c to show the date in your system locale’s preferred format. See the strftime (3) manual for a complete list of format placeholders. When using -local , the correct syntax is --date=format-local: <format> . --date=default is the default format, and",
+            "score": 0.5759786367416382
+          },
+          {
+            "page": "log",
+            "start": 8288,
+            "text": "<n> ), % <|( <m> ) respectively, but padding both sides (i.e. the text is centered) Placeholders that expand to information extracted from the commit: %H commit hash %h abbreviated commit hash %T tree hash %t abbreviated tree hash %P parent hashes %p abbreviated parent hashes %an author name %aN author name (respecting .mailmap, see git-shortlog(1) or git-blame(1) ) %ae author email %aE author email (respecting .mailmap, see git-shortlog(1) or git-blame(1) ) %al author email local-part (the part before the @ sign) %aL author local-part (see %al ) respecting .mailmap, see git-shortlog(1) or git-blame(1) ) %ad author date (format respects --date= option) %aD author date, RFC2822 style %ar author date, relative %at author date, UNIX timestamp %ai author date, ISO 8601-like format %aI author date, strict ISO 8601 format %as author date, short format ( YYYY-MM-DD ) %ah author date, human style (like the --date=human option of git-rev-list(1) ) %cn committer name %cN committer name (respecting .mailmap, see git-shortlog(1) or git-blame(1) ) %ce committer email %cE committer email (respecting .mailmap, see git-shortlog(1) or git-blame(1) ) %cl committer email local-part (the part before the @ sign) %cL committer local-part (see %cl ) respecting .mailmap, see git-shortlog(1) or git-blame(1) ) %cd committer date (format respects --date= option) %cD committer date, RFC2822 style %cr committer date, relative %ct committer date, UNIX timestamp %ci committer date, ISO 8601-like format %cI committer date, strict ISO 8601 format %cs committer date, short format ( YYYY-MM-DD )",
+            "score": 0.5725147724151611
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "gold_rank": 19,
+        "top5": [
+          {
+            "page": "fetch",
+            "start": 4480,
+            "text": "say what remote-tracking branch to update with it from the command line\"), and the example command will fetch only the master branch. The remote. <repository> .fetch values determine which remote-tracking branch, if any, is updated. When used in this way, the remote. <repository> .fetch values do not have any effect in deciding what gets fetched (i.e. the values are not used as refspecs when the command-line lists refspecs); they are only used to decide where the refs that are fetched are stored by acting as a mapping. The latter use of the remote. <repository> .fetch values can be overridden by giving the --refmap= <refspec> parameter(s) on the command line. PRUNING Git has a default disposition of keeping data unless it’s explicitly thrown away; this extends to holding onto local references to branches on remotes that have themselves deleted those branches. If left to accumulate, these stale references might make performance worse on big and busy repos that have a lot of branch churn, and e.g. make the output of commands like git branch -a --contains <commit> needlessly verbose, as well as impacting anything else that’ll work with the complete set of known references. These remote-tracking references can be deleted as a one-off with either of: # While fetching $ git fetch --prune <name> # Only prune, don't fetch $ git remote prune <name> To prune references as part of your normal workflow without needing to remember to run that, set",
+            "score": 0.6089911460876465
+          },
+          {
+            "page": "fetch",
+            "start": 4704,
+            "text": "prune references as part of your normal workflow without needing to remember to run that, set fetch.prune globally, or remote. <name> .prune per-remote in the config. See git-config(1) . Here’s where things get tricky and more specific. The pruning feature doesn’t actually care about branches, instead it’ll prune local ←→ remote-references as a function of the refspec of the remote (see <refspec> and CONFIGURED REMOTE-TRACKING BRANCHES above). Therefore if the refspec for the remote includes e.g. refs/tags/*:refs/tags/* , or you manually run e.g. git fetch --prune <name> \"refs/tags/*:refs/tags/*\" it won’t be stale remote tracking branches that are deleted, but any local tag that doesn’t exist on the remote. This might not be what you expect, i.e. you want to prune remote <name> , but also explicitly fetch tags from it, so when you fetch from it you delete all your local tags, most of which may not have come from the <name> remote in the first place. So be careful when using this with a refspec like refs/tags/*:refs/tags/* , or any other refspec which might map references from multiple remotes to the same local namespace. Since keeping up-to-date with both branches and tags on the remote is a common use-case the --prune-tags option can be supplied along with --prune to prune local tags that don’t exist on the remote, and force-update those tags that differ. Tag pruning can also be enabled with fetch.pruneTags or remote. <name> .pruneTags in the config.",
+            "score": 0.6022909283638
+          },
+          {
+            "page": "branch",
+            "start": 1120,
+            "text": "times, in which case the last key becomes the primary key. The keys supported are the same as those in git-for-each-ref(1) . Sort order defaults to the value configured for the branch.sort variable if it exists, or to sorting based on the full refname (including refs/.. . prefix). This lists detached HEAD (if present) first, then local branches and finally remote-tracking branches. See git-config(1) . -r --remotes List or delete (if used with -d ) the remote-tracking branches. Combine with --list to match the optional pattern(s). -a --all List both remote-tracking branches and local branches. Combine with --list to match optional pattern(s). -l --list List branches. With optional <pattern> ..., e.g. git branch --list 'maint-*', list only the branches that match the pattern(s). --show-current Print the name of the current branch. In detached HEAD state, nothing is printed. --delete-merged <pattern> Delete local branches whose configured upstream matches <pattern> , but only when their tip is reachable from that upstream. In other words, the work on the branch has already landed on the upstream it tracks, so the local copy is no longer needed. <pattern> may name a ref, a remote (using the branch its HEAD points at), or a shell-style glob. The option can be repeated to widen the upstream match. Optional <branch-pattern> arguments limit which local branches are considered, e.g. git branch --delete-merged 'origin/*' 'topic-*'. A branch is not deleted when: its configured upstream ref no longer exists, it",
+            "score": 0.5529509782791138
+          },
+          {
+            "page": "fetch",
+            "start": 4256,
+            "text": "upstream to the remote branch. Note Upstream branches are sometimes referred to as \"tracking information\", as in \"set the branch’s tracking information\". CONFIGURED REMOTE-TRACKING BRANCHES You often interact with the same remote repository by regularly and repeatedly fetching from it. In order to keep track of the progress of such a remote repository, git fetch allows you to configure remote. <repository> .fetch configuration variables. Typically such a variable may look like this: [remote \"origin\"] fetch = +refs/heads/*:refs/remotes/origin/* This configuration is used in two ways: When git fetch is run without specifying what branches and/or tags to fetch on the command line, e.g. git fetch origin or git fetch , remote. <repository> .fetch values are used as the refspecs—they specify which refs to fetch and which local refs to update. The example above will fetch all branches that exist in the origin (i.e. any ref that matches the left-hand side of the value, refs/heads/* ) and update the corresponding remote-tracking branches in the refs/remotes/origin/* hierarchy. When git fetch is run with explicit branches and/or tags to fetch on the command line, e.g. git fetch origin master , the <refspec>s given on the command line determine what are to be fetched (e.g. master in the example, which is a short-hand for master: , which in turn means \"fetch the master branch but I do not explicitly say what remote-tracking branch to update with it from the command line\"), and the example command",
+            "score": 0.5264571309089661
+          },
+          {
+            "page": "branch",
+            "start": 1344,
+            "text": "'origin/*' 'topic-*'. A branch is not deleted when: its configured upstream ref no longer exists, it is checked out in any worktree, pushing it to the remote configured by branch. <name> .remote would update its upstream, so it cannot be distinguished from a branch that just looks fully merged right after a pull; this is determined by the remote’s configured push and fetch refspecs, it is the local upstream of a branch that is not being deleted, or branch. <name> .deleteMerged is set to false . When such a local upstream branch has its own upstream deleted by the same operation, its upstream configuration is cleared. A branch whose work has not yet been merged into its upstream is silently skipped. Delete it with git branch -D if you want to remove it anyway. --dry-run With --delete-merged , print which branches would be deleted and exit without touching any ref. Useful for sanity-checking a wide pattern like 'origin/*' before committing to the deletion. -v -vv --verbose When in list mode, show sha1 and commit subject line for each head, along with relationship to upstream branch (if any). If given twice, print the path of the linked worktree (if any) and the name of the upstream branch, as well (see also git remote show <remote> ). Note that the current worktree’s HEAD will not have its path printed (it will always be your current directory). -q --quiet Be more quiet when",
+            "score": 0.5211693048477173
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "gold_rank": 1,
+        "top5": [
+          {
+            "page": "add",
+            "start": 896,
+            "text": "file matching <pathspec> but also where the index already has an entry. This adds, modifies, and removes index entries to match the working tree. If no <pathspec> is given when -A option is used, all files in the entire working tree are updated (old versions of Git used to limit the update to the current directory and its subdirectories). --no-all --ignore-removal Update the index by adding new files that are unknown to the index and files modified in the working tree, but ignore files that have been removed from the working tree. This option is a no-op when no <pathspec> is used. This option is primarily to help users who are used to older versions of Git, whose git add <pathspec> ... was a synonym for git add --no-all <pathspec> ..., i.e. ignored removed files. -N --intent-to-add Record only the fact that the path will be added later. An entry for the path is placed in the index with no content. This is useful for, among other things, showing the unstaged content of such files with git diff and committing them with git commit -a . --refresh Don’t add the file(s), but only refresh their stat() information in the index. --ignore-errors If some files could not be added because of errors indexing them, do not abort the operation, but continue adding the others. The command shall still exit with non-zero status. The configuration variable add.ignoreErrors can be set to true",
+            "score": 0.5823334455490112
+          },
+          {
+            "page": "add",
+            "start": 2464,
+            "text": "to introduce confusing changes to the index. There are also more complex operations that can be performed. But beware that because the patch is applied only to the index and not the working tree, the working tree will appear to \"undo\" the change in the index. For example, introducing a new line into the index that is in neither the HEAD nor the working tree will stage the new line for commit, but the line will appear to be reverted in the working tree. Avoid using these constructs, or do so with extreme caution. removing untouched content Content which does not differ between the index and working tree may be shown on context lines, beginning with a \" \" (space). You can stage context lines for removal by converting the space to a \"-\". The resulting working tree file will appear to re-add the content. modifying existing content One can also modify context lines by staging them for removal (by converting \" \" to \"-\") and adding a \"+\" line with the new content. Similarly, one can modify \"+\" lines for existing additions or modifications. In all cases, the new modification will appear reverted in the working tree. new content You may also add new content that does not exist in the patch; simply add new lines, each starting with \"+\". The addition will appear reverted in the working tree. There are also several operations which should be avoided entirely,",
+            "score": 0.5819933414459229
+          },
+          {
+            "page": "commit",
+            "start": 224,
+            "text": "the working tree and the index, again before using the commit command; by listing files as arguments to the commit command (without --interactive or --patch switch), in which case the commit will ignore changes staged in the index, and instead record the current content of the listed files (which must already be known to Git); by using the -a switch with the commit command to automatically \"add\" changes from all known files (i.e. all files that are already listed in the index) and to automatically \"rm\" files in the index that have been removed from the working tree, and then perform the actual commit; by using the --interactive or --patch switches with the commit command to decide one by one which files or hunks should be part of the commit in addition to contents in the index, before finalizing the operation. See the “Interactive Mode” section of git-add(1) to learn how to operate these modes. The --dry-run option can be used to obtain a summary of what is included by any of the above for the next commit by giving the same set of parameters (options and paths). If you make a commit and then find a mistake immediately after that, you can recover from it with git reset . OPTIONS -a --all Automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected. -p --patch Use the interactive patch",
+            "score": 0.5689197778701782
+          },
+          {
+            "page": "add",
+            "start": 224,
+            "text": "git add again to add the new content to the index. The git status command can be used to obtain a summary of which files have changes that are staged for the next commit. The git add command will not add ignored files by default. You can use the --force option to add ignored files. If you specify the exact filename of an ignored file, git add will fail with a list of ignored files. Otherwise it will silently ignore the file. Please see git-commit(1) for alternative ways to add content to a commit. OPTIONS <pathspec> ... Files to add content from. Fileglobs (e.g. *.c ) can be given to add all matching files. Also a leading directory name (e.g. dir to add dir/file1 and dir/file2 ) can be given to update the index to match the current state of the directory as a whole (e.g. specifying dir will record not just a file dir/file1 modified in the working tree, a file dir/file2 added to the working tree, but also a file dir/file3 removed from the working tree). Note that older versions of Git used to ignore removed files; use --no-all option if you want to add modified or new files but ignore removed ones. For more details about the <pathspec> syntax, see the pathspec entry in gitglossary(7) . -n --dry-run Don’t actually add the file(s), just show if they exist and/or will be ignored. -v --verbose Be verbose. -f",
+            "score": 0.5631046295166016
+          },
+          {
+            "page": "checkout",
+            "start": 1344,
+            "text": "the \"DETACHED HEAD\" section below for details. --orphan <new-branch> Create a new unborn branch, named <new-branch> , started from <start-point> and switch to it. The first commit made on this new branch will have no parents and it will be the root of a new history totally disconnected from all the other branches and commits. The index and the working tree are adjusted as if you had previously run git checkout <start-point> . This allows you to start a new history that records a set of paths similar to <start-point> by easily running git commit -a to make the root commit. This can be useful when you want to publish the tree from a commit without exposing its full history. You might want to do this to publish an open source branch of a project whose current tree is \"clean\", but whose full history contains proprietary or otherwise encumbered bits of code. If you want to start a disconnected history that records a set of paths that is totally different from the one of <start-point> , then you should clear the index and the working tree right after creating the orphan branch by running git rm -rf . from the top level of the working tree. Afterwards you will be ready to prepare your new files, repopulating the working tree, by copying them from elsewhere, extracting a tarball, etc. --ignore-skip-worktree-bits In sparse checkout mode, git checkout -- <path> ... would",
+            "score": 0.5357367992401123
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "gold_rank": 160,
+        "top5": [
+          {
+            "page": "rebase",
+            "start": 5824,
+            "text": "will not look at them but at the commit names (\"deadbee\" and \"fa1afe1\" in this example), so do not delete or edit the names. By replacing the command \"pick\" with the command \"edit\", you can tell git rebase to stop after applying that commit, so that you can edit the files and/or the commit message, amend the commit, and continue rebasing. To interrupt the rebase (just like an \"edit\" command would do, but without cherry-picking any commit first), use the \"break\" command. If you just want to edit the commit message for a commit, replace the command \"pick\" with the command \"reword\". To drop a commit, replace the command \"pick\" with \"drop\", or just delete the matching line. If you want to fold two or more commits into one, replace the command \"pick\" for the second and subsequent commits with \"squash\" or \"fixup\". If the commits had different authors, the folded commit will be attributed to the author of the first commit. The suggested commit message for the folded commit is the concatenation of the first commit’s message with those identified by \"squash\" commands, omitting the messages of commits identified by \"fixup\" commands, unless \"fixup -c\" is used. In that case the suggested commit message is only the message of the \"fixup -c\" commit, and an editor is opened allowing you to edit the message. The contents (patch) of the \"fixup -c\" commit are still incorporated into the folded commit.",
+            "score": 0.5214730501174927
+          },
+          {
+            "page": "commit",
+            "start": 1792,
+            "text": "message taken from <file> with -F <file> , command line with -m <message> , and from <commit> with -C <commit> . --no-edit Use the selected commit message without launching an editor. For example, git commit --amend --no-edit amends a commit without changing its commit message. --amend Replace the tip of the current branch by creating a new commit. The recorded tree is prepared as usual (including the effect of the -i and -o options and explicit pathspec), and the message from the original commit is used as the starting point, instead of an empty message, when no other message is specified from the command line via options such as -m , -F , -c , etc. The new commit has the same parents and author as the current one (the --reset-author option can countermand this). It is a rough equivalent for: $ git reset --soft HEAD^ $ ... do something else to come up with the right tree ... $ git commit -c ORIG_HEAD but can be used to amend a merge commit. You should understand the implications of rewriting history if you amend a commit that has already been published. (See the \"RECOVERING FROM UPSTREAM REBASE\" section in git-rebase(1) .) --no-post-rewrite Bypass the post-rewrite hook. -i --include Before making a commit out of staged contents so far, stage the contents of paths given on the command line as well. This is usually not what you want unless you are",
+            "score": 0.5206485390663147
+          },
+          {
+            "page": "push",
+            "start": 4928,
+            "text": "source is a tree or blob object, any updates will be rejected If the source is a tag or commit object, any fast-forward update is allowed, even in cases where what’s being fast-forwarded is not a commit, but a tag object which happens to point to a new commit which is a fast-forward of the commit the last tag (or commit) it’s replacing. Replacing a tag with an entirely different tag is also allowed, if it points to the same commit, as well as pushing a peeled tag, i.e. pushing the commit that existing tag object points to, or a new tag object which an existing commit points to. You can override these rules by passing --force or by adding the optional leading + to a refspec. The only exceptions are that no amount of forcing will make a branch accept a non-commit object, and forcing won’t make the remote repository accept a push that it’s configured to deny. Hooks and configuration can also override or amend these rules, see e.g. receive.denyNonFastForwards and receive.denyDeletes in git-config(1) and pre-receive and update in githooks(5) . NOTE ABOUT FAST-FORWARDS When an update changes a branch (or more in general, a ref) that used to point at commit A to point at another commit B, it is called a fast-forward update if and only if B is a descendant of A. In a fast-forward update from A to B, the set of commits that",
+            "score": 0.5193107724189758
+          },
+          {
+            "page": "tag",
+            "start": 1568,
+            "text": "different \"X\"'s. So just call it \"X.1\" and be done with it. The insane thing. You really want to call the new version \"X\" too, even though others have already seen the old one. So just use git tag -f again, as if you hadn’t already published the old one. However, Git does not (and it should not) change tags behind users back. So if somebody already got the old tag, doing a git pull on your tree shouldn’t just make them overwrite the old one. If somebody got a release tag from you, you cannot just change the tag for them by updating your own one. This is a big security issue, in that people MUST be able to trust their tag-names. If you really want to do the insane thing, you need to just fess up to it, and tell people that you messed up. You can do that by making a very public announcement saying: Ok, I messed up, and I pushed out an earlier version tagged as X. I then fixed something, and retagged the *fixed* tree as X again. If you got the wrong tag, and want the new one, please delete the old one and fetch the new one by doing: git tag -d X git fetch origin tag X to get my updated tag. You can test which tag you have by doing git rev-parse X which should return 0123456789abcdef.. if you have",
+            "score": 0.5130828619003296
+          },
+          {
+            "page": "reset",
+            "start": 2016,
+            "text": "(1) $ edit $ git switch -c branch2 (2) $ git reset --keep start (3) This commits your first edits in branch1 . In the ideal world, you could have realized that the earlier commit did not belong to the new topic when you created and switched to branch2 (i.e. git switch -c branch2 start ), but nobody is perfect. But you can use reset --keep to remove the unwanted commit after you switched to branch2 . Split a commit apart into a sequence of commits Suppose that you have created lots of logically separate changes and committed them together. Then, later you decide that it might be better to have each logical chunk associated with its own commit. You can use git reset to rewind history without changing the contents of your local files, and then successively use git add -p to interactively select which hunks to include into each commit, using git commit -c to pre-populate the commit message. $ git reset -N HEAD^ (1) $ git add -p (2) $ git diff --cached (3) $ git commit -c HEAD@{1} (4) ... (5) $ git add ... (6) $ git diff --cached (7) $ git commit ... (8) First, reset the history back one commit so that we remove the original commit, but leave the working tree with all the changes. The -N ensures that any new files added with HEAD are still marked so that git add",
+            "score": 0.4786176085472107
+          }
+        ]
+      }
+    ]
+  }
+}

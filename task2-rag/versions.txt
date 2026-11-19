@@ -1,0 +1,8 @@
+Recorded environment
+Python 3.14.6
+NumPy 2.5.1
+PyTorch 2.15.0+cpu
+Transformers 5.23.0
+Beautiful Soup 4.15.0 (optional corpus preparation)
+Git for Windows 2.56.0.windows.4
+Generator Qwen/Qwen2.5-0.5B-Instruct @ 7ae557604adf67be50417f59c2c2f167def9a775
