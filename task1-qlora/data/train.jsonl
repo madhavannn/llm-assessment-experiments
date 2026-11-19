@@ -1,0 +1,1000 @@
+{"input": "Book presentation practice on Monday at 14:00. This is urgent.", "output": {"action": "schedule", "task": "presentation practice", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Remove presentation practice from my schedule today at 10:00. This is urgent.", "output": {"action": "cancel", "task": "presentation practice", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Mark website update as completed at 10:00. Low priority.", "output": {"action": "complete", "task": "website update", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Remove grocery shopping from my schedule at 09:00. This is urgent.", "output": {"action": "cancel", "task": "grocery shopping", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Create a reminder for weekly report at 17:00. Low priority.", "output": {"action": "remind", "task": "weekly report", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Create a reminder for birthday planning today at 14:00. This is urgent.", "output": {"action": "remind", "task": "birthday planning", "date": "today", "time": "14:00", "priority": "high"}}
+{"input": "Create a task for language lesson today at 17:00. This is urgent.", "output": {"action": "create", "task": "language lesson", "date": "today", "time": "17:00", "priority": "high"}}
+{"input": "Set a reminder for flight booking today at 17:00. Low priority.", "output": {"action": "remind", "task": "flight booking", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Cancel gym session on Tuesday at 14:00. This is urgent.", "output": {"action": "cancel", "task": "gym session", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Mark email follow-up as completed tomorrow at 11:30. This is urgent.", "output": {"action": "complete", "task": "email follow-up", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Arrange grocery shopping on Friday. Low priority.", "output": {"action": "schedule", "task": "grocery shopping", "date": "Friday", "time": null, "priority": "low"}}
+{"input": "Remove dentist appointment from my schedule on Friday at 09:00. Low priority.", "output": {"action": "cancel", "task": "dentist appointment", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Remind me about library visit on Tuesday.", "output": {"action": "remind", "task": "library visit", "date": "Tuesday", "time": null, "priority": "normal"}}
+{"input": "Cancel grocery shopping on Tuesday at 17:00.", "output": {"action": "cancel", "task": "grocery shopping", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Make a new task for website update today at 17:00.", "output": {"action": "create", "task": "website update", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Create a reminder for car service tomorrow at 11:30. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Schedule presentation practice at 14:00. Low priority.", "output": {"action": "schedule", "task": "presentation practice", "date": null, "time": "14:00", "priority": "low"}}
+{"input": "Remove coding assignment from my schedule tomorrow.", "output": {"action": "cancel", "task": "coding assignment", "date": "tomorrow", "time": null, "priority": "normal"}}
+{"input": "Add software installation to my to-do list today at 17:00.", "output": {"action": "create", "task": "software installation", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Remove presentation practice from my schedule on Tuesday at 17:00. Low priority.", "output": {"action": "cancel", "task": "presentation practice", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Set the status of software installation to finished today at 11:30. Low priority.", "output": {"action": "complete", "task": "software installation", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Add email follow-up to my to-do list tomorrow.", "output": {"action": "create", "task": "email follow-up", "date": "tomorrow", "time": null, "priority": "normal"}}
+{"input": "Remove laundry from my schedule on Friday at 10:00.", "output": {"action": "cancel", "task": "laundry", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Mark gym session as done.", "output": {"action": "complete", "task": "gym session", "date": null, "time": null, "priority": "normal"}}
+{"input": "Cancel weekly report tomorrow. Low priority.", "output": {"action": "cancel", "task": "weekly report", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Create a task for email follow-up today at 09:00. This is urgent.", "output": {"action": "create", "task": "email follow-up", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Create a reminder for car service at 14:00. This is urgent.", "output": {"action": "remind", "task": "car service", "date": null, "time": "14:00", "priority": "high"}}
+{"input": "Create a reminder for birthday planning at 10:00. This is urgent.", "output": {"action": "remind", "task": "birthday planning", "date": null, "time": "10:00", "priority": "high"}}
+{"input": "Mark budget review as done on Monday.", "output": {"action": "complete", "task": "budget review", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Mark email follow-up as completed on Friday at 17:00. This is urgent.", "output": {"action": "complete", "task": "email follow-up", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Cancel garden maintenance at 09:00. Low priority.", "output": {"action": "cancel", "task": "garden maintenance", "date": null, "time": "09:00", "priority": "low"}}
+{"input": "Set a reminder for flight booking tomorrow at 09:00.", "output": {"action": "remind", "task": "flight booking", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Schedule website update at 11:30. Low priority.", "output": {"action": "schedule", "task": "website update", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Mark team meeting as completed on Friday at 09:00. This is urgent.", "output": {"action": "complete", "task": "team meeting", "date": "Friday", "time": "09:00", "priority": "high"}}
+{"input": "Add grocery shopping to my to-do list tomorrow at 10:00.", "output": {"action": "create", "task": "grocery shopping", "date": "tomorrow", "time": "10:00", "priority": "normal"}}
+{"input": "Create a reminder for dentist appointment on Monday at 14:00.", "output": {"action": "remind", "task": "dentist appointment", "date": "Monday", "time": "14:00", "priority": "normal"}}
+{"input": "Remove language lesson from my schedule today at 11:30.", "output": {"action": "cancel", "task": "language lesson", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Make a new task for grocery shopping today at 17:00.", "output": {"action": "create", "task": "grocery shopping", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Create a reminder for job interview at 09:00. This is urgent.", "output": {"action": "remind", "task": "job interview", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Create a reminder for email follow-up on Friday at 14:00. Low priority.", "output": {"action": "remind", "task": "email follow-up", "date": "Friday", "time": "14:00", "priority": "low"}}
+{"input": "Create a task for laundry on Tuesday at 14:00. Low priority.", "output": {"action": "create", "task": "laundry", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "Remind me about weekly report today at 14:00. This is urgent.", "output": {"action": "remind", "task": "weekly report", "date": "today", "time": "14:00", "priority": "high"}}
+{"input": "Cancel grocery shopping today at 10:00. This is urgent.", "output": {"action": "cancel", "task": "grocery shopping", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Remind me about project review on Tuesday at 09:00. This is urgent.", "output": {"action": "remind", "task": "project review", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Set the status of dentist appointment to finished on Friday at 17:00. This is urgent.", "output": {"action": "complete", "task": "dentist appointment", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Cancel dentist appointment at 14:00.", "output": {"action": "cancel", "task": "dentist appointment", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Set the status of laundry to finished at 17:00. Low priority.", "output": {"action": "complete", "task": "laundry", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Set the status of weekly report to finished tomorrow at 14:00. This is urgent.", "output": {"action": "complete", "task": "weekly report", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Add laundry to my to-do list on Monday at 10:00.", "output": {"action": "create", "task": "laundry", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Arrange language lesson on Monday at 17:00. Low priority.", "output": {"action": "schedule", "task": "language lesson", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Mark software installation as done on Friday at 11:30.", "output": {"action": "complete", "task": "software installation", "date": "Friday", "time": "11:30", "priority": "normal"}}
+{"input": "Book library visit tomorrow at 10:00. This is urgent.", "output": {"action": "schedule", "task": "library visit", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Set the status of flight booking to finished on Tuesday at 17:00. This is urgent.", "output": {"action": "complete", "task": "flight booking", "date": "Tuesday", "time": "17:00", "priority": "high"}}
+{"input": "Book project review tomorrow at 11:30.", "output": {"action": "schedule", "task": "project review", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Create a reminder for language lesson on Monday at 17:00.", "output": {"action": "remind", "task": "language lesson", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Mark team meeting as done tomorrow at 14:00.", "output": {"action": "complete", "task": "team meeting", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Book flight booking at 17:00.", "output": {"action": "schedule", "task": "flight booking", "date": null, "time": "17:00", "priority": "normal"}}
+{"input": "Remind me about language lesson on Friday at 10:00. Low priority.", "output": {"action": "remind", "task": "language lesson", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Remove team meeting from my schedule at 09:00. This is urgent.", "output": {"action": "cancel", "task": "team meeting", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Cancel flight booking today at 10:00.", "output": {"action": "cancel", "task": "flight booking", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Cancel team meeting tomorrow at 14:00.", "output": {"action": "cancel", "task": "team meeting", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Make a new task for birthday planning on Monday at 11:30. This is urgent.", "output": {"action": "create", "task": "birthday planning", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Cancel website update tomorrow at 11:30. This is urgent.", "output": {"action": "cancel", "task": "website update", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Schedule grocery shopping today at 10:00.", "output": {"action": "schedule", "task": "grocery shopping", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Remove car service from my schedule on Friday. This is urgent.", "output": {"action": "cancel", "task": "car service", "date": "Friday", "time": null, "priority": "high"}}
+{"input": "Make a new task for presentation practice tomorrow at 17:00.", "output": {"action": "create", "task": "presentation practice", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Make a new task for presentation practice on Tuesday at 10:00. This is urgent.", "output": {"action": "create", "task": "presentation practice", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Cancel budget review tomorrow at 11:30.", "output": {"action": "cancel", "task": "budget review", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Make a new task for garden maintenance on Friday.", "output": {"action": "create", "task": "garden maintenance", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Cancel dentist appointment tomorrow. This is urgent.", "output": {"action": "cancel", "task": "dentist appointment", "date": "tomorrow", "time": null, "priority": "high"}}
+{"input": "Make a new task for laundry on Monday at 17:00.", "output": {"action": "create", "task": "laundry", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Mark job interview as done on Tuesday at 09:00. Low priority.", "output": {"action": "complete", "task": "job interview", "date": "Tuesday", "time": "09:00", "priority": "low"}}
+{"input": "Schedule grocery shopping on Monday. This is urgent.", "output": {"action": "schedule", "task": "grocery shopping", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Create a task for budget review tomorrow at 17:00. This is urgent.", "output": {"action": "create", "task": "budget review", "date": "tomorrow", "time": "17:00", "priority": "high"}}
+{"input": "Set a reminder for garden maintenance on Friday at 10:00.", "output": {"action": "remind", "task": "garden maintenance", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Mark grocery shopping as completed on Friday.", "output": {"action": "complete", "task": "grocery shopping", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Add laundry to my to-do list on Monday. This is urgent.", "output": {"action": "create", "task": "laundry", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Create a task for job interview on Monday at 14:00. This is urgent.", "output": {"action": "create", "task": "job interview", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Add library visit to my to-do list on Monday at 11:30.", "output": {"action": "create", "task": "library visit", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Arrange language lesson tomorrow at 10:00.", "output": {"action": "schedule", "task": "language lesson", "date": "tomorrow", "time": "10:00", "priority": "normal"}}
+{"input": "Remove grocery shopping from my schedule at 10:00. Low priority.", "output": {"action": "cancel", "task": "grocery shopping", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Set the status of car service to finished on Tuesday at 14:00.", "output": {"action": "complete", "task": "car service", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Arrange project review tomorrow at 14:00.", "output": {"action": "schedule", "task": "project review", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Arrange gym session tomorrow at 17:00. This is urgent.", "output": {"action": "schedule", "task": "gym session", "date": "tomorrow", "time": "17:00", "priority": "high"}}
+{"input": "Mark presentation practice as completed on Friday at 11:30. This is urgent.", "output": {"action": "complete", "task": "presentation practice", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Arrange car service on Tuesday at 11:30. This is urgent.", "output": {"action": "schedule", "task": "car service", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Book software installation on Monday at 09:00. This is urgent.", "output": {"action": "schedule", "task": "software installation", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Delete the task for job interview today at 14:00. Low priority.", "output": {"action": "cancel", "task": "job interview", "date": "today", "time": "14:00", "priority": "low"}}
+{"input": "Add software installation to my to-do list on Tuesday at 09:00. This is urgent.", "output": {"action": "create", "task": "software installation", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Mark gym session as completed on Friday at 09:00. Low priority.", "output": {"action": "complete", "task": "gym session", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Remind me about budget review tomorrow at 10:00. Low priority.", "output": {"action": "remind", "task": "budget review", "date": "tomorrow", "time": "10:00", "priority": "low"}}
+{"input": "Mark car service as done at 10:00. Low priority.", "output": {"action": "complete", "task": "car service", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Add car service to my to-do list on Monday at 10:00.", "output": {"action": "create", "task": "car service", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Remove grocery shopping from my schedule on Tuesday at 10:00.", "output": {"action": "cancel", "task": "grocery shopping", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Remind me about garden maintenance on Tuesday.", "output": {"action": "remind", "task": "garden maintenance", "date": "Tuesday", "time": null, "priority": "normal"}}
+{"input": "Remove team meeting from my schedule on Friday at 10:00. Low priority.", "output": {"action": "cancel", "task": "team meeting", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Make a new task for team meeting on Monday at 11:30. This is urgent.", "output": {"action": "create", "task": "team meeting", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Create a task for job interview on Monday at 09:00. Low priority.", "output": {"action": "create", "task": "job interview", "date": "Monday", "time": "09:00", "priority": "low"}}
+{"input": "Remove flight booking from my schedule today at 11:30. Low priority.", "output": {"action": "cancel", "task": "flight booking", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for website update today at 10:00.", "output": {"action": "create", "task": "website update", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Book presentation practice on Monday at 10:00.", "output": {"action": "schedule", "task": "presentation practice", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Remind me about weekly report today at 17:00. Low priority.", "output": {"action": "remind", "task": "weekly report", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Remind me about email follow-up tomorrow at 14:00. Low priority.", "output": {"action": "remind", "task": "email follow-up", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Set the status of email follow-up to finished on Friday at 09:00. Low priority.", "output": {"action": "complete", "task": "email follow-up", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Mark garden maintenance as completed tomorrow at 14:00. Low priority.", "output": {"action": "complete", "task": "garden maintenance", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Mark birthday planning as completed today at 14:00.", "output": {"action": "complete", "task": "birthday planning", "date": "today", "time": "14:00", "priority": "normal"}}
+{"input": "Cancel email follow-up on Friday at 17:00. Low priority.", "output": {"action": "cancel", "task": "email follow-up", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "Make a new task for garden maintenance on Friday at 14:00. Low priority.", "output": {"action": "create", "task": "garden maintenance", "date": "Friday", "time": "14:00", "priority": "low"}}
+{"input": "Add project review to my to-do list on Friday at 17:00. This is urgent.", "output": {"action": "create", "task": "project review", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Schedule flight booking at 09:00.", "output": {"action": "schedule", "task": "flight booking", "date": null, "time": "09:00", "priority": "normal"}}
+{"input": "Delete the task for website update on Tuesday at 14:00.", "output": {"action": "cancel", "task": "website update", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Add coding assignment to my to-do list tomorrow at 10:00. This is urgent.", "output": {"action": "create", "task": "coding assignment", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Mark laundry as completed on Tuesday at 14:00. Low priority.", "output": {"action": "complete", "task": "laundry", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "Create a task for software installation on Monday at 11:30.", "output": {"action": "create", "task": "software installation", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Add email follow-up to my to-do list at 11:30. This is urgent.", "output": {"action": "create", "task": "email follow-up", "date": null, "time": "11:30", "priority": "high"}}
+{"input": "Set a reminder for birthday planning on Friday at 17:00. This is urgent.", "output": {"action": "remind", "task": "birthday planning", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Book garden maintenance on Monday at 10:00.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Delete the task for garden maintenance at 14:00. This is urgent.", "output": {"action": "cancel", "task": "garden maintenance", "date": null, "time": "14:00", "priority": "high"}}
+{"input": "Make a new task for birthday planning at 11:30. Low priority.", "output": {"action": "create", "task": "birthday planning", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for library visit on Monday at 11:30. Low priority.", "output": {"action": "create", "task": "library visit", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Mark library visit as done on Friday. This is urgent.", "output": {"action": "complete", "task": "library visit", "date": "Friday", "time": null, "priority": "high"}}
+{"input": "Remove presentation practice from my schedule at 11:30. This is urgent.", "output": {"action": "cancel", "task": "presentation practice", "date": null, "time": "11:30", "priority": "high"}}
+{"input": "Remove presentation practice from my schedule on Friday at 17:00. This is urgent.", "output": {"action": "cancel", "task": "presentation practice", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Mark software installation as completed tomorrow. Low priority.", "output": {"action": "complete", "task": "software installation", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Cancel dentist appointment today at 09:00. This is urgent.", "output": {"action": "cancel", "task": "dentist appointment", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Schedule website update tomorrow at 11:30.", "output": {"action": "schedule", "task": "website update", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Create a reminder for email follow-up on Tuesday at 11:30. This is urgent.", "output": {"action": "remind", "task": "email follow-up", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Book flight booking today at 09:00. Low priority.", "output": {"action": "schedule", "task": "flight booking", "date": "today", "time": "09:00", "priority": "low"}}
+{"input": "Cancel software installation today at 09:00.", "output": {"action": "cancel", "task": "software installation", "date": "today", "time": "09:00", "priority": "normal"}}
+{"input": "Set a reminder for job interview on Monday at 11:30. Low priority.", "output": {"action": "remind", "task": "job interview", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Set a reminder for gym session tomorrow at 14:00.", "output": {"action": "remind", "task": "gym session", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Delete the task for car service on Tuesday at 10:00. This is urgent.", "output": {"action": "cancel", "task": "car service", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Add gym session to my to-do list on Monday at 10:00. Low priority.", "output": {"action": "create", "task": "gym session", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "Mark laundry as done on Tuesday at 10:00.", "output": {"action": "complete", "task": "laundry", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Set the status of gym session to finished tomorrow at 10:00. Low priority.", "output": {"action": "complete", "task": "gym session", "date": "tomorrow", "time": "10:00", "priority": "low"}}
+{"input": "Arrange laundry tomorrow. Low priority.", "output": {"action": "schedule", "task": "laundry", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Remind me about project review on Tuesday at 17:00.", "output": {"action": "remind", "task": "project review", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Remind me about car service on Tuesday at 17:00. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "Tuesday", "time": "17:00", "priority": "high"}}
+{"input": "Create a reminder for software installation today at 14:00. This is urgent.", "output": {"action": "remind", "task": "software installation", "date": "today", "time": "14:00", "priority": "high"}}
+{"input": "Remove software installation from my schedule at 14:00.", "output": {"action": "cancel", "task": "software installation", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Delete the task for car service on Friday at 17:00. This is urgent.", "output": {"action": "cancel", "task": "car service", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Arrange project review tomorrow at 10:00. This is urgent.", "output": {"action": "schedule", "task": "project review", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Add weekly report to my to-do list on Friday at 09:00. Low priority.", "output": {"action": "create", "task": "weekly report", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Schedule weekly report tomorrow. Low priority.", "output": {"action": "schedule", "task": "weekly report", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Add project review to my to-do list tomorrow at 11:30.", "output": {"action": "create", "task": "project review", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Delete the task for job interview at 11:30. Low priority.", "output": {"action": "cancel", "task": "job interview", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Add coding assignment to my to-do list on Tuesday at 11:30.", "output": {"action": "create", "task": "coding assignment", "date": "Tuesday", "time": "11:30", "priority": "normal"}}
+{"input": "Remove language lesson from my schedule today at 11:30. This is urgent.", "output": {"action": "cancel", "task": "language lesson", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Create a task for budget review on Monday at 11:30.", "output": {"action": "create", "task": "budget review", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Add presentation practice to my to-do list today at 10:00.", "output": {"action": "create", "task": "presentation practice", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Remove garden maintenance from my schedule today. This is urgent.", "output": {"action": "cancel", "task": "garden maintenance", "date": "today", "time": null, "priority": "high"}}
+{"input": "Set a reminder for website update on Monday at 17:00. This is urgent.", "output": {"action": "remind", "task": "website update", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Cancel coding assignment on Friday at 10:00. This is urgent.", "output": {"action": "cancel", "task": "coding assignment", "date": "Friday", "time": "10:00", "priority": "high"}}
+{"input": "Mark website update as completed on Monday at 10:00.", "output": {"action": "complete", "task": "website update", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Mark coding assignment as completed on Tuesday at 11:30. This is urgent.", "output": {"action": "complete", "task": "coding assignment", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Make a new task for gym session on Friday at 11:30. Low priority.", "output": {"action": "create", "task": "gym session", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Set a reminder for dentist appointment on Friday.", "output": {"action": "remind", "task": "dentist appointment", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Set a reminder for birthday planning on Friday at 09:00. Low priority.", "output": {"action": "remind", "task": "birthday planning", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Schedule garden maintenance on Friday at 11:30. This is urgent.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Remind me about weekly report at 09:00.", "output": {"action": "remind", "task": "weekly report", "date": null, "time": "09:00", "priority": "normal"}}
+{"input": "Set the status of email follow-up to finished tomorrow at 10:00.", "output": {"action": "complete", "task": "email follow-up", "date": "tomorrow", "time": "10:00", "priority": "normal"}}
+{"input": "Create a task for coding assignment on Monday at 09:00.", "output": {"action": "create", "task": "coding assignment", "date": "Monday", "time": "09:00", "priority": "normal"}}
+{"input": "Add flight booking to my to-do list on Tuesday at 17:00.", "output": {"action": "create", "task": "flight booking", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Mark car service as done today at 09:00. This is urgent.", "output": {"action": "complete", "task": "car service", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Set the status of grocery shopping to finished on Monday at 11:30.", "output": {"action": "complete", "task": "grocery shopping", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Remind me about presentation practice on Friday at 10:00.", "output": {"action": "remind", "task": "presentation practice", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Remove job interview from my schedule at 11:30. This is urgent.", "output": {"action": "cancel", "task": "job interview", "date": null, "time": "11:30", "priority": "high"}}
+{"input": "Delete the task for dentist appointment on Tuesday at 10:00.", "output": {"action": "cancel", "task": "dentist appointment", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Mark library visit as completed on Monday at 11:30. Low priority.", "output": {"action": "complete", "task": "library visit", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Set a reminder for weekly report on Tuesday at 10:00. This is urgent.", "output": {"action": "remind", "task": "weekly report", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Delete the task for job interview tomorrow. This is urgent.", "output": {"action": "cancel", "task": "job interview", "date": "tomorrow", "time": null, "priority": "high"}}
+{"input": "Delete the task for grocery shopping tomorrow at 09:00. This is urgent.", "output": {"action": "cancel", "task": "grocery shopping", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Remove birthday planning from my schedule tomorrow at 11:30.", "output": {"action": "cancel", "task": "birthday planning", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Book car service on Monday at 11:30. Low priority.", "output": {"action": "schedule", "task": "car service", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Arrange laundry today at 11:30. Low priority.", "output": {"action": "schedule", "task": "laundry", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Remind me about gym session today at 09:00. Low priority.", "output": {"action": "remind", "task": "gym session", "date": "today", "time": "09:00", "priority": "low"}}
+{"input": "Mark car service as completed at 11:30.", "output": {"action": "complete", "task": "car service", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Book project review tomorrow at 14:00. Low priority.", "output": {"action": "schedule", "task": "project review", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Mark email follow-up as completed on Tuesday at 17:00. Low priority.", "output": {"action": "complete", "task": "email follow-up", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Mark job interview as done on Monday.", "output": {"action": "complete", "task": "job interview", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Create a task for job interview today at 09:00. This is urgent.", "output": {"action": "create", "task": "job interview", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Set the status of garden maintenance to finished on Tuesday at 10:00. Low priority.", "output": {"action": "complete", "task": "garden maintenance", "date": "Tuesday", "time": "10:00", "priority": "low"}}
+{"input": "Create a reminder for website update today at 09:00. This is urgent.", "output": {"action": "remind", "task": "website update", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Create a reminder for coding assignment on Friday at 09:00.", "output": {"action": "remind", "task": "coding assignment", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "Delete the task for website update tomorrow. Low priority.", "output": {"action": "cancel", "task": "website update", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Mark gym session as completed tomorrow at 11:30. This is urgent.", "output": {"action": "complete", "task": "gym session", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Create a reminder for job interview on Monday at 17:00. This is urgent.", "output": {"action": "remind", "task": "job interview", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Book garden maintenance on Tuesday at 11:30. Low priority.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Tuesday", "time": "11:30", "priority": "low"}}
+{"input": "Delete the task for flight booking on Monday.", "output": {"action": "cancel", "task": "flight booking", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Remove library visit from my schedule at 11:30. This is urgent.", "output": {"action": "cancel", "task": "library visit", "date": null, "time": "11:30", "priority": "high"}}
+{"input": "Mark budget review as completed on Friday at 09:00. Low priority.", "output": {"action": "complete", "task": "budget review", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Make a new task for gym session on Tuesday at 09:00. This is urgent.", "output": {"action": "create", "task": "gym session", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Set the status of garden maintenance to finished tomorrow at 14:00.", "output": {"action": "complete", "task": "garden maintenance", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Mark coding assignment as done tomorrow at 11:30. Low priority.", "output": {"action": "complete", "task": "coding assignment", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for language lesson at 17:00. This is urgent.", "output": {"action": "create", "task": "language lesson", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Mark birthday planning as completed on Tuesday at 09:00. Low priority.", "output": {"action": "complete", "task": "birthday planning", "date": "Tuesday", "time": "09:00", "priority": "low"}}
+{"input": "Mark library visit as done on Monday at 11:30. Low priority.", "output": {"action": "complete", "task": "library visit", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Arrange flight booking on Friday at 10:00. Low priority.", "output": {"action": "schedule", "task": "flight booking", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Book coding assignment tomorrow at 10:00. This is urgent.", "output": {"action": "schedule", "task": "coding assignment", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Add presentation practice to my to-do list tomorrow at 17:00.", "output": {"action": "create", "task": "presentation practice", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Set the status of birthday planning to finished today at 17:00.", "output": {"action": "complete", "task": "birthday planning", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Arrange software installation today at 17:00.", "output": {"action": "schedule", "task": "software installation", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Remove birthday planning from my schedule on Monday.", "output": {"action": "cancel", "task": "birthday planning", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Create a reminder for library visit at 10:00.", "output": {"action": "remind", "task": "library visit", "date": null, "time": "10:00", "priority": "normal"}}
+{"input": "Delete the task for team meeting on Monday.", "output": {"action": "cancel", "task": "team meeting", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Schedule project review on Friday at 10:00. This is urgent.", "output": {"action": "schedule", "task": "project review", "date": "Friday", "time": "10:00", "priority": "high"}}
+{"input": "Make a new task for budget review on Friday at 14:00. This is urgent.", "output": {"action": "create", "task": "budget review", "date": "Friday", "time": "14:00", "priority": "high"}}
+{"input": "Make a new task for language lesson on Monday at 17:00. Low priority.", "output": {"action": "create", "task": "language lesson", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Mark gym session as completed today at 09:00.", "output": {"action": "complete", "task": "gym session", "date": "today", "time": "09:00", "priority": "normal"}}
+{"input": "Make a new task for presentation practice at 10:00. This is urgent.", "output": {"action": "create", "task": "presentation practice", "date": null, "time": "10:00", "priority": "high"}}
+{"input": "Delete the task for dentist appointment tomorrow at 17:00. This is urgent.", "output": {"action": "cancel", "task": "dentist appointment", "date": "tomorrow", "time": "17:00", "priority": "high"}}
+{"input": "Book coding assignment on Tuesday at 10:00. This is urgent.", "output": {"action": "schedule", "task": "coding assignment", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Create a task for weekly report today at 17:00. Low priority.", "output": {"action": "create", "task": "weekly report", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Cancel dentist appointment on Tuesday at 14:00. Low priority.", "output": {"action": "cancel", "task": "dentist appointment", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "Create a reminder for project review on Monday at 11:30.", "output": {"action": "remind", "task": "project review", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Remove budget review from my schedule today.", "output": {"action": "cancel", "task": "budget review", "date": "today", "time": null, "priority": "normal"}}
+{"input": "Mark dentist appointment as done tomorrow at 10:00.", "output": {"action": "complete", "task": "dentist appointment", "date": "tomorrow", "time": "10:00", "priority": "normal"}}
+{"input": "Schedule laundry tomorrow at 11:30. This is urgent.", "output": {"action": "schedule", "task": "laundry", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Book project review today at 17:00. Low priority.", "output": {"action": "schedule", "task": "project review", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Delete the task for grocery shopping today. This is urgent.", "output": {"action": "cancel", "task": "grocery shopping", "date": "today", "time": null, "priority": "high"}}
+{"input": "Arrange team meeting at 10:00.", "output": {"action": "schedule", "task": "team meeting", "date": null, "time": "10:00", "priority": "normal"}}
+{"input": "Create a reminder for job interview on Friday at 17:00. Low priority.", "output": {"action": "remind", "task": "job interview", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "Schedule email follow-up on Friday at 17:00. Low priority.", "output": {"action": "schedule", "task": "email follow-up", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "Mark presentation practice as completed tomorrow at 10:00. This is urgent.", "output": {"action": "complete", "task": "presentation practice", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Remove software installation from my schedule on Monday at 11:30.", "output": {"action": "cancel", "task": "software installation", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Set a reminder for software installation tomorrow at 11:30.", "output": {"action": "remind", "task": "software installation", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Schedule website update today at 11:30. Low priority.", "output": {"action": "schedule", "task": "website update", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Mark laundry as done on Tuesday at 11:30. This is urgent.", "output": {"action": "complete", "task": "laundry", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Set the status of library visit to finished on Tuesday at 11:30. This is urgent.", "output": {"action": "complete", "task": "library visit", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Add team meeting to my to-do list. This is urgent.", "output": {"action": "create", "task": "team meeting", "date": null, "time": null, "priority": "high"}}
+{"input": "Make a new task for weekly report today at 11:30. This is urgent.", "output": {"action": "create", "task": "weekly report", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Set a reminder for presentation practice on Friday at 17:00. Low priority.", "output": {"action": "remind", "task": "presentation practice", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "Add project review to my to-do list on Friday at 14:00.", "output": {"action": "create", "task": "project review", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Make a new task for email follow-up on Friday. Low priority.", "output": {"action": "create", "task": "email follow-up", "date": "Friday", "time": null, "priority": "low"}}
+{"input": "Arrange language lesson tomorrow. Low priority.", "output": {"action": "schedule", "task": "language lesson", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Mark dentist appointment as done today at 10:00. Low priority.", "output": {"action": "complete", "task": "dentist appointment", "date": "today", "time": "10:00", "priority": "low"}}
+{"input": "Arrange gym session tomorrow at 09:00.", "output": {"action": "schedule", "task": "gym session", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Book coding assignment on Tuesday. This is urgent.", "output": {"action": "schedule", "task": "coding assignment", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Add weekly report to my to-do list on Tuesday. Low priority.", "output": {"action": "create", "task": "weekly report", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Arrange flight booking at 09:00. This is urgent.", "output": {"action": "schedule", "task": "flight booking", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Cancel gym session on Monday at 14:00. Low priority.", "output": {"action": "cancel", "task": "gym session", "date": "Monday", "time": "14:00", "priority": "low"}}
+{"input": "Add car service to my to-do list on Friday at 14:00. This is urgent.", "output": {"action": "create", "task": "car service", "date": "Friday", "time": "14:00", "priority": "high"}}
+{"input": "Create a reminder for flight booking today.", "output": {"action": "remind", "task": "flight booking", "date": "today", "time": null, "priority": "normal"}}
+{"input": "Cancel grocery shopping at 09:00. Low priority.", "output": {"action": "cancel", "task": "grocery shopping", "date": null, "time": "09:00", "priority": "low"}}
+{"input": "Remove job interview from my schedule today at 10:00. Low priority.", "output": {"action": "cancel", "task": "job interview", "date": "today", "time": "10:00", "priority": "low"}}
+{"input": "Schedule team meeting on Tuesday at 17:00. This is urgent.", "output": {"action": "schedule", "task": "team meeting", "date": "Tuesday", "time": "17:00", "priority": "high"}}
+{"input": "Schedule flight booking at 14:00. Low priority.", "output": {"action": "schedule", "task": "flight booking", "date": null, "time": "14:00", "priority": "low"}}
+{"input": "Delete the task for library visit on Monday. Low priority.", "output": {"action": "cancel", "task": "library visit", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Cancel software installation on Monday at 10:00. This is urgent.", "output": {"action": "cancel", "task": "software installation", "date": "Monday", "time": "10:00", "priority": "high"}}
+{"input": "Set a reminder for garden maintenance on Tuesday at 14:00. Low priority.", "output": {"action": "remind", "task": "garden maintenance", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "Cancel car service at 09:00. This is urgent.", "output": {"action": "cancel", "task": "car service", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Remove dentist appointment from my schedule on Monday at 14:00. This is urgent.", "output": {"action": "cancel", "task": "dentist appointment", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Create a reminder for budget review tomorrow. This is urgent.", "output": {"action": "remind", "task": "budget review", "date": "tomorrow", "time": null, "priority": "high"}}
+{"input": "Mark email follow-up as completed on Friday at 10:00. Low priority.", "output": {"action": "complete", "task": "email follow-up", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Book gym session tomorrow at 10:00.", "output": {"action": "schedule", "task": "gym session", "date": "tomorrow", "time": "10:00", "priority": "normal"}}
+{"input": "Create a task for project review on Monday at 09:00.", "output": {"action": "create", "task": "project review", "date": "Monday", "time": "09:00", "priority": "normal"}}
+{"input": "Create a task for website update on Monday at 17:00. This is urgent.", "output": {"action": "create", "task": "website update", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Cancel project review at 17:00. Low priority.", "output": {"action": "cancel", "task": "project review", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Add weekly report to my to-do list today at 10:00.", "output": {"action": "create", "task": "weekly report", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Cancel presentation practice today. Low priority.", "output": {"action": "cancel", "task": "presentation practice", "date": "today", "time": null, "priority": "low"}}
+{"input": "Delete the task for software installation on Monday at 14:00. This is urgent.", "output": {"action": "cancel", "task": "software installation", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Set a reminder for coding assignment at 09:00. This is urgent.", "output": {"action": "remind", "task": "coding assignment", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Mark project review as done at 11:30. Low priority.", "output": {"action": "complete", "task": "project review", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for laundry on Friday at 10:00. This is urgent.", "output": {"action": "create", "task": "laundry", "date": "Friday", "time": "10:00", "priority": "high"}}
+{"input": "Make a new task for flight booking at 14:00. This is urgent.", "output": {"action": "create", "task": "flight booking", "date": null, "time": "14:00", "priority": "high"}}
+{"input": "Book dentist appointment tomorrow at 09:00. This is urgent.", "output": {"action": "schedule", "task": "dentist appointment", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Remind me about presentation practice. Low priority.", "output": {"action": "remind", "task": "presentation practice", "date": null, "time": null, "priority": "low"}}
+{"input": "Set a reminder for email follow-up on Monday. Low priority.", "output": {"action": "remind", "task": "email follow-up", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Cancel laundry on Monday at 11:30. This is urgent.", "output": {"action": "cancel", "task": "laundry", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Make a new task for garden maintenance on Friday at 14:00.", "output": {"action": "create", "task": "garden maintenance", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Book language lesson today at 14:00. Low priority.", "output": {"action": "schedule", "task": "language lesson", "date": "today", "time": "14:00", "priority": "low"}}
+{"input": "Set a reminder for car service on Monday at 09:00. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Set the status of grocery shopping to finished tomorrow at 14:00. Low priority.", "output": {"action": "complete", "task": "grocery shopping", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Remind me about birthday planning at 17:00.", "output": {"action": "remind", "task": "birthday planning", "date": null, "time": "17:00", "priority": "normal"}}
+{"input": "Add project review to my to-do list on Tuesday at 17:00. This is urgent.", "output": {"action": "create", "task": "project review", "date": "Tuesday", "time": "17:00", "priority": "high"}}
+{"input": "Set the status of language lesson to finished on Tuesday at 14:00. This is urgent.", "output": {"action": "complete", "task": "language lesson", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Create a reminder for project review on Monday. This is urgent.", "output": {"action": "remind", "task": "project review", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Schedule flight booking on Tuesday at 11:30. This is urgent.", "output": {"action": "schedule", "task": "flight booking", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Create a task for birthday planning on Friday at 09:00. Low priority.", "output": {"action": "create", "task": "birthday planning", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Set the status of website update to finished today at 10:00. This is urgent.", "output": {"action": "complete", "task": "website update", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Set the status of birthday planning to finished on Friday at 10:00.", "output": {"action": "complete", "task": "birthday planning", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Remind me about gym session tomorrow at 14:00. Low priority.", "output": {"action": "remind", "task": "gym session", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Mark garden maintenance as completed on Monday at 17:00.", "output": {"action": "complete", "task": "garden maintenance", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Set the status of grocery shopping to finished on Friday.", "output": {"action": "complete", "task": "grocery shopping", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Add presentation practice to my to-do list on Monday at 17:00. Low priority.", "output": {"action": "create", "task": "presentation practice", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Delete the task for team meeting on Friday at 11:30. This is urgent.", "output": {"action": "cancel", "task": "team meeting", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Remind me about car service on Friday at 17:00. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Set the status of team meeting to finished on Friday at 14:00. This is urgent.", "output": {"action": "complete", "task": "team meeting", "date": "Friday", "time": "14:00", "priority": "high"}}
+{"input": "Schedule library visit today at 14:00. This is urgent.", "output": {"action": "schedule", "task": "library visit", "date": "today", "time": "14:00", "priority": "high"}}
+{"input": "Mark budget review as completed on Monday at 11:30. Low priority.", "output": {"action": "complete", "task": "budget review", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for garden maintenance on Friday at 09:00. This is urgent.", "output": {"action": "create", "task": "garden maintenance", "date": "Friday", "time": "09:00", "priority": "high"}}
+{"input": "Set a reminder for library visit today at 11:30. Low priority.", "output": {"action": "remind", "task": "library visit", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for car service on Monday. Low priority.", "output": {"action": "create", "task": "car service", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Arrange presentation practice on Friday at 09:00. Low priority.", "output": {"action": "schedule", "task": "presentation practice", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Make a new task for flight booking on Friday at 17:00. This is urgent.", "output": {"action": "create", "task": "flight booking", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Remove laundry from my schedule at 17:00. Low priority.", "output": {"action": "cancel", "task": "laundry", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Create a reminder for website update tomorrow at 10:00. Low priority.", "output": {"action": "remind", "task": "website update", "date": "tomorrow", "time": "10:00", "priority": "low"}}
+{"input": "Mark team meeting as completed tomorrow at 10:00. This is urgent.", "output": {"action": "complete", "task": "team meeting", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Book dentist appointment on Tuesday at 10:00.", "output": {"action": "schedule", "task": "dentist appointment", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Set the status of dentist appointment to finished on Monday at 17:00.", "output": {"action": "complete", "task": "dentist appointment", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Schedule gym session on Monday at 11:30.", "output": {"action": "schedule", "task": "gym session", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Mark flight booking as done on Tuesday. This is urgent.", "output": {"action": "complete", "task": "flight booking", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Set the status of presentation practice to finished tomorrow at 11:30.", "output": {"action": "complete", "task": "presentation practice", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Add website update to my to-do list tomorrow at 09:00.", "output": {"action": "create", "task": "website update", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Schedule email follow-up on Monday at 14:00.", "output": {"action": "schedule", "task": "email follow-up", "date": "Monday", "time": "14:00", "priority": "normal"}}
+{"input": "Add car service to my to-do list today at 09:00.", "output": {"action": "create", "task": "car service", "date": "today", "time": "09:00", "priority": "normal"}}
+{"input": "Mark library visit as done today at 14:00. This is urgent.", "output": {"action": "complete", "task": "library visit", "date": "today", "time": "14:00", "priority": "high"}}
+{"input": "Schedule language lesson on Friday at 11:30.", "output": {"action": "schedule", "task": "language lesson", "date": "Friday", "time": "11:30", "priority": "normal"}}
+{"input": "Set a reminder for coding assignment tomorrow at 09:00.", "output": {"action": "remind", "task": "coding assignment", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Arrange grocery shopping on Tuesday at 14:00.", "output": {"action": "schedule", "task": "grocery shopping", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Set the status of job interview to finished on Tuesday at 09:00.", "output": {"action": "complete", "task": "job interview", "date": "Tuesday", "time": "09:00", "priority": "normal"}}
+{"input": "Cancel language lesson on Friday at 09:00. Low priority.", "output": {"action": "cancel", "task": "language lesson", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Delete the task for flight booking on Friday at 10:00. Low priority.", "output": {"action": "cancel", "task": "flight booking", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Set a reminder for car service on Friday. Low priority.", "output": {"action": "remind", "task": "car service", "date": "Friday", "time": null, "priority": "low"}}
+{"input": "Create a task for garden maintenance on Monday at 10:00. This is urgent.", "output": {"action": "create", "task": "garden maintenance", "date": "Monday", "time": "10:00", "priority": "high"}}
+{"input": "Book laundry today at 14:00.", "output": {"action": "schedule", "task": "laundry", "date": "today", "time": "14:00", "priority": "normal"}}
+{"input": "Book weekly report tomorrow at 14:00. Low priority.", "output": {"action": "schedule", "task": "weekly report", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Cancel library visit on Tuesday at 11:30. This is urgent.", "output": {"action": "cancel", "task": "library visit", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Arrange software installation on Friday at 17:00. This is urgent.", "output": {"action": "schedule", "task": "software installation", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Make a new task for software installation at 09:00. Low priority.", "output": {"action": "create", "task": "software installation", "date": null, "time": "09:00", "priority": "low"}}
+{"input": "Arrange presentation practice tomorrow at 17:00.", "output": {"action": "schedule", "task": "presentation practice", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Create a task for weekly report today. Low priority.", "output": {"action": "create", "task": "weekly report", "date": "today", "time": null, "priority": "low"}}
+{"input": "Cancel gym session today at 10:00. This is urgent.", "output": {"action": "cancel", "task": "gym session", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Make a new task for car service on Friday at 11:30. Low priority.", "output": {"action": "create", "task": "car service", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Remove project review from my schedule on Monday at 14:00.", "output": {"action": "cancel", "task": "project review", "date": "Monday", "time": "14:00", "priority": "normal"}}
+{"input": "Add presentation practice to my to-do list today at 17:00. Low priority.", "output": {"action": "create", "task": "presentation practice", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Delete the task for email follow-up tomorrow at 09:00. Low priority.", "output": {"action": "cancel", "task": "email follow-up", "date": "tomorrow", "time": "09:00", "priority": "low"}}
+{"input": "Mark budget review as done today at 14:00. Low priority.", "output": {"action": "complete", "task": "budget review", "date": "today", "time": "14:00", "priority": "low"}}
+{"input": "Arrange library visit on Monday. This is urgent.", "output": {"action": "schedule", "task": "library visit", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Set a reminder for flight booking tomorrow at 11:30. Low priority.", "output": {"action": "remind", "task": "flight booking", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Delete the task for car service today at 11:30. This is urgent.", "output": {"action": "cancel", "task": "car service", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Add presentation practice to my to-do list at 14:00.", "output": {"action": "create", "task": "presentation practice", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Delete the task for presentation practice on Tuesday at 14:00. This is urgent.", "output": {"action": "cancel", "task": "presentation practice", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Set the status of job interview to finished at 10:00. This is urgent.", "output": {"action": "complete", "task": "job interview", "date": null, "time": "10:00", "priority": "high"}}
+{"input": "Cancel website update on Monday at 09:00.", "output": {"action": "cancel", "task": "website update", "date": "Monday", "time": "09:00", "priority": "normal"}}
+{"input": "Create a reminder for birthday planning tomorrow at 11:30. Low priority.", "output": {"action": "remind", "task": "birthday planning", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for website update on Monday at 11:30. Low priority.", "output": {"action": "create", "task": "website update", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Set the status of library visit to finished at 11:30. Low priority.", "output": {"action": "complete", "task": "library visit", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Schedule grocery shopping on Friday at 09:00. Low priority.", "output": {"action": "schedule", "task": "grocery shopping", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Schedule garden maintenance on Monday at 09:00.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Monday", "time": "09:00", "priority": "normal"}}
+{"input": "Mark presentation practice as done on Friday at 14:00. Low priority.", "output": {"action": "complete", "task": "presentation practice", "date": "Friday", "time": "14:00", "priority": "low"}}
+{"input": "Arrange garden maintenance at 17:00. This is urgent.", "output": {"action": "schedule", "task": "garden maintenance", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Schedule dentist appointment on Tuesday at 17:00.", "output": {"action": "schedule", "task": "dentist appointment", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Schedule team meeting today. Low priority.", "output": {"action": "schedule", "task": "team meeting", "date": "today", "time": null, "priority": "low"}}
+{"input": "Delete the task for car service today at 10:00.", "output": {"action": "cancel", "task": "car service", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Remind me about garden maintenance on Friday at 17:00.", "output": {"action": "remind", "task": "garden maintenance", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Create a reminder for gym session today at 17:00.", "output": {"action": "remind", "task": "gym session", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Remind me about presentation practice on Tuesday at 10:00. Low priority.", "output": {"action": "remind", "task": "presentation practice", "date": "Tuesday", "time": "10:00", "priority": "low"}}
+{"input": "Remind me about team meeting on Tuesday at 14:00. Low priority.", "output": {"action": "remind", "task": "team meeting", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "Schedule website update at 11:30.", "output": {"action": "schedule", "task": "website update", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Book coding assignment at 10:00. Low priority.", "output": {"action": "schedule", "task": "coding assignment", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Schedule grocery shopping on Monday at 17:00. Low priority.", "output": {"action": "schedule", "task": "grocery shopping", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Remove software installation from my schedule today at 10:00. Low priority.", "output": {"action": "cancel", "task": "software installation", "date": "today", "time": "10:00", "priority": "low"}}
+{"input": "Remind me about flight booking on Tuesday.", "output": {"action": "remind", "task": "flight booking", "date": "Tuesday", "time": null, "priority": "normal"}}
+{"input": "Delete the task for car service at 10:00.", "output": {"action": "cancel", "task": "car service", "date": null, "time": "10:00", "priority": "normal"}}
+{"input": "Remove grocery shopping from my schedule today at 10:00.", "output": {"action": "cancel", "task": "grocery shopping", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Cancel library visit tomorrow. This is urgent.", "output": {"action": "cancel", "task": "library visit", "date": "tomorrow", "time": null, "priority": "high"}}
+{"input": "Set the status of birthday planning to finished on Tuesday at 10:00.", "output": {"action": "complete", "task": "birthday planning", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Book garden maintenance on Friday at 09:00. Low priority.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Remind me about team meeting on Monday at 10:00. Low priority.", "output": {"action": "remind", "task": "team meeting", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "Add language lesson to my to-do list tomorrow at 14:00.", "output": {"action": "create", "task": "language lesson", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Book presentation practice on Monday at 10:00. Low priority.", "output": {"action": "schedule", "task": "presentation practice", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "Make a new task for car service on Friday at 11:30.", "output": {"action": "create", "task": "car service", "date": "Friday", "time": "11:30", "priority": "normal"}}
+{"input": "Remind me about presentation practice on Tuesday at 17:00.", "output": {"action": "remind", "task": "presentation practice", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Schedule birthday planning on Tuesday. This is urgent.", "output": {"action": "schedule", "task": "birthday planning", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Create a reminder for project review on Friday at 14:00.", "output": {"action": "remind", "task": "project review", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Arrange garden maintenance on Monday.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Set a reminder for birthday planning tomorrow at 09:00.", "output": {"action": "remind", "task": "birthday planning", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Make a new task for flight booking on Friday at 14:00. This is urgent.", "output": {"action": "create", "task": "flight booking", "date": "Friday", "time": "14:00", "priority": "high"}}
+{"input": "Create a task for software installation on Tuesday. This is urgent.", "output": {"action": "create", "task": "software installation", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Remove dentist appointment from my schedule at 17:00.", "output": {"action": "cancel", "task": "dentist appointment", "date": null, "time": "17:00", "priority": "normal"}}
+{"input": "Book grocery shopping on Tuesday at 14:00. This is urgent.", "output": {"action": "schedule", "task": "grocery shopping", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Remove job interview from my schedule on Friday at 14:00. This is urgent.", "output": {"action": "cancel", "task": "job interview", "date": "Friday", "time": "14:00", "priority": "high"}}
+{"input": "Set a reminder for coding assignment on Tuesday at 09:00. This is urgent.", "output": {"action": "remind", "task": "coding assignment", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Remove team meeting from my schedule on Friday. This is urgent.", "output": {"action": "cancel", "task": "team meeting", "date": "Friday", "time": null, "priority": "high"}}
+{"input": "Add flight booking to my to-do list tomorrow at 14:00. This is urgent.", "output": {"action": "create", "task": "flight booking", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Schedule laundry today at 11:30.", "output": {"action": "schedule", "task": "laundry", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Remove team meeting from my schedule on Monday. Low priority.", "output": {"action": "cancel", "task": "team meeting", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Cancel job interview. This is urgent.", "output": {"action": "cancel", "task": "job interview", "date": null, "time": null, "priority": "high"}}
+{"input": "Mark grocery shopping as done on Monday at 17:00. This is urgent.", "output": {"action": "complete", "task": "grocery shopping", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Make a new task for coding assignment tomorrow at 09:00. This is urgent.", "output": {"action": "create", "task": "coding assignment", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Set a reminder for garden maintenance on Friday at 17:00. Low priority.", "output": {"action": "remind", "task": "garden maintenance", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "Schedule language lesson on Friday at 10:00. Low priority.", "output": {"action": "schedule", "task": "language lesson", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Book weekly report tomorrow at 11:30. This is urgent.", "output": {"action": "schedule", "task": "weekly report", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Create a reminder for team meeting on Tuesday at 17:00. Low priority.", "output": {"action": "remind", "task": "team meeting", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Cancel library visit tomorrow at 17:00.", "output": {"action": "cancel", "task": "library visit", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Mark grocery shopping as completed on Monday. Low priority.", "output": {"action": "complete", "task": "grocery shopping", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Cancel grocery shopping today at 11:30. Low priority.", "output": {"action": "cancel", "task": "grocery shopping", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Remove grocery shopping from my schedule today at 11:30.", "output": {"action": "cancel", "task": "grocery shopping", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Book project review on Monday at 11:30. Low priority.", "output": {"action": "schedule", "task": "project review", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Mark coding assignment as done on Friday at 17:00.", "output": {"action": "complete", "task": "coding assignment", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Arrange budget review at 17:00. Low priority.", "output": {"action": "schedule", "task": "budget review", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Create a reminder for team meeting tomorrow at 14:00. This is urgent.", "output": {"action": "remind", "task": "team meeting", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Set the status of coding assignment to finished at 09:00. Low priority.", "output": {"action": "complete", "task": "coding assignment", "date": null, "time": "09:00", "priority": "low"}}
+{"input": "Set the status of email follow-up to finished at 11:30. Low priority.", "output": {"action": "complete", "task": "email follow-up", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Create a reminder for job interview on Friday at 11:30.", "output": {"action": "remind", "task": "job interview", "date": "Friday", "time": "11:30", "priority": "normal"}}
+{"input": "Mark coding assignment as completed on Friday. This is urgent.", "output": {"action": "complete", "task": "coding assignment", "date": "Friday", "time": null, "priority": "high"}}
+{"input": "Remind me about language lesson on Friday at 10:00. This is urgent.", "output": {"action": "remind", "task": "language lesson", "date": "Friday", "time": "10:00", "priority": "high"}}
+{"input": "Set a reminder for email follow-up on Monday at 14:00.", "output": {"action": "remind", "task": "email follow-up", "date": "Monday", "time": "14:00", "priority": "normal"}}
+{"input": "Set a reminder for gym session at 09:00.", "output": {"action": "remind", "task": "gym session", "date": null, "time": "09:00", "priority": "normal"}}
+{"input": "Cancel presentation practice on Tuesday at 17:00.", "output": {"action": "cancel", "task": "presentation practice", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Mark language lesson as completed on Friday.", "output": {"action": "complete", "task": "language lesson", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Make a new task for language lesson tomorrow at 09:00. This is urgent.", "output": {"action": "create", "task": "language lesson", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Delete the task for team meeting today at 11:30. Low priority.", "output": {"action": "cancel", "task": "team meeting", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Remind me about car service on Monday. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Arrange language lesson on Friday at 14:00. Low priority.", "output": {"action": "schedule", "task": "language lesson", "date": "Friday", "time": "14:00", "priority": "low"}}
+{"input": "Add email follow-up to my to-do list. Low priority.", "output": {"action": "create", "task": "email follow-up", "date": null, "time": null, "priority": "low"}}
+{"input": "Schedule website update on Friday at 11:30. This is urgent.", "output": {"action": "schedule", "task": "website update", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Remind me about weekly report on Friday at 14:00. Low priority.", "output": {"action": "remind", "task": "weekly report", "date": "Friday", "time": "14:00", "priority": "low"}}
+{"input": "Cancel flight booking today at 14:00.", "output": {"action": "cancel", "task": "flight booking", "date": "today", "time": "14:00", "priority": "normal"}}
+{"input": "Cancel coding assignment at 14:00. This is urgent.", "output": {"action": "cancel", "task": "coding assignment", "date": null, "time": "14:00", "priority": "high"}}
+{"input": "Remind me about garden maintenance on Monday at 17:00. This is urgent.", "output": {"action": "remind", "task": "garden maintenance", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Set the status of laundry to finished today. Low priority.", "output": {"action": "complete", "task": "laundry", "date": "today", "time": null, "priority": "low"}}
+{"input": "Create a reminder for gym session at 10:00. Low priority.", "output": {"action": "remind", "task": "gym session", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Remove birthday planning from my schedule tomorrow at 09:00. Low priority.", "output": {"action": "cancel", "task": "birthday planning", "date": "tomorrow", "time": "09:00", "priority": "low"}}
+{"input": "Set the status of weekly report to finished on Monday at 17:00. This is urgent.", "output": {"action": "complete", "task": "weekly report", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Set the status of language lesson to finished tomorrow at 10:00. This is urgent.", "output": {"action": "complete", "task": "language lesson", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Create a task for budget review tomorrow at 09:00.", "output": {"action": "create", "task": "budget review", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Schedule flight booking tomorrow at 17:00. This is urgent.", "output": {"action": "schedule", "task": "flight booking", "date": "tomorrow", "time": "17:00", "priority": "high"}}
+{"input": "Delete the task for job interview on Monday at 11:30. This is urgent.", "output": {"action": "cancel", "task": "job interview", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Arrange flight booking at 10:00.", "output": {"action": "schedule", "task": "flight booking", "date": null, "time": "10:00", "priority": "normal"}}
+{"input": "Mark presentation practice as done tomorrow at 11:30. This is urgent.", "output": {"action": "complete", "task": "presentation practice", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Make a new task for garden maintenance at 14:00.", "output": {"action": "create", "task": "garden maintenance", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Arrange budget review on Tuesday at 11:30. This is urgent.", "output": {"action": "schedule", "task": "budget review", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Arrange dentist appointment tomorrow at 11:30. This is urgent.", "output": {"action": "schedule", "task": "dentist appointment", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Add software installation to my to-do list on Tuesday. This is urgent.", "output": {"action": "create", "task": "software installation", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Remove garden maintenance from my schedule at 14:00.", "output": {"action": "cancel", "task": "garden maintenance", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Cancel project review on Friday at 11:30. This is urgent.", "output": {"action": "cancel", "task": "project review", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Mark flight booking as done at 11:30.", "output": {"action": "complete", "task": "flight booking", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Delete the task for software installation on Friday at 10:00. This is urgent.", "output": {"action": "cancel", "task": "software installation", "date": "Friday", "time": "10:00", "priority": "high"}}
+{"input": "Remind me about language lesson at 09:00. This is urgent.", "output": {"action": "remind", "task": "language lesson", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Set a reminder for project review on Friday. Low priority.", "output": {"action": "remind", "task": "project review", "date": "Friday", "time": null, "priority": "low"}}
+{"input": "Set the status of car service to finished on Friday at 14:00. Low priority.", "output": {"action": "complete", "task": "car service", "date": "Friday", "time": "14:00", "priority": "low"}}
+{"input": "Make a new task for garden maintenance on Tuesday at 14:00.", "output": {"action": "create", "task": "garden maintenance", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Delete the task for coding assignment on Tuesday at 10:00. Low priority.", "output": {"action": "cancel", "task": "coding assignment", "date": "Tuesday", "time": "10:00", "priority": "low"}}
+{"input": "Set a reminder for presentation practice today at 11:30. This is urgent.", "output": {"action": "remind", "task": "presentation practice", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Schedule birthday planning.", "output": {"action": "schedule", "task": "birthday planning", "date": null, "time": null, "priority": "normal"}}
+{"input": "Mark flight booking as done on Friday.", "output": {"action": "complete", "task": "flight booking", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Mark gym session as completed on Friday at 10:00.", "output": {"action": "complete", "task": "gym session", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Cancel weekly report tomorrow at 10:00. Low priority.", "output": {"action": "cancel", "task": "weekly report", "date": "tomorrow", "time": "10:00", "priority": "low"}}
+{"input": "Set the status of grocery shopping to finished at 17:00. Low priority.", "output": {"action": "complete", "task": "grocery shopping", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Schedule project review tomorrow at 09:00.", "output": {"action": "schedule", "task": "project review", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Make a new task for software installation tomorrow at 11:30. This is urgent.", "output": {"action": "create", "task": "software installation", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Remove weekly report from my schedule at 09:00. This is urgent.", "output": {"action": "cancel", "task": "weekly report", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Schedule garden maintenance today at 17:00.", "output": {"action": "schedule", "task": "garden maintenance", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Create a task for flight booking on Tuesday at 14:00. This is urgent.", "output": {"action": "create", "task": "flight booking", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Remove coding assignment from my schedule on Friday at 11:30. Low priority.", "output": {"action": "cancel", "task": "coding assignment", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Book presentation practice at 14:00. This is urgent.", "output": {"action": "schedule", "task": "presentation practice", "date": null, "time": "14:00", "priority": "high"}}
+{"input": "Remind me about website update at 14:00.", "output": {"action": "remind", "task": "website update", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Delete the task for birthday planning on Tuesday at 17:00. Low priority.", "output": {"action": "cancel", "task": "birthday planning", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Remind me about budget review on Friday at 10:00. This is urgent.", "output": {"action": "remind", "task": "budget review", "date": "Friday", "time": "10:00", "priority": "high"}}
+{"input": "Remind me about garden maintenance tomorrow at 14:00.", "output": {"action": "remind", "task": "garden maintenance", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Cancel coding assignment on Friday at 09:00.", "output": {"action": "cancel", "task": "coding assignment", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "Remove coding assignment from my schedule at 09:00. Low priority.", "output": {"action": "cancel", "task": "coding assignment", "date": null, "time": "09:00", "priority": "low"}}
+{"input": "Create a reminder for software installation on Friday at 09:00.", "output": {"action": "remind", "task": "software installation", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "Set a reminder for budget review on Tuesday at 10:00.", "output": {"action": "remind", "task": "budget review", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Schedule garden maintenance tomorrow at 09:00. This is urgent.", "output": {"action": "schedule", "task": "garden maintenance", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Remind me about team meeting on Friday at 09:00. This is urgent.", "output": {"action": "remind", "task": "team meeting", "date": "Friday", "time": "09:00", "priority": "high"}}
+{"input": "Delete the task for budget review tomorrow at 11:30. This is urgent.", "output": {"action": "cancel", "task": "budget review", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Create a task for laundry on Friday at 10:00.", "output": {"action": "create", "task": "laundry", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Create a task for website update on Friday at 11:30. Low priority.", "output": {"action": "create", "task": "website update", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Set a reminder for car service tomorrow.", "output": {"action": "remind", "task": "car service", "date": "tomorrow", "time": null, "priority": "normal"}}
+{"input": "Schedule presentation practice on Tuesday at 14:00. This is urgent.", "output": {"action": "schedule", "task": "presentation practice", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Add library visit to my to-do list tomorrow at 11:30. Low priority.", "output": {"action": "create", "task": "library visit", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Delete the task for website update on Tuesday. This is urgent.", "output": {"action": "cancel", "task": "website update", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Set a reminder for laundry tomorrow. This is urgent.", "output": {"action": "remind", "task": "laundry", "date": "tomorrow", "time": null, "priority": "high"}}
+{"input": "Book team meeting tomorrow at 17:00. Low priority.", "output": {"action": "schedule", "task": "team meeting", "date": "tomorrow", "time": "17:00", "priority": "low"}}
+{"input": "Add project review to my to-do list on Monday at 17:00. Low priority.", "output": {"action": "create", "task": "project review", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Schedule flight booking tomorrow. Low priority.", "output": {"action": "schedule", "task": "flight booking", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Cancel library visit at 14:00. This is urgent.", "output": {"action": "cancel", "task": "library visit", "date": null, "time": "14:00", "priority": "high"}}
+{"input": "Cancel gym session on Friday at 14:00.", "output": {"action": "cancel", "task": "gym session", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Add budget review to my to-do list on Friday at 17:00. This is urgent.", "output": {"action": "create", "task": "budget review", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Set the status of website update to finished on Tuesday at 14:00. This is urgent.", "output": {"action": "complete", "task": "website update", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Remind me about software installation on Friday at 17:00. This is urgent.", "output": {"action": "remind", "task": "software installation", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Create a reminder for library visit at 17:00. This is urgent.", "output": {"action": "remind", "task": "library visit", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Arrange gym session tomorrow at 14:00.", "output": {"action": "schedule", "task": "gym session", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Book dentist appointment on Monday. This is urgent.", "output": {"action": "schedule", "task": "dentist appointment", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Book birthday planning today. Low priority.", "output": {"action": "schedule", "task": "birthday planning", "date": "today", "time": null, "priority": "low"}}
+{"input": "Cancel presentation practice on Monday. Low priority.", "output": {"action": "cancel", "task": "presentation practice", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Schedule weekly report on Tuesday at 09:00. Low priority.", "output": {"action": "schedule", "task": "weekly report", "date": "Tuesday", "time": "09:00", "priority": "low"}}
+{"input": "Set the status of language lesson to finished tomorrow at 17:00. Low priority.", "output": {"action": "complete", "task": "language lesson", "date": "tomorrow", "time": "17:00", "priority": "low"}}
+{"input": "Mark grocery shopping as done on Monday at 11:30. Low priority.", "output": {"action": "complete", "task": "grocery shopping", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Schedule flight booking today at 09:00. This is urgent.", "output": {"action": "schedule", "task": "flight booking", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Schedule weekly report on Friday at 11:30.", "output": {"action": "schedule", "task": "weekly report", "date": "Friday", "time": "11:30", "priority": "normal"}}
+{"input": "Set a reminder for gym session at 09:00. This is urgent.", "output": {"action": "remind", "task": "gym session", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Set a reminder for job interview on Friday at 11:30. This is urgent.", "output": {"action": "remind", "task": "job interview", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Create a task for gym session on Monday.", "output": {"action": "create", "task": "gym session", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Set a reminder for flight booking on Tuesday at 14:00.", "output": {"action": "remind", "task": "flight booking", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Add job interview to my to-do list today at 11:30.", "output": {"action": "create", "task": "job interview", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Set a reminder for email follow-up today.", "output": {"action": "remind", "task": "email follow-up", "date": "today", "time": null, "priority": "normal"}}
+{"input": "Schedule presentation practice on Monday at 11:30. Low priority.", "output": {"action": "schedule", "task": "presentation practice", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Set a reminder for library visit on Tuesday at 10:00. This is urgent.", "output": {"action": "remind", "task": "library visit", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Mark software installation as done on Tuesday. Low priority.", "output": {"action": "complete", "task": "software installation", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Set a reminder for email follow-up today at 17:00. This is urgent.", "output": {"action": "remind", "task": "email follow-up", "date": "today", "time": "17:00", "priority": "high"}}
+{"input": "Create a reminder for car service on Monday at 11:30. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Create a task for birthday planning on Monday.", "output": {"action": "create", "task": "birthday planning", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Set the status of language lesson to finished on Friday at 17:00.", "output": {"action": "complete", "task": "language lesson", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Create a task for team meeting tomorrow at 14:00. This is urgent.", "output": {"action": "create", "task": "team meeting", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Create a reminder for language lesson on Friday. Low priority.", "output": {"action": "remind", "task": "language lesson", "date": "Friday", "time": null, "priority": "low"}}
+{"input": "Create a task for team meeting on Monday at 10:00. Low priority.", "output": {"action": "create", "task": "team meeting", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "Set a reminder for job interview at 17:00. Low priority.", "output": {"action": "remind", "task": "job interview", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Cancel grocery shopping on Monday at 14:00. This is urgent.", "output": {"action": "cancel", "task": "grocery shopping", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Mark website update as completed tomorrow at 14:00. Low priority.", "output": {"action": "complete", "task": "website update", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Set a reminder for gym session on Tuesday at 10:00. This is urgent.", "output": {"action": "remind", "task": "gym session", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Set a reminder for job interview on Monday at 14:00. Low priority.", "output": {"action": "remind", "task": "job interview", "date": "Monday", "time": "14:00", "priority": "low"}}
+{"input": "Add birthday planning to my to-do list at 17:00. This is urgent.", "output": {"action": "create", "task": "birthday planning", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Add presentation practice to my to-do list on Tuesday at 09:00. Low priority.", "output": {"action": "create", "task": "presentation practice", "date": "Tuesday", "time": "09:00", "priority": "low"}}
+{"input": "Book coding assignment on Friday. This is urgent.", "output": {"action": "schedule", "task": "coding assignment", "date": "Friday", "time": null, "priority": "high"}}
+{"input": "Add team meeting to my to-do list at 17:00. This is urgent.", "output": {"action": "create", "task": "team meeting", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Add presentation practice to my to-do list today at 14:00. Low priority.", "output": {"action": "create", "task": "presentation practice", "date": "today", "time": "14:00", "priority": "low"}}
+{"input": "Arrange budget review on Monday at 10:00. This is urgent.", "output": {"action": "schedule", "task": "budget review", "date": "Monday", "time": "10:00", "priority": "high"}}
+{"input": "Set the status of software installation to finished on Tuesday at 14:00. This is urgent.", "output": {"action": "complete", "task": "software installation", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Remove budget review from my schedule on Tuesday at 14:00.", "output": {"action": "cancel", "task": "budget review", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Add coding assignment to my to-do list today at 11:30. This is urgent.", "output": {"action": "create", "task": "coding assignment", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Remove grocery shopping from my schedule. Low priority.", "output": {"action": "cancel", "task": "grocery shopping", "date": null, "time": null, "priority": "low"}}
+{"input": "Mark grocery shopping as done at 11:30.", "output": {"action": "complete", "task": "grocery shopping", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Arrange birthday planning at 11:30. Low priority.", "output": {"action": "schedule", "task": "birthday planning", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Set a reminder for website update on Tuesday at 14:00. Low priority.", "output": {"action": "remind", "task": "website update", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "Mark weekly report as completed at 11:30. Low priority.", "output": {"action": "complete", "task": "weekly report", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Set the status of grocery shopping to finished on Tuesday at 17:00. This is urgent.", "output": {"action": "complete", "task": "grocery shopping", "date": "Tuesday", "time": "17:00", "priority": "high"}}
+{"input": "Set the status of language lesson to finished on Tuesday.", "output": {"action": "complete", "task": "language lesson", "date": "Tuesday", "time": null, "priority": "normal"}}
+{"input": "Set a reminder for library visit on Monday at 09:00. This is urgent.", "output": {"action": "remind", "task": "library visit", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Create a reminder for coding assignment on Friday at 10:00. Low priority.", "output": {"action": "remind", "task": "coding assignment", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Set the status of laundry to finished tomorrow at 14:00. This is urgent.", "output": {"action": "complete", "task": "laundry", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Make a new task for website update at 10:00.", "output": {"action": "create", "task": "website update", "date": null, "time": "10:00", "priority": "normal"}}
+{"input": "Add project review to my to-do list today at 11:30. This is urgent.", "output": {"action": "create", "task": "project review", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Mark car service as completed today. This is urgent.", "output": {"action": "complete", "task": "car service", "date": "today", "time": null, "priority": "high"}}
+{"input": "Schedule garden maintenance on Friday at 11:30. Low priority.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Mark garden maintenance as completed on Friday at 10:00. This is urgent.", "output": {"action": "complete", "task": "garden maintenance", "date": "Friday", "time": "10:00", "priority": "high"}}
+{"input": "Set a reminder for birthday planning today at 09:00. This is urgent.", "output": {"action": "remind", "task": "birthday planning", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Schedule coding assignment on Tuesday at 17:00. Low priority.", "output": {"action": "schedule", "task": "coding assignment", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Cancel email follow-up on Tuesday. Low priority.", "output": {"action": "cancel", "task": "email follow-up", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Arrange library visit on Tuesday at 10:00. This is urgent.", "output": {"action": "schedule", "task": "library visit", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Arrange website update on Friday at 09:00.", "output": {"action": "schedule", "task": "website update", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "Mark presentation practice as completed on Friday at 17:00. This is urgent.", "output": {"action": "complete", "task": "presentation practice", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Add presentation practice to my to-do list on Monday at 11:30.", "output": {"action": "create", "task": "presentation practice", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Remove birthday planning from my schedule today.", "output": {"action": "cancel", "task": "birthday planning", "date": "today", "time": null, "priority": "normal"}}
+{"input": "Mark laundry as done at 17:00. This is urgent.", "output": {"action": "complete", "task": "laundry", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Mark project review as completed today at 10:00.", "output": {"action": "complete", "task": "project review", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Mark car service as done tomorrow at 09:00.", "output": {"action": "complete", "task": "car service", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Make a new task for car service on Monday at 11:30. This is urgent.", "output": {"action": "create", "task": "car service", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Create a reminder for flight booking on Friday at 09:00. Low priority.", "output": {"action": "remind", "task": "flight booking", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Add gym session to my to-do list tomorrow at 17:00.", "output": {"action": "create", "task": "gym session", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Schedule coding assignment on Friday at 17:00.", "output": {"action": "schedule", "task": "coding assignment", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Arrange budget review on Tuesday. Low priority.", "output": {"action": "schedule", "task": "budget review", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Book presentation practice on Friday. Low priority.", "output": {"action": "schedule", "task": "presentation practice", "date": "Friday", "time": null, "priority": "low"}}
+{"input": "Set the status of grocery shopping to finished on Monday at 14:00. Low priority.", "output": {"action": "complete", "task": "grocery shopping", "date": "Monday", "time": "14:00", "priority": "low"}}
+{"input": "Create a task for presentation practice tomorrow at 17:00. This is urgent.", "output": {"action": "create", "task": "presentation practice", "date": "tomorrow", "time": "17:00", "priority": "high"}}
+{"input": "Book flight booking on Tuesday at 11:30. This is urgent.", "output": {"action": "schedule", "task": "flight booking", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Set the status of project review to finished tomorrow at 10:00. Low priority.", "output": {"action": "complete", "task": "project review", "date": "tomorrow", "time": "10:00", "priority": "low"}}
+{"input": "Create a reminder for job interview at 11:30. Low priority.", "output": {"action": "remind", "task": "job interview", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Arrange flight booking on Friday. Low priority.", "output": {"action": "schedule", "task": "flight booking", "date": "Friday", "time": null, "priority": "low"}}
+{"input": "Add birthday planning to my to-do list today at 09:00. Low priority.", "output": {"action": "create", "task": "birthday planning", "date": "today", "time": "09:00", "priority": "low"}}
+{"input": "Make a new task for grocery shopping today at 10:00.", "output": {"action": "create", "task": "grocery shopping", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Mark presentation practice as done on Friday at 09:00.", "output": {"action": "complete", "task": "presentation practice", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "Arrange coding assignment today at 11:30. This is urgent.", "output": {"action": "schedule", "task": "coding assignment", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Mark birthday planning as completed tomorrow at 17:00.", "output": {"action": "complete", "task": "birthday planning", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Schedule presentation practice at 17:00. This is urgent.", "output": {"action": "schedule", "task": "presentation practice", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Arrange budget review today at 10:00. Low priority.", "output": {"action": "schedule", "task": "budget review", "date": "today", "time": "10:00", "priority": "low"}}
+{"input": "Create a reminder for car service on Friday.", "output": {"action": "remind", "task": "car service", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Book team meeting on Monday. Low priority.", "output": {"action": "schedule", "task": "team meeting", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Arrange gym session on Tuesday. Low priority.", "output": {"action": "schedule", "task": "gym session", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Create a task for grocery shopping at 11:30.", "output": {"action": "create", "task": "grocery shopping", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Create a reminder for coding assignment today at 09:00. This is urgent.", "output": {"action": "remind", "task": "coding assignment", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Set the status of project review to finished today at 11:30.", "output": {"action": "complete", "task": "project review", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Remove language lesson from my schedule today at 17:00. Low priority.", "output": {"action": "cancel", "task": "language lesson", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Mark email follow-up as done tomorrow at 14:00.", "output": {"action": "complete", "task": "email follow-up", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Book grocery shopping at 09:00. Low priority.", "output": {"action": "schedule", "task": "grocery shopping", "date": null, "time": "09:00", "priority": "low"}}
+{"input": "Make a new task for team meeting on Friday at 17:00.", "output": {"action": "create", "task": "team meeting", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Book coding assignment on Tuesday at 17:00. This is urgent.", "output": {"action": "schedule", "task": "coding assignment", "date": "Tuesday", "time": "17:00", "priority": "high"}}
+{"input": "Set the status of team meeting to finished on Friday at 17:00. This is urgent.", "output": {"action": "complete", "task": "team meeting", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Cancel laundry on Monday.", "output": {"action": "cancel", "task": "laundry", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Delete the task for coding assignment on Tuesday at 09:00. This is urgent.", "output": {"action": "cancel", "task": "coding assignment", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Remind me about website update on Monday. This is urgent.", "output": {"action": "remind", "task": "website update", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Delete the task for website update tomorrow at 09:00. This is urgent.", "output": {"action": "cancel", "task": "website update", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Remove email follow-up from my schedule on Monday at 10:00. Low priority.", "output": {"action": "cancel", "task": "email follow-up", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "Schedule budget review on Monday at 11:30. Low priority.", "output": {"action": "schedule", "task": "budget review", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Schedule presentation practice tomorrow. Low priority.", "output": {"action": "schedule", "task": "presentation practice", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Schedule car service on Tuesday at 10:00. Low priority.", "output": {"action": "schedule", "task": "car service", "date": "Tuesday", "time": "10:00", "priority": "low"}}
+{"input": "Add budget review to my to-do list today. This is urgent.", "output": {"action": "create", "task": "budget review", "date": "today", "time": null, "priority": "high"}}
+{"input": "Create a reminder for presentation practice on Monday at 14:00.", "output": {"action": "remind", "task": "presentation practice", "date": "Monday", "time": "14:00", "priority": "normal"}}
+{"input": "Add coding assignment to my to-do list tomorrow at 09:00.", "output": {"action": "create", "task": "coding assignment", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Remind me about flight booking tomorrow at 17:00.", "output": {"action": "remind", "task": "flight booking", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Book dentist appointment tomorrow. This is urgent.", "output": {"action": "schedule", "task": "dentist appointment", "date": "tomorrow", "time": null, "priority": "high"}}
+{"input": "Create a task for language lesson today at 11:30. Low priority.", "output": {"action": "create", "task": "language lesson", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Cancel birthday planning today at 17:00. Low priority.", "output": {"action": "cancel", "task": "birthday planning", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Add budget review to my to-do list on Tuesday at 09:00. This is urgent.", "output": {"action": "create", "task": "budget review", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Book coding assignment on Friday at 17:00. This is urgent.", "output": {"action": "schedule", "task": "coding assignment", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Mark team meeting as done at 17:00.", "output": {"action": "complete", "task": "team meeting", "date": null, "time": "17:00", "priority": "normal"}}
+{"input": "Add language lesson to my to-do list on Tuesday at 10:00. This is urgent.", "output": {"action": "create", "task": "language lesson", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Set the status of team meeting to finished on Tuesday at 17:00. Low priority.", "output": {"action": "complete", "task": "team meeting", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Arrange laundry at 17:00. This is urgent.", "output": {"action": "schedule", "task": "laundry", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Create a reminder for garden maintenance on Monday at 10:00. This is urgent.", "output": {"action": "remind", "task": "garden maintenance", "date": "Monday", "time": "10:00", "priority": "high"}}
+{"input": "Create a reminder for presentation practice on Tuesday at 09:00. This is urgent.", "output": {"action": "remind", "task": "presentation practice", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Set the status of email follow-up to finished on Tuesday at 17:00. Low priority.", "output": {"action": "complete", "task": "email follow-up", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Set the status of garden maintenance to finished at 14:00.", "output": {"action": "complete", "task": "garden maintenance", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Set the status of software installation to finished on Friday at 17:00. Low priority.", "output": {"action": "complete", "task": "software installation", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "Remove birthday planning from my schedule on Tuesday at 14:00.", "output": {"action": "cancel", "task": "birthday planning", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Delete the task for flight booking on Tuesday. Low priority.", "output": {"action": "cancel", "task": "flight booking", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Cancel job interview at 14:00.", "output": {"action": "cancel", "task": "job interview", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Create a task for library visit tomorrow at 11:30. This is urgent.", "output": {"action": "create", "task": "library visit", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Mark garden maintenance as completed on Friday at 09:00. Low priority.", "output": {"action": "complete", "task": "garden maintenance", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Arrange software installation on Friday at 11:30.", "output": {"action": "schedule", "task": "software installation", "date": "Friday", "time": "11:30", "priority": "normal"}}
+{"input": "Delete the task for software installation on Monday at 11:30.", "output": {"action": "cancel", "task": "software installation", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Remind me about project review today at 11:30.", "output": {"action": "remind", "task": "project review", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Schedule car service tomorrow at 10:00.", "output": {"action": "schedule", "task": "car service", "date": "tomorrow", "time": "10:00", "priority": "normal"}}
+{"input": "Delete the task for laundry on Tuesday at 14:00. This is urgent.", "output": {"action": "cancel", "task": "laundry", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Create a reminder for birthday planning today at 11:30. This is urgent.", "output": {"action": "remind", "task": "birthday planning", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Cancel library visit tomorrow at 11:30. Low priority.", "output": {"action": "cancel", "task": "library visit", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Book website update at 17:00. Low priority.", "output": {"action": "schedule", "task": "website update", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Set the status of car service to finished on Monday at 17:00.", "output": {"action": "complete", "task": "car service", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Mark birthday planning as completed today. Low priority.", "output": {"action": "complete", "task": "birthday planning", "date": "today", "time": null, "priority": "low"}}
+{"input": "Delete the task for gym session at 14:00. Low priority.", "output": {"action": "cancel", "task": "gym session", "date": null, "time": "14:00", "priority": "low"}}
+{"input": "Make a new task for budget review. This is urgent.", "output": {"action": "create", "task": "budget review", "date": null, "time": null, "priority": "high"}}
+{"input": "Cancel website update at 14:00. Low priority.", "output": {"action": "cancel", "task": "website update", "date": null, "time": "14:00", "priority": "low"}}
+{"input": "Create a reminder for laundry tomorrow at 11:30. Low priority.", "output": {"action": "remind", "task": "laundry", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Cancel birthday planning.", "output": {"action": "cancel", "task": "birthday planning", "date": null, "time": null, "priority": "normal"}}
+{"input": "Add grocery shopping to my to-do list at 17:00. Low priority.", "output": {"action": "create", "task": "grocery shopping", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Book software installation on Tuesday at 09:00.", "output": {"action": "schedule", "task": "software installation", "date": "Tuesday", "time": "09:00", "priority": "normal"}}
+{"input": "Set a reminder for gym session on Monday at 09:00. This is urgent.", "output": {"action": "remind", "task": "gym session", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Remind me about birthday planning at 14:00. Low priority.", "output": {"action": "remind", "task": "birthday planning", "date": null, "time": "14:00", "priority": "low"}}
+{"input": "Set the status of birthday planning to finished on Friday at 17:00. Low priority.", "output": {"action": "complete", "task": "birthday planning", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "Cancel language lesson tomorrow at 11:30. Low priority.", "output": {"action": "cancel", "task": "language lesson", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Create a reminder for car service tomorrow. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "tomorrow", "time": null, "priority": "high"}}
+{"input": "Add car service to my to-do list at 09:00. Low priority.", "output": {"action": "create", "task": "car service", "date": null, "time": "09:00", "priority": "low"}}
+{"input": "Arrange email follow-up on Friday at 17:00. This is urgent.", "output": {"action": "schedule", "task": "email follow-up", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Make a new task for gym session tomorrow at 11:30.", "output": {"action": "create", "task": "gym session", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Create a task for flight booking tomorrow.", "output": {"action": "create", "task": "flight booking", "date": "tomorrow", "time": null, "priority": "normal"}}
+{"input": "Remind me about dentist appointment on Tuesday at 17:00. Low priority.", "output": {"action": "remind", "task": "dentist appointment", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Arrange weekly report on Monday.", "output": {"action": "schedule", "task": "weekly report", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Create a reminder for gym session on Tuesday at 11:30. This is urgent.", "output": {"action": "remind", "task": "gym session", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Set the status of project review to finished on Monday at 11:30. Low priority.", "output": {"action": "complete", "task": "project review", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for software installation today at 10:00.", "output": {"action": "create", "task": "software installation", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Cancel garden maintenance on Friday at 11:30.", "output": {"action": "cancel", "task": "garden maintenance", "date": "Friday", "time": "11:30", "priority": "normal"}}
+{"input": "Set a reminder for dentist appointment at 17:00. This is urgent.", "output": {"action": "remind", "task": "dentist appointment", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Delete the task for presentation practice on Friday at 17:00.", "output": {"action": "cancel", "task": "presentation practice", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Create a reminder for car service on Friday at 09:00. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "Friday", "time": "09:00", "priority": "high"}}
+{"input": "Create a reminder for dentist appointment on Tuesday at 17:00.", "output": {"action": "remind", "task": "dentist appointment", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Make a new task for library visit on Monday. This is urgent.", "output": {"action": "create", "task": "library visit", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Create a task for email follow-up on Monday at 17:00.", "output": {"action": "create", "task": "email follow-up", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Mark garden maintenance as done at 17:00. This is urgent.", "output": {"action": "complete", "task": "garden maintenance", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Create a reminder for email follow-up tomorrow at 09:00. Low priority.", "output": {"action": "remind", "task": "email follow-up", "date": "tomorrow", "time": "09:00", "priority": "low"}}
+{"input": "Book gym session tomorrow at 14:00. Low priority.", "output": {"action": "schedule", "task": "gym session", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Add presentation practice to my to-do list at 10:00. Low priority.", "output": {"action": "create", "task": "presentation practice", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Remind me about birthday planning today at 10:00. Low priority.", "output": {"action": "remind", "task": "birthday planning", "date": "today", "time": "10:00", "priority": "low"}}
+{"input": "Set a reminder for car service on Monday.", "output": {"action": "remind", "task": "car service", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Arrange dentist appointment tomorrow at 09:00.", "output": {"action": "schedule", "task": "dentist appointment", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Make a new task for email follow-up at 17:00. Low priority.", "output": {"action": "create", "task": "email follow-up", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Set the status of coding assignment to finished at 11:30. This is urgent.", "output": {"action": "complete", "task": "coding assignment", "date": null, "time": "11:30", "priority": "high"}}
+{"input": "Arrange website update tomorrow at 17:00.", "output": {"action": "schedule", "task": "website update", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Create a task for car service on Tuesday at 10:00. This is urgent.", "output": {"action": "create", "task": "car service", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Book coding assignment on Friday at 11:30. Low priority.", "output": {"action": "schedule", "task": "coding assignment", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Cancel email follow-up on Tuesday at 11:30. Low priority.", "output": {"action": "cancel", "task": "email follow-up", "date": "Tuesday", "time": "11:30", "priority": "low"}}
+{"input": "Cancel car service tomorrow at 14:00. This is urgent.", "output": {"action": "cancel", "task": "car service", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Make a new task for budget review tomorrow at 09:00. This is urgent.", "output": {"action": "create", "task": "budget review", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Remove weekly report from my schedule tomorrow at 17:00.", "output": {"action": "cancel", "task": "weekly report", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Schedule birthday planning on Tuesday at 17:00. Low priority.", "output": {"action": "schedule", "task": "birthday planning", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Make a new task for email follow-up on Friday at 11:30. This is urgent.", "output": {"action": "create", "task": "email follow-up", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Set a reminder for coding assignment on Friday at 14:00.", "output": {"action": "remind", "task": "coding assignment", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Mark team meeting as done today at 17:00. This is urgent.", "output": {"action": "complete", "task": "team meeting", "date": "today", "time": "17:00", "priority": "high"}}
+{"input": "Mark team meeting as done on Friday at 17:00.", "output": {"action": "complete", "task": "team meeting", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Arrange coding assignment at 11:30. Low priority.", "output": {"action": "schedule", "task": "coding assignment", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for laundry on Tuesday at 09:00.", "output": {"action": "create", "task": "laundry", "date": "Tuesday", "time": "09:00", "priority": "normal"}}
+{"input": "Make a new task for project review on Monday at 17:00. Low priority.", "output": {"action": "create", "task": "project review", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Arrange job interview on Friday at 11:30. This is urgent.", "output": {"action": "schedule", "task": "job interview", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Cancel project review at 10:00. Low priority.", "output": {"action": "cancel", "task": "project review", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Remove job interview from my schedule on Friday at 17:00. Low priority.", "output": {"action": "cancel", "task": "job interview", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "Mark website update as completed tomorrow at 09:00.", "output": {"action": "complete", "task": "website update", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Mark job interview as completed on Monday at 14:00. This is urgent.", "output": {"action": "complete", "task": "job interview", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Cancel weekly report today at 11:30. This is urgent.", "output": {"action": "cancel", "task": "weekly report", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Add weekly report to my to-do list on Monday at 11:30. This is urgent.", "output": {"action": "create", "task": "weekly report", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Mark laundry as completed today at 10:00. This is urgent.", "output": {"action": "complete", "task": "laundry", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Mark garden maintenance as done at 10:00.", "output": {"action": "complete", "task": "garden maintenance", "date": null, "time": "10:00", "priority": "normal"}}
+{"input": "Add presentation practice to my to-do list tomorrow at 17:00. Low priority.", "output": {"action": "create", "task": "presentation practice", "date": "tomorrow", "time": "17:00", "priority": "low"}}
+{"input": "Remind me about garden maintenance on Friday at 14:00.", "output": {"action": "remind", "task": "garden maintenance", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Delete the task for flight booking on Monday at 11:30.", "output": {"action": "cancel", "task": "flight booking", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Mark project review as done on Friday at 17:00. This is urgent.", "output": {"action": "complete", "task": "project review", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Schedule laundry on Monday at 14:00. This is urgent.", "output": {"action": "schedule", "task": "laundry", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Create a reminder for grocery shopping on Monday at 10:00. Low priority.", "output": {"action": "remind", "task": "grocery shopping", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "Set a reminder for email follow-up. Low priority.", "output": {"action": "remind", "task": "email follow-up", "date": null, "time": null, "priority": "low"}}
+{"input": "Mark car service as done on Monday.", "output": {"action": "complete", "task": "car service", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Make a new task for presentation practice on Monday at 11:30.", "output": {"action": "create", "task": "presentation practice", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "Remove team meeting from my schedule on Friday at 14:00.", "output": {"action": "cancel", "task": "team meeting", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Mark flight booking as done on Tuesday at 09:00. This is urgent.", "output": {"action": "complete", "task": "flight booking", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Mark gym session as completed on Tuesday. Low priority.", "output": {"action": "complete", "task": "gym session", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Schedule dentist appointment tomorrow at 14:00.", "output": {"action": "schedule", "task": "dentist appointment", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Create a reminder for grocery shopping on Friday at 09:00. This is urgent.", "output": {"action": "remind", "task": "grocery shopping", "date": "Friday", "time": "09:00", "priority": "high"}}
+{"input": "Mark weekly report as done. This is urgent.", "output": {"action": "complete", "task": "weekly report", "date": null, "time": null, "priority": "high"}}
+{"input": "Schedule website update on Friday at 17:00.", "output": {"action": "schedule", "task": "website update", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Make a new task for email follow-up on Friday at 11:30. Low priority.", "output": {"action": "create", "task": "email follow-up", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Create a task for flight booking on Tuesday at 14:00.", "output": {"action": "create", "task": "flight booking", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Mark budget review as done on Tuesday at 10:00.", "output": {"action": "complete", "task": "budget review", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Mark birthday planning as completed on Monday at 10:00. This is urgent.", "output": {"action": "complete", "task": "birthday planning", "date": "Monday", "time": "10:00", "priority": "high"}}
+{"input": "Create a task for email follow-up at 10:00. Low priority.", "output": {"action": "create", "task": "email follow-up", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Mark email follow-up as completed today at 10:00. This is urgent.", "output": {"action": "complete", "task": "email follow-up", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Mark project review as done tomorrow. Low priority.", "output": {"action": "complete", "task": "project review", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Create a reminder for website update on Monday at 17:00. Low priority.", "output": {"action": "remind", "task": "website update", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Mark birthday planning as completed on Monday. Low priority.", "output": {"action": "complete", "task": "birthday planning", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Create a reminder for software installation today at 17:00.", "output": {"action": "remind", "task": "software installation", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Create a reminder for library visit tomorrow at 14:00. This is urgent.", "output": {"action": "remind", "task": "library visit", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Set a reminder for grocery shopping tomorrow at 10:00. This is urgent.", "output": {"action": "remind", "task": "grocery shopping", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Mark project review as completed at 10:00. This is urgent.", "output": {"action": "complete", "task": "project review", "date": null, "time": "10:00", "priority": "high"}}
+{"input": "Add weekly report to my to-do list on Monday at 17:00. This is urgent.", "output": {"action": "create", "task": "weekly report", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Mark project review as completed on Tuesday at 11:30. This is urgent.", "output": {"action": "complete", "task": "project review", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Mark presentation practice as done on Tuesday at 10:00. This is urgent.", "output": {"action": "complete", "task": "presentation practice", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Arrange grocery shopping on Monday at 09:00. This is urgent.", "output": {"action": "schedule", "task": "grocery shopping", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Arrange flight booking at 17:00. This is urgent.", "output": {"action": "schedule", "task": "flight booking", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Make a new task for website update on Tuesday at 10:00.", "output": {"action": "create", "task": "website update", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Arrange email follow-up on Monday at 10:00. Low priority.", "output": {"action": "schedule", "task": "email follow-up", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "Make a new task for garden maintenance on Monday at 09:00. This is urgent.", "output": {"action": "create", "task": "garden maintenance", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Create a reminder for software installation today at 09:00. This is urgent.", "output": {"action": "remind", "task": "software installation", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Create a task for laundry today at 10:00. This is urgent.", "output": {"action": "create", "task": "laundry", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Mark laundry as completed at 11:30.", "output": {"action": "complete", "task": "laundry", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Arrange email follow-up today at 09:00.", "output": {"action": "schedule", "task": "email follow-up", "date": "today", "time": "09:00", "priority": "normal"}}
+{"input": "Create a task for language lesson tomorrow at 14:00. This is urgent.", "output": {"action": "create", "task": "language lesson", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Set the status of project review to finished on Monday at 17:00. Low priority.", "output": {"action": "complete", "task": "project review", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Create a reminder for email follow-up tomorrow at 17:00.", "output": {"action": "remind", "task": "email follow-up", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Remind me about presentation practice on Friday at 14:00.", "output": {"action": "remind", "task": "presentation practice", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Create a reminder for dentist appointment on Monday at 10:00.", "output": {"action": "remind", "task": "dentist appointment", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Arrange laundry on Tuesday at 09:00. Low priority.", "output": {"action": "schedule", "task": "laundry", "date": "Tuesday", "time": "09:00", "priority": "low"}}
+{"input": "Arrange library visit on Tuesday at 10:00.", "output": {"action": "schedule", "task": "library visit", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Remove language lesson from my schedule on Monday. This is urgent.", "output": {"action": "cancel", "task": "language lesson", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Book coding assignment on Tuesday at 09:00.", "output": {"action": "schedule", "task": "coding assignment", "date": "Tuesday", "time": "09:00", "priority": "normal"}}
+{"input": "Arrange coding assignment at 11:30.", "output": {"action": "schedule", "task": "coding assignment", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Set a reminder for birthday planning on Monday. This is urgent.", "output": {"action": "remind", "task": "birthday planning", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Remind me about coding assignment on Friday at 10:00.", "output": {"action": "remind", "task": "coding assignment", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Book flight booking on Tuesday at 14:00. This is urgent.", "output": {"action": "schedule", "task": "flight booking", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Cancel coding assignment.", "output": {"action": "cancel", "task": "coding assignment", "date": null, "time": null, "priority": "normal"}}
+{"input": "Set the status of budget review to finished on Monday at 09:00. This is urgent.", "output": {"action": "complete", "task": "budget review", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Remind me about presentation practice on Monday. This is urgent.", "output": {"action": "remind", "task": "presentation practice", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Mark job interview as done today at 09:00.", "output": {"action": "complete", "task": "job interview", "date": "today", "time": "09:00", "priority": "normal"}}
+{"input": "Set a reminder for website update on Tuesday at 14:00.", "output": {"action": "remind", "task": "website update", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Set the status of grocery shopping to finished on Monday at 14:00. This is urgent.", "output": {"action": "complete", "task": "grocery shopping", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Mark email follow-up as completed at 17:00. Low priority.", "output": {"action": "complete", "task": "email follow-up", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Mark gym session as completed at 11:30.", "output": {"action": "complete", "task": "gym session", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Arrange weekly report at 17:00.", "output": {"action": "schedule", "task": "weekly report", "date": null, "time": "17:00", "priority": "normal"}}
+{"input": "Arrange weekly report tomorrow at 17:00.", "output": {"action": "schedule", "task": "weekly report", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Mark laundry as done today at 17:00. This is urgent.", "output": {"action": "complete", "task": "laundry", "date": "today", "time": "17:00", "priority": "high"}}
+{"input": "Cancel dentist appointment on Tuesday. This is urgent.", "output": {"action": "cancel", "task": "dentist appointment", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Set a reminder for budget review on Friday at 10:00. Low priority.", "output": {"action": "remind", "task": "budget review", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Mark weekly report as done tomorrow at 10:00.", "output": {"action": "complete", "task": "weekly report", "date": "tomorrow", "time": "10:00", "priority": "normal"}}
+{"input": "Mark project review as completed on Tuesday at 09:00. This is urgent.", "output": {"action": "complete", "task": "project review", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Book language lesson at 11:30.", "output": {"action": "schedule", "task": "language lesson", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Remind me about website update on Tuesday at 09:00.", "output": {"action": "remind", "task": "website update", "date": "Tuesday", "time": "09:00", "priority": "normal"}}
+{"input": "Remind me about laundry on Monday at 11:30. This is urgent.", "output": {"action": "remind", "task": "laundry", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Remind me about language lesson on Tuesday at 17:00. Low priority.", "output": {"action": "remind", "task": "language lesson", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Add team meeting to my to-do list at 11:30.", "output": {"action": "create", "task": "team meeting", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Make a new task for presentation practice on Monday at 09:00. Low priority.", "output": {"action": "create", "task": "presentation practice", "date": "Monday", "time": "09:00", "priority": "low"}}
+{"input": "Create a task for coding assignment today at 11:30. This is urgent.", "output": {"action": "create", "task": "coding assignment", "date": "today", "time": "11:30", "priority": "high"}}
+{"input": "Set a reminder for email follow-up on Monday at 10:00.", "output": {"action": "remind", "task": "email follow-up", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Mark job interview as done tomorrow. Low priority.", "output": {"action": "complete", "task": "job interview", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Cancel team meeting on Friday at 11:30. This is urgent.", "output": {"action": "cancel", "task": "team meeting", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Set a reminder for team meeting on Monday at 17:00. This is urgent.", "output": {"action": "remind", "task": "team meeting", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Cancel language lesson on Monday at 17:00. This is urgent.", "output": {"action": "cancel", "task": "language lesson", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Mark email follow-up as completed on Friday. Low priority.", "output": {"action": "complete", "task": "email follow-up", "date": "Friday", "time": null, "priority": "low"}}
+{"input": "Create a reminder for birthday planning today at 17:00. This is urgent.", "output": {"action": "remind", "task": "birthday planning", "date": "today", "time": "17:00", "priority": "high"}}
+{"input": "Set the status of email follow-up to finished on Monday at 10:00. This is urgent.", "output": {"action": "complete", "task": "email follow-up", "date": "Monday", "time": "10:00", "priority": "high"}}
+{"input": "Make a new task for weekly report on Tuesday at 17:00. Low priority.", "output": {"action": "create", "task": "weekly report", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Cancel flight booking on Monday at 17:00. Low priority.", "output": {"action": "cancel", "task": "flight booking", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Remove email follow-up from my schedule tomorrow at 14:00. Low priority.", "output": {"action": "cancel", "task": "email follow-up", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Remove birthday planning from my schedule on Monday at 17:00. Low priority.", "output": {"action": "cancel", "task": "birthday planning", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Create a task for budget review at 09:00. This is urgent.", "output": {"action": "create", "task": "budget review", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Mark grocery shopping as completed tomorrow at 09:00.", "output": {"action": "complete", "task": "grocery shopping", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Set a reminder for car service on Monday at 17:00. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Mark flight booking as done at 10:00. This is urgent.", "output": {"action": "complete", "task": "flight booking", "date": null, "time": "10:00", "priority": "high"}}
+{"input": "Remove website update from my schedule on Friday at 17:00.", "output": {"action": "cancel", "task": "website update", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Mark dentist appointment as completed at 11:30. This is urgent.", "output": {"action": "complete", "task": "dentist appointment", "date": null, "time": "11:30", "priority": "high"}}
+{"input": "Set the status of presentation practice to finished on Friday at 17:00. Low priority.", "output": {"action": "complete", "task": "presentation practice", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "Mark dentist appointment as completed today at 11:30.", "output": {"action": "complete", "task": "dentist appointment", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Mark language lesson as completed today at 09:00. This is urgent.", "output": {"action": "complete", "task": "language lesson", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Remind me about library visit on Monday at 14:00. Low priority.", "output": {"action": "remind", "task": "library visit", "date": "Monday", "time": "14:00", "priority": "low"}}
+{"input": "Book budget review at 09:00. Low priority.", "output": {"action": "schedule", "task": "budget review", "date": null, "time": "09:00", "priority": "low"}}
+{"input": "Cancel budget review on Monday at 10:00. Low priority.", "output": {"action": "cancel", "task": "budget review", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "Make a new task for team meeting on Monday at 14:00. This is urgent.", "output": {"action": "create", "task": "team meeting", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Add car service to my to-do list on Monday at 09:00. Low priority.", "output": {"action": "create", "task": "car service", "date": "Monday", "time": "09:00", "priority": "low"}}
+{"input": "Remind me about flight booking today at 10:00. Low priority.", "output": {"action": "remind", "task": "flight booking", "date": "today", "time": "10:00", "priority": "low"}}
+{"input": "Schedule grocery shopping on Tuesday at 17:00. Low priority.", "output": {"action": "schedule", "task": "grocery shopping", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Add presentation practice to my to-do list at 14:00. Low priority.", "output": {"action": "create", "task": "presentation practice", "date": null, "time": "14:00", "priority": "low"}}
+{"input": "Schedule library visit tomorrow at 17:00. Low priority.", "output": {"action": "schedule", "task": "library visit", "date": "tomorrow", "time": "17:00", "priority": "low"}}
+{"input": "Mark library visit as completed on Monday at 11:30. This is urgent.", "output": {"action": "complete", "task": "library visit", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Mark library visit as completed on Tuesday. Low priority.", "output": {"action": "complete", "task": "library visit", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Create a task for software installation on Monday at 09:00. Low priority.", "output": {"action": "create", "task": "software installation", "date": "Monday", "time": "09:00", "priority": "low"}}
+{"input": "Create a reminder for presentation practice on Tuesday at 11:30.", "output": {"action": "remind", "task": "presentation practice", "date": "Tuesday", "time": "11:30", "priority": "normal"}}
+{"input": "Arrange software installation tomorrow.", "output": {"action": "schedule", "task": "software installation", "date": "tomorrow", "time": null, "priority": "normal"}}
+{"input": "Remove software installation from my schedule on Friday at 14:00.", "output": {"action": "cancel", "task": "software installation", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Make a new task for job interview on Monday at 09:00. This is urgent.", "output": {"action": "create", "task": "job interview", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Delete the task for birthday planning on Tuesday at 14:00.", "output": {"action": "cancel", "task": "birthday planning", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Book garden maintenance on Tuesday. This is urgent.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Remind me about website update tomorrow at 11:30. This is urgent.", "output": {"action": "remind", "task": "website update", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Remove budget review from my schedule on Friday at 09:00. This is urgent.", "output": {"action": "cancel", "task": "budget review", "date": "Friday", "time": "09:00", "priority": "high"}}
+{"input": "Mark email follow-up as done today at 11:30.", "output": {"action": "complete", "task": "email follow-up", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Mark budget review as done on Monday at 17:00. This is urgent.", "output": {"action": "complete", "task": "budget review", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Make a new task for team meeting at 09:00.", "output": {"action": "create", "task": "team meeting", "date": null, "time": "09:00", "priority": "normal"}}
+{"input": "Delete the task for coding assignment on Monday at 09:00. This is urgent.", "output": {"action": "cancel", "task": "coding assignment", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Set the status of dentist appointment to finished on Tuesday. Low priority.", "output": {"action": "complete", "task": "dentist appointment", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Make a new task for dentist appointment tomorrow at 14:00. This is urgent.", "output": {"action": "create", "task": "dentist appointment", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Create a reminder for coding assignment on Friday at 10:00. This is urgent.", "output": {"action": "remind", "task": "coding assignment", "date": "Friday", "time": "10:00", "priority": "high"}}
+{"input": "Remove car service from my schedule on Friday at 17:00. This is urgent.", "output": {"action": "cancel", "task": "car service", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Mark car service as completed on Friday at 17:00. This is urgent.", "output": {"action": "complete", "task": "car service", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Create a task for dentist appointment on Friday at 10:00.", "output": {"action": "create", "task": "dentist appointment", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Create a task for gym session at 11:30. Low priority.", "output": {"action": "create", "task": "gym session", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Remove language lesson from my schedule tomorrow. This is urgent.", "output": {"action": "cancel", "task": "language lesson", "date": "tomorrow", "time": null, "priority": "high"}}
+{"input": "Delete the task for grocery shopping tomorrow at 14:00. Low priority.", "output": {"action": "cancel", "task": "grocery shopping", "date": "tomorrow", "time": "14:00", "priority": "low"}}
+{"input": "Book birthday planning at 09:00. This is urgent.", "output": {"action": "schedule", "task": "birthday planning", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Mark software installation as done on Tuesday at 11:30.", "output": {"action": "complete", "task": "software installation", "date": "Tuesday", "time": "11:30", "priority": "normal"}}
+{"input": "Create a task for budget review today at 17:00.", "output": {"action": "create", "task": "budget review", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Arrange dentist appointment on Friday at 11:30. This is urgent.", "output": {"action": "schedule", "task": "dentist appointment", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Cancel email follow-up tomorrow at 14:00. This is urgent.", "output": {"action": "cancel", "task": "email follow-up", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Set the status of coding assignment to finished on Friday at 17:00.", "output": {"action": "complete", "task": "coding assignment", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Remove flight booking from my schedule on Friday at 09:00.", "output": {"action": "cancel", "task": "flight booking", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "Set a reminder for project review at 11:30. Low priority.", "output": {"action": "remind", "task": "project review", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Mark team meeting as completed today at 10:00. This is urgent.", "output": {"action": "complete", "task": "team meeting", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Remove weekly report from my schedule. This is urgent.", "output": {"action": "cancel", "task": "weekly report", "date": null, "time": null, "priority": "high"}}
+{"input": "Arrange weekly report tomorrow at 09:00. This is urgent.", "output": {"action": "schedule", "task": "weekly report", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Delete the task for software installation on Tuesday at 09:00. This is urgent.", "output": {"action": "cancel", "task": "software installation", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Set a reminder for budget review. This is urgent.", "output": {"action": "remind", "task": "budget review", "date": null, "time": null, "priority": "high"}}
+{"input": "Mark job interview as done on Friday.", "output": {"action": "complete", "task": "job interview", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Add language lesson to my to-do list on Monday at 17:00. This is urgent.", "output": {"action": "create", "task": "language lesson", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Add email follow-up to my to-do list on Monday. This is urgent.", "output": {"action": "create", "task": "email follow-up", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Create a reminder for laundry on Monday at 09:00.", "output": {"action": "remind", "task": "laundry", "date": "Monday", "time": "09:00", "priority": "normal"}}
+{"input": "Mark language lesson as done tomorrow at 11:30.", "output": {"action": "complete", "task": "language lesson", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Schedule language lesson tomorrow at 17:00.", "output": {"action": "schedule", "task": "language lesson", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Add gym session to my to-do list on Monday. This is urgent.", "output": {"action": "create", "task": "gym session", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Create a task for language lesson. This is urgent.", "output": {"action": "create", "task": "language lesson", "date": null, "time": null, "priority": "high"}}
+{"input": "Add team meeting to my to-do list at 17:00. Low priority.", "output": {"action": "create", "task": "team meeting", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Make a new task for job interview tomorrow at 10:00.", "output": {"action": "create", "task": "job interview", "date": "tomorrow", "time": "10:00", "priority": "normal"}}
+{"input": "Make a new task for budget review today at 17:00. Low priority.", "output": {"action": "create", "task": "budget review", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Mark gym session as done on Friday at 17:00. This is urgent.", "output": {"action": "complete", "task": "gym session", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Set a reminder for library visit on Friday at 11:30. Low priority.", "output": {"action": "remind", "task": "library visit", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Add flight booking to my to-do list on Monday at 14:00. This is urgent.", "output": {"action": "create", "task": "flight booking", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Add birthday planning to my to-do list at 14:00.", "output": {"action": "create", "task": "birthday planning", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Schedule coding assignment on Tuesday. Low priority.", "output": {"action": "schedule", "task": "coding assignment", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Remove website update from my schedule on Tuesday at 17:00.", "output": {"action": "cancel", "task": "website update", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Set a reminder for presentation practice on Monday at 09:00.", "output": {"action": "remind", "task": "presentation practice", "date": "Monday", "time": "09:00", "priority": "normal"}}
+{"input": "Set the status of coding assignment to finished today at 17:00.", "output": {"action": "complete", "task": "coding assignment", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Arrange coding assignment on Monday at 17:00.", "output": {"action": "schedule", "task": "coding assignment", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Cancel library visit at 17:00. This is urgent.", "output": {"action": "cancel", "task": "library visit", "date": null, "time": "17:00", "priority": "high"}}
+{"input": "Mark weekly report as completed today at 14:00. Low priority.", "output": {"action": "complete", "task": "weekly report", "date": "today", "time": "14:00", "priority": "low"}}
+{"input": "Set a reminder for garden maintenance on Friday at 10:00. This is urgent.", "output": {"action": "remind", "task": "garden maintenance", "date": "Friday", "time": "10:00", "priority": "high"}}
+{"input": "Remove email follow-up from my schedule at 09:00.", "output": {"action": "cancel", "task": "email follow-up", "date": null, "time": "09:00", "priority": "normal"}}
+{"input": "Set a reminder for garden maintenance today at 17:00. Low priority.", "output": {"action": "remind", "task": "garden maintenance", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Cancel library visit tomorrow at 11:30.", "output": {"action": "cancel", "task": "library visit", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Set a reminder for language lesson on Tuesday at 10:00.", "output": {"action": "remind", "task": "language lesson", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Mark car service as completed tomorrow at 11:30. Low priority.", "output": {"action": "complete", "task": "car service", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Arrange dentist appointment on Monday at 17:00.", "output": {"action": "schedule", "task": "dentist appointment", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Set the status of laundry to finished tomorrow at 09:00. This is urgent.", "output": {"action": "complete", "task": "laundry", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Remind me about car service at 10:00. This is urgent.", "output": {"action": "remind", "task": "car service", "date": null, "time": "10:00", "priority": "high"}}
+{"input": "Delete the task for budget review.", "output": {"action": "cancel", "task": "budget review", "date": null, "time": null, "priority": "normal"}}
+{"input": "Make a new task for grocery shopping on Monday at 09:00. Low priority.", "output": {"action": "create", "task": "grocery shopping", "date": "Monday", "time": "09:00", "priority": "low"}}
+{"input": "Remove email follow-up from my schedule on Monday at 10:00. This is urgent.", "output": {"action": "cancel", "task": "email follow-up", "date": "Monday", "time": "10:00", "priority": "high"}}
+{"input": "Arrange garden maintenance today at 17:00.", "output": {"action": "schedule", "task": "garden maintenance", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Schedule car service on Monday.", "output": {"action": "schedule", "task": "car service", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Delete the task for website update on Monday at 11:30. Low priority.", "output": {"action": "cancel", "task": "website update", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Mark project review as completed tomorrow at 11:30. Low priority.", "output": {"action": "complete", "task": "project review", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Arrange car service at 17:00. Low priority.", "output": {"action": "schedule", "task": "car service", "date": null, "time": "17:00", "priority": "low"}}
+{"input": "Cancel flight booking today at 17:00. This is urgent.", "output": {"action": "cancel", "task": "flight booking", "date": "today", "time": "17:00", "priority": "high"}}
+{"input": "Add team meeting to my to-do list on Tuesday at 10:00. Low priority.", "output": {"action": "create", "task": "team meeting", "date": "Tuesday", "time": "10:00", "priority": "low"}}
+{"input": "Create a task for website update at 09:00. Low priority.", "output": {"action": "create", "task": "website update", "date": null, "time": "09:00", "priority": "low"}}
+{"input": "Delete the task for car service tomorrow at 11:30.", "output": {"action": "cancel", "task": "car service", "date": "tomorrow", "time": "11:30", "priority": "normal"}}
+{"input": "Schedule team meeting. Low priority.", "output": {"action": "schedule", "task": "team meeting", "date": null, "time": null, "priority": "low"}}
+{"input": "Remind me about library visit on Friday.", "output": {"action": "remind", "task": "library visit", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Mark software installation as done on Monday at 14:00.", "output": {"action": "complete", "task": "software installation", "date": "Monday", "time": "14:00", "priority": "normal"}}
+{"input": "Remove language lesson from my schedule on Monday. Low priority.", "output": {"action": "cancel", "task": "language lesson", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Add project review to my to-do list at 09:00.", "output": {"action": "create", "task": "project review", "date": null, "time": "09:00", "priority": "normal"}}
+{"input": "Remind me about job interview tomorrow at 14:00.", "output": {"action": "remind", "task": "job interview", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Arrange birthday planning on Monday at 14:00. This is urgent.", "output": {"action": "schedule", "task": "birthday planning", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "Set a reminder for library visit on Tuesday at 11:30. This is urgent.", "output": {"action": "remind", "task": "library visit", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Schedule garden maintenance today at 17:00. Low priority.", "output": {"action": "schedule", "task": "garden maintenance", "date": "today", "time": "17:00", "priority": "low"}}
+{"input": "Set the status of dentist appointment to finished on Friday at 11:30.", "output": {"action": "complete", "task": "dentist appointment", "date": "Friday", "time": "11:30", "priority": "normal"}}
+{"input": "Schedule language lesson on Tuesday at 14:00.", "output": {"action": "schedule", "task": "language lesson", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Remind me about garden maintenance on Monday at 17:00. Low priority.", "output": {"action": "remind", "task": "garden maintenance", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Mark software installation as done on Tuesday at 14:00.", "output": {"action": "complete", "task": "software installation", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Create a reminder for car service on Monday at 09:00.", "output": {"action": "remind", "task": "car service", "date": "Monday", "time": "09:00", "priority": "normal"}}
+{"input": "Add email follow-up to my to-do list today at 14:00.", "output": {"action": "create", "task": "email follow-up", "date": "today", "time": "14:00", "priority": "normal"}}
+{"input": "Add birthday planning to my to-do list on Monday at 11:30. Low priority.", "output": {"action": "create", "task": "birthday planning", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Set a reminder for coding assignment on Monday. This is urgent.", "output": {"action": "remind", "task": "coding assignment", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Delete the task for coding assignment today at 11:30. Low priority.", "output": {"action": "cancel", "task": "coding assignment", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Mark coding assignment as done tomorrow at 17:00.", "output": {"action": "complete", "task": "coding assignment", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Book weekly report on Friday at 10:00. Low priority.", "output": {"action": "schedule", "task": "weekly report", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Remind me about budget review on Tuesday at 11:30.", "output": {"action": "remind", "task": "budget review", "date": "Tuesday", "time": "11:30", "priority": "normal"}}
+{"input": "Delete the task for flight booking today at 17:00.", "output": {"action": "cancel", "task": "flight booking", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Book garden maintenance today at 10:00.", "output": {"action": "schedule", "task": "garden maintenance", "date": "today", "time": "10:00", "priority": "normal"}}
+{"input": "Schedule garden maintenance. Low priority.", "output": {"action": "schedule", "task": "garden maintenance", "date": null, "time": null, "priority": "low"}}
+{"input": "Remind me about project review on Monday at 10:00. This is urgent.", "output": {"action": "remind", "task": "project review", "date": "Monday", "time": "10:00", "priority": "high"}}
+{"input": "Make a new task for email follow-up on Tuesday.", "output": {"action": "create", "task": "email follow-up", "date": "Tuesday", "time": null, "priority": "normal"}}
+{"input": "Set a reminder for dentist appointment at 14:00.", "output": {"action": "remind", "task": "dentist appointment", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Add weekly report to my to-do list on Tuesday at 14:00.", "output": {"action": "create", "task": "weekly report", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Set a reminder for job interview on Monday at 17:00. Low priority.", "output": {"action": "remind", "task": "job interview", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Cancel job interview on Monday at 10:00.", "output": {"action": "cancel", "task": "job interview", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Set a reminder for weekly report today at 14:00. Low priority.", "output": {"action": "remind", "task": "weekly report", "date": "today", "time": "14:00", "priority": "low"}}
+{"input": "Schedule car service on Friday at 14:00.", "output": {"action": "schedule", "task": "car service", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Remind me about presentation practice on Monday at 14:00. Low priority.", "output": {"action": "remind", "task": "presentation practice", "date": "Monday", "time": "14:00", "priority": "low"}}
+{"input": "Set a reminder for car service on Friday. This is urgent.", "output": {"action": "remind", "task": "car service", "date": "Friday", "time": null, "priority": "high"}}
+{"input": "Remove garden maintenance from my schedule on Friday at 09:00. Low priority.", "output": {"action": "cancel", "task": "garden maintenance", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Create a reminder for grocery shopping tomorrow at 10:00. Low priority.", "output": {"action": "remind", "task": "grocery shopping", "date": "tomorrow", "time": "10:00", "priority": "low"}}
+{"input": "Make a new task for email follow-up tomorrow at 17:00. This is urgent.", "output": {"action": "create", "task": "email follow-up", "date": "tomorrow", "time": "17:00", "priority": "high"}}
+{"input": "Arrange language lesson today at 11:30.", "output": {"action": "schedule", "task": "language lesson", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Add website update to my to-do list on Monday at 14:00. Low priority.", "output": {"action": "create", "task": "website update", "date": "Monday", "time": "14:00", "priority": "low"}}
+{"input": "Remove project review from my schedule at 09:00.", "output": {"action": "cancel", "task": "project review", "date": null, "time": "09:00", "priority": "normal"}}
+{"input": "Schedule coding assignment on Tuesday at 10:00.", "output": {"action": "schedule", "task": "coding assignment", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Arrange website update on Tuesday at 14:00.", "output": {"action": "schedule", "task": "website update", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Cancel grocery shopping today at 17:00. This is urgent.", "output": {"action": "cancel", "task": "grocery shopping", "date": "today", "time": "17:00", "priority": "high"}}
+{"input": "Create a task for coding assignment on Monday at 09:00. Low priority.", "output": {"action": "create", "task": "coding assignment", "date": "Monday", "time": "09:00", "priority": "low"}}
+{"input": "Create a task for language lesson tomorrow at 09:00.", "output": {"action": "create", "task": "language lesson", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "Cancel dentist appointment on Monday.", "output": {"action": "cancel", "task": "dentist appointment", "date": "Monday", "time": null, "priority": "normal"}}
+{"input": "Remind me about birthday planning on Tuesday at 11:30. Low priority.", "output": {"action": "remind", "task": "birthday planning", "date": "Tuesday", "time": "11:30", "priority": "low"}}
+{"input": "Mark library visit as done on Tuesday at 14:00. Low priority.", "output": {"action": "complete", "task": "library visit", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "Schedule language lesson at 11:30.", "output": {"action": "schedule", "task": "language lesson", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Delete the task for dentist appointment tomorrow at 17:00. Low priority.", "output": {"action": "cancel", "task": "dentist appointment", "date": "tomorrow", "time": "17:00", "priority": "low"}}
+{"input": "Mark birthday planning as done on Monday at 17:00.", "output": {"action": "complete", "task": "birthday planning", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Mark software installation as completed at 10:00. This is urgent.", "output": {"action": "complete", "task": "software installation", "date": null, "time": "10:00", "priority": "high"}}
+{"input": "Remind me about library visit on Tuesday at 11:30.", "output": {"action": "remind", "task": "library visit", "date": "Tuesday", "time": "11:30", "priority": "normal"}}
+{"input": "Book car service at 17:00.", "output": {"action": "schedule", "task": "car service", "date": null, "time": "17:00", "priority": "normal"}}
+{"input": "Book language lesson today. This is urgent.", "output": {"action": "schedule", "task": "language lesson", "date": "today", "time": null, "priority": "high"}}
+{"input": "Remind me about language lesson on Tuesday. This is urgent.", "output": {"action": "remind", "task": "language lesson", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Create a task for library visit tomorrow. Low priority.", "output": {"action": "create", "task": "library visit", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Make a new task for email follow-up today at 17:00.", "output": {"action": "create", "task": "email follow-up", "date": "today", "time": "17:00", "priority": "normal"}}
+{"input": "Mark dentist appointment as done on Friday at 14:00. Low priority.", "output": {"action": "complete", "task": "dentist appointment", "date": "Friday", "time": "14:00", "priority": "low"}}
+{"input": "Set a reminder for grocery shopping on Monday at 09:00.", "output": {"action": "remind", "task": "grocery shopping", "date": "Monday", "time": "09:00", "priority": "normal"}}
+{"input": "Delete the task for team meeting tomorrow at 11:30. Low priority.", "output": {"action": "cancel", "task": "team meeting", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Create a task for garden maintenance at 14:00.", "output": {"action": "create", "task": "garden maintenance", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Remove team meeting from my schedule on Monday at 09:00.", "output": {"action": "cancel", "task": "team meeting", "date": "Monday", "time": "09:00", "priority": "normal"}}
+{"input": "Arrange car service tomorrow.", "output": {"action": "schedule", "task": "car service", "date": "tomorrow", "time": null, "priority": "normal"}}
+{"input": "Mark dentist appointment as done tomorrow at 09:00. Low priority.", "output": {"action": "complete", "task": "dentist appointment", "date": "tomorrow", "time": "09:00", "priority": "low"}}
+{"input": "Create a task for dentist appointment today at 14:00. This is urgent.", "output": {"action": "create", "task": "dentist appointment", "date": "today", "time": "14:00", "priority": "high"}}
+{"input": "Delete the task for laundry tomorrow at 17:00. This is urgent.", "output": {"action": "cancel", "task": "laundry", "date": "tomorrow", "time": "17:00", "priority": "high"}}
+{"input": "Remove grocery shopping from my schedule on Monday at 17:00.", "output": {"action": "cancel", "task": "grocery shopping", "date": "Monday", "time": "17:00", "priority": "normal"}}
+{"input": "Book coding assignment on Monday at 17:00. Low priority.", "output": {"action": "schedule", "task": "coding assignment", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Remove gym session from my schedule on Monday at 10:00. Low priority.", "output": {"action": "cancel", "task": "gym session", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "Cancel website update tomorrow.", "output": {"action": "cancel", "task": "website update", "date": "tomorrow", "time": null, "priority": "normal"}}
+{"input": "Make a new task for garden maintenance on Monday at 14:00. Low priority.", "output": {"action": "create", "task": "garden maintenance", "date": "Monday", "time": "14:00", "priority": "low"}}
+{"input": "Set a reminder for language lesson today at 10:00. Low priority.", "output": {"action": "remind", "task": "language lesson", "date": "today", "time": "10:00", "priority": "low"}}
+{"input": "Make a new task for job interview tomorrow at 14:00. This is urgent.", "output": {"action": "create", "task": "job interview", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Schedule library visit on Tuesday. Low priority.", "output": {"action": "schedule", "task": "library visit", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Create a task for presentation practice tomorrow.", "output": {"action": "create", "task": "presentation practice", "date": "tomorrow", "time": null, "priority": "normal"}}
+{"input": "Mark software installation as completed at 11:30.", "output": {"action": "complete", "task": "software installation", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Book coding assignment tomorrow at 14:00. This is urgent.", "output": {"action": "schedule", "task": "coding assignment", "date": "tomorrow", "time": "14:00", "priority": "high"}}
+{"input": "Add language lesson to my to-do list today at 10:00. Low priority.", "output": {"action": "create", "task": "language lesson", "date": "today", "time": "10:00", "priority": "low"}}
+{"input": "Delete the task for garden maintenance on Tuesday at 14:00.", "output": {"action": "cancel", "task": "garden maintenance", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Remove dentist appointment from my schedule on Monday at 11:30. This is urgent.", "output": {"action": "cancel", "task": "dentist appointment", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Set a reminder for coding assignment today at 10:00. This is urgent.", "output": {"action": "remind", "task": "coding assignment", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Remove car service from my schedule at 11:30. Low priority.", "output": {"action": "cancel", "task": "car service", "date": null, "time": "11:30", "priority": "low"}}
+{"input": "Set the status of software installation to finished on Friday at 14:00.", "output": {"action": "complete", "task": "software installation", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Create a reminder for garden maintenance at 14:00. Low priority.", "output": {"action": "remind", "task": "garden maintenance", "date": null, "time": "14:00", "priority": "low"}}
+{"input": "Mark project review as completed tomorrow at 10:00. This is urgent.", "output": {"action": "complete", "task": "project review", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Create a task for job interview on Tuesday at 14:00. Low priority.", "output": {"action": "create", "task": "job interview", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "Book laundry tomorrow at 11:30. This is urgent.", "output": {"action": "schedule", "task": "laundry", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Mark flight booking as completed tomorrow at 11:30. This is urgent.", "output": {"action": "complete", "task": "flight booking", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Create a reminder for job interview on Monday at 14:00. Low priority.", "output": {"action": "remind", "task": "job interview", "date": "Monday", "time": "14:00", "priority": "low"}}
+{"input": "Create a task for birthday planning. This is urgent.", "output": {"action": "create", "task": "birthday planning", "date": null, "time": null, "priority": "high"}}
+{"input": "Set a reminder for budget review today at 17:00. This is urgent.", "output": {"action": "remind", "task": "budget review", "date": "today", "time": "17:00", "priority": "high"}}
+{"input": "Schedule garden maintenance on Tuesday at 10:00. This is urgent.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Set the status of garden maintenance to finished at 11:30. This is urgent.", "output": {"action": "complete", "task": "garden maintenance", "date": null, "time": "11:30", "priority": "high"}}
+{"input": "Make a new task for gym session on Friday at 10:00. Low priority.", "output": {"action": "create", "task": "gym session", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Create a task for flight booking on Tuesday. Low priority.", "output": {"action": "create", "task": "flight booking", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Schedule library visit on Monday at 17:00. This is urgent.", "output": {"action": "schedule", "task": "library visit", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Remind me about presentation practice on Friday. This is urgent.", "output": {"action": "remind", "task": "presentation practice", "date": "Friday", "time": null, "priority": "high"}}
+{"input": "Remove software installation from my schedule on Tuesday at 09:00. This is urgent.", "output": {"action": "cancel", "task": "software installation", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Book email follow-up at 11:30.", "output": {"action": "schedule", "task": "email follow-up", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Make a new task for budget review.", "output": {"action": "create", "task": "budget review", "date": null, "time": null, "priority": "normal"}}
+{"input": "Arrange presentation practice today at 11:30. Low priority.", "output": {"action": "schedule", "task": "presentation practice", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Remove budget review from my schedule at 11:30. This is urgent.", "output": {"action": "cancel", "task": "budget review", "date": null, "time": "11:30", "priority": "high"}}
+{"input": "Mark coding assignment as done at 11:30.", "output": {"action": "complete", "task": "coding assignment", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "Create a task for gym session. This is urgent.", "output": {"action": "create", "task": "gym session", "date": null, "time": null, "priority": "high"}}
+{"input": "Mark project review as done on Tuesday at 17:00. This is urgent.", "output": {"action": "complete", "task": "project review", "date": "Tuesday", "time": "17:00", "priority": "high"}}
+{"input": "Arrange email follow-up on Tuesday at 14:00. This is urgent.", "output": {"action": "schedule", "task": "email follow-up", "date": "Tuesday", "time": "14:00", "priority": "high"}}
+{"input": "Set the status of coding assignment to finished on Tuesday at 10:00. Low priority.", "output": {"action": "complete", "task": "coding assignment", "date": "Tuesday", "time": "10:00", "priority": "low"}}
+{"input": "Book email follow-up on Friday at 11:30. Low priority.", "output": {"action": "schedule", "task": "email follow-up", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Delete the task for car service on Tuesday at 14:00.", "output": {"action": "cancel", "task": "car service", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Remind me about presentation practice on Monday at 11:30. Low priority.", "output": {"action": "remind", "task": "presentation practice", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Arrange birthday planning on Tuesday at 11:30. Low priority.", "output": {"action": "schedule", "task": "birthday planning", "date": "Tuesday", "time": "11:30", "priority": "low"}}
+{"input": "Make a new task for grocery shopping on Tuesday at 09:00. Low priority.", "output": {"action": "create", "task": "grocery shopping", "date": "Tuesday", "time": "09:00", "priority": "low"}}
+{"input": "Mark project review as completed on Friday at 14:00. This is urgent.", "output": {"action": "complete", "task": "project review", "date": "Friday", "time": "14:00", "priority": "high"}}
+{"input": "Create a reminder for gym session on Friday.", "output": {"action": "remind", "task": "gym session", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "Mark job interview as done on Tuesday at 11:30.", "output": {"action": "complete", "task": "job interview", "date": "Tuesday", "time": "11:30", "priority": "normal"}}
+{"input": "Remove gym session from my schedule on Friday at 17:00.", "output": {"action": "cancel", "task": "gym session", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "Add dentist appointment to my to-do list today. This is urgent.", "output": {"action": "create", "task": "dentist appointment", "date": "today", "time": null, "priority": "high"}}
+{"input": "Delete the task for birthday planning on Tuesday at 11:30. Low priority.", "output": {"action": "cancel", "task": "birthday planning", "date": "Tuesday", "time": "11:30", "priority": "low"}}
+{"input": "Cancel email follow-up tomorrow at 17:00.", "output": {"action": "cancel", "task": "email follow-up", "date": "tomorrow", "time": "17:00", "priority": "normal"}}
+{"input": "Add job interview to my to-do list on Tuesday at 10:00.", "output": {"action": "create", "task": "job interview", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Arrange job interview today. This is urgent.", "output": {"action": "schedule", "task": "job interview", "date": "today", "time": null, "priority": "high"}}
+{"input": "Mark weekly report as completed on Friday at 11:30.", "output": {"action": "complete", "task": "weekly report", "date": "Friday", "time": "11:30", "priority": "normal"}}
+{"input": "Arrange email follow-up on Tuesday at 09:00. Low priority.", "output": {"action": "schedule", "task": "email follow-up", "date": "Tuesday", "time": "09:00", "priority": "low"}}
+{"input": "Remove car service from my schedule on Monday at 11:30. This is urgent.", "output": {"action": "cancel", "task": "car service", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Schedule garden maintenance on Monday at 17:00. Low priority.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Monday", "time": "17:00", "priority": "low"}}
+{"input": "Remind me about website update on Monday at 11:30. This is urgent.", "output": {"action": "remind", "task": "website update", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Schedule garden maintenance on Tuesday at 17:00.", "output": {"action": "schedule", "task": "garden maintenance", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Remove presentation practice from my schedule on Tuesday at 14:00.", "output": {"action": "cancel", "task": "presentation practice", "date": "Tuesday", "time": "14:00", "priority": "normal"}}
+{"input": "Create a reminder for website update at 14:00. This is urgent.", "output": {"action": "remind", "task": "website update", "date": null, "time": "14:00", "priority": "high"}}
+{"input": "Create a task for dentist appointment today. This is urgent.", "output": {"action": "create", "task": "dentist appointment", "date": "today", "time": null, "priority": "high"}}
+{"input": "Set the status of budget review to finished today at 11:30. Low priority.", "output": {"action": "complete", "task": "budget review", "date": "today", "time": "11:30", "priority": "low"}}
+{"input": "Remove dentist appointment from my schedule at 10:00.", "output": {"action": "cancel", "task": "dentist appointment", "date": null, "time": "10:00", "priority": "normal"}}
+{"input": "Set a reminder for website update. Low priority.", "output": {"action": "remind", "task": "website update", "date": null, "time": null, "priority": "low"}}
+{"input": "Schedule website update at 10:00. This is urgent.", "output": {"action": "schedule", "task": "website update", "date": null, "time": "10:00", "priority": "high"}}
+{"input": "Make a new task for library visit on Friday at 09:00.", "output": {"action": "create", "task": "library visit", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "Cancel team meeting today at 14:00. This is urgent.", "output": {"action": "cancel", "task": "team meeting", "date": "today", "time": "14:00", "priority": "high"}}
+{"input": "Book grocery shopping tomorrow at 17:00. This is urgent.", "output": {"action": "schedule", "task": "grocery shopping", "date": "tomorrow", "time": "17:00", "priority": "high"}}
+{"input": "Create a reminder for presentation practice on Friday at 09:00.", "output": {"action": "remind", "task": "presentation practice", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "Delete the task for coding assignment on Tuesday at 17:00. Low priority.", "output": {"action": "cancel", "task": "coding assignment", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Arrange email follow-up on Tuesday at 11:30.", "output": {"action": "schedule", "task": "email follow-up", "date": "Tuesday", "time": "11:30", "priority": "normal"}}

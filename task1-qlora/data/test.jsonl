@@ -1,0 +1,100 @@
+{"input": "Give me a nudge about garage cleanup — Friday at 5:00 PM. Top priority.", "output": {"action": "remind", "task": "garage cleanup", "date": "Friday", "time": "17:00", "priority": "high"}}
+{"input": "Give me a nudge about photography session — Friday at 9:00 AM. Top priority.", "output": {"action": "remind", "task": "photography session", "date": "Friday", "time": "09:00", "priority": "high"}}
+{"input": "Call off bike repair — tomorrow at 9:00 AM. Top priority.", "output": {"action": "cancel", "task": "bike repair", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Give me a nudge about garage cleanup — Tuesday at 10:00 AM. No rush.", "output": {"action": "remind", "task": "garage cleanup", "date": "Tuesday", "time": "10:00", "priority": "low"}}
+{"input": "Take plant watering off my calendar — tomorrow at 11:30 AM. Top priority.", "output": {"action": "cancel", "task": "plant watering", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Give me a nudge about garage cleanup — Tuesday. No rush.", "output": {"action": "remind", "task": "garage cleanup", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Put museum visit on my checklist — Tuesday. No rush.", "output": {"action": "create", "task": "museum visit", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Please reserve a slot for science exhibition — Friday at 10:00 AM.", "output": {"action": "schedule", "task": "science exhibition", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Can you pencil in museum visit — Friday at 11:30 AM. No rush.", "output": {"action": "schedule", "task": "museum visit", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Tick off piano recital as finished — Tuesday at 2:00 PM. No rush.", "output": {"action": "complete", "task": "piano recital", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "Can you pencil in design workshop — Friday at 10:00 AM. No rush.", "output": {"action": "schedule", "task": "design workshop", "date": "Friday", "time": "10:00", "priority": "low"}}
+{"input": "Take piano recital off my calendar — at 11:30 AM.", "output": {"action": "cancel", "task": "piano recital", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "I finished passport renewal; check it off — Friday at 11:30 AM. No rush.", "output": {"action": "complete", "task": "passport renewal", "date": "Friday", "time": "11:30", "priority": "low"}}
+{"input": "Can you pencil in bike repair — Tuesday at 11:30 AM. Top priority.", "output": {"action": "schedule", "task": "bike repair", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Can you pencil in garage cleanup — Friday at 11:30 AM. Top priority.", "output": {"action": "schedule", "task": "garage cleanup", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "I finished piano recital; check it off — Friday at 11:30 AM. Top priority.", "output": {"action": "complete", "task": "piano recital", "date": "Friday", "time": "11:30", "priority": "high"}}
+{"input": "Tick off design workshop as finished — Tuesday at 11:30 AM.", "output": {"action": "complete", "task": "design workshop", "date": "Tuesday", "time": "11:30", "priority": "normal"}}
+{"input": "Give me a nudge about neighborhood cleanup — Monday at 2:00 PM. Top priority.", "output": {"action": "remind", "task": "neighborhood cleanup", "date": "Monday", "time": "14:00", "priority": "high"}}
+{"input": "I need a new to-do item for photography session — Monday at 11:30 AM. Top priority.", "output": {"action": "create", "task": "photography session", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Call off bike repair — Friday at 2:00 PM.", "output": {"action": "cancel", "task": "bike repair", "date": "Friday", "time": "14:00", "priority": "normal"}}
+{"input": "Please reserve a slot for garage cleanup. Top priority.", "output": {"action": "schedule", "task": "garage cleanup", "date": null, "time": null, "priority": "high"}}
+{"input": "Do not let me forget passport renewal — Friday. Top priority.", "output": {"action": "remind", "task": "passport renewal", "date": "Friday", "time": null, "priority": "high"}}
+{"input": "Call off science exhibition — Monday at 10:00 AM.", "output": {"action": "cancel", "task": "science exhibition", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Do not let me forget science exhibition — tomorrow at 10:00 AM. No rush.", "output": {"action": "remind", "task": "science exhibition", "date": "tomorrow", "time": "10:00", "priority": "low"}}
+{"input": "Tick off photography session as finished — Friday. No rush.", "output": {"action": "complete", "task": "photography session", "date": "Friday", "time": null, "priority": "low"}}
+{"input": "Call off neighborhood cleanup — Friday.", "output": {"action": "cancel", "task": "neighborhood cleanup", "date": "Friday", "time": null, "priority": "normal"}}
+{"input": "I need a new to-do item for bike repair — Tuesday at 9:00 AM.", "output": {"action": "create", "task": "bike repair", "date": "Tuesday", "time": "09:00", "priority": "normal"}}
+{"input": "Tick off science exhibition as finished — Friday at 9:00 AM. No rush.", "output": {"action": "complete", "task": "science exhibition", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Do not let me forget neighborhood cleanup — Tuesday at 10:00 AM. Top priority.", "output": {"action": "remind", "task": "neighborhood cleanup", "date": "Tuesday", "time": "10:00", "priority": "high"}}
+{"input": "Please reserve a slot for bike repair — Friday at 2:00 PM. No rush.", "output": {"action": "schedule", "task": "bike repair", "date": "Friday", "time": "14:00", "priority": "low"}}
+{"input": "Please reserve a slot for neighborhood cleanup — tomorrow. No rush.", "output": {"action": "schedule", "task": "neighborhood cleanup", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Can you pencil in garage cleanup — at 9:00 AM. Top priority.", "output": {"action": "schedule", "task": "garage cleanup", "date": null, "time": "09:00", "priority": "high"}}
+{"input": "Give me a nudge about piano recital — today at 2:00 PM.", "output": {"action": "remind", "task": "piano recital", "date": "today", "time": "14:00", "priority": "normal"}}
+{"input": "Call off garage cleanup — today at 2:00 PM. Top priority.", "output": {"action": "cancel", "task": "garage cleanup", "date": "today", "time": "14:00", "priority": "high"}}
+{"input": "Can you pencil in garage cleanup — Friday at 9:00 AM. No rush.", "output": {"action": "schedule", "task": "garage cleanup", "date": "Friday", "time": "09:00", "priority": "low"}}
+{"input": "Please reserve a slot for passport renewal — tomorrow at 2:00 PM.", "output": {"action": "schedule", "task": "passport renewal", "date": "tomorrow", "time": "14:00", "priority": "normal"}}
+{"input": "Please reserve a slot for science exhibition — Tuesday at 2:00 PM. No rush.", "output": {"action": "schedule", "task": "science exhibition", "date": "Tuesday", "time": "14:00", "priority": "low"}}
+{"input": "I finished plant watering; check it off — Monday. Top priority.", "output": {"action": "complete", "task": "plant watering", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Put bike repair on my checklist — Monday. No rush.", "output": {"action": "create", "task": "bike repair", "date": "Monday", "time": null, "priority": "low"}}
+{"input": "Give me a nudge about museum visit — Tuesday. No rush.", "output": {"action": "remind", "task": "museum visit", "date": "Tuesday", "time": null, "priority": "low"}}
+{"input": "Put neighborhood cleanup on my checklist — Friday at 9:00 AM.", "output": {"action": "create", "task": "neighborhood cleanup", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "I finished bike repair; check it off — Monday at 11:30 AM. Top priority.", "output": {"action": "complete", "task": "bike repair", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Please reserve a slot for photography session — at 2:00 PM. No rush.", "output": {"action": "schedule", "task": "photography session", "date": null, "time": "14:00", "priority": "low"}}
+{"input": "Please reserve a slot for museum visit — Monday at 9:00 AM. No rush.", "output": {"action": "schedule", "task": "museum visit", "date": "Monday", "time": "09:00", "priority": "low"}}
+{"input": "Tick off bike repair as finished — tomorrow at 11:30 AM. Top priority.", "output": {"action": "complete", "task": "bike repair", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Call off piano recital — at 2:00 PM.", "output": {"action": "cancel", "task": "piano recital", "date": null, "time": "14:00", "priority": "normal"}}
+{"input": "Take museum visit off my calendar — Tuesday. Top priority.", "output": {"action": "cancel", "task": "museum visit", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Can you pencil in science exhibition — tomorrow at 9:00 AM.", "output": {"action": "schedule", "task": "science exhibition", "date": "tomorrow", "time": "09:00", "priority": "normal"}}
+{"input": "I need a new to-do item for neighborhood cleanup — Monday at 11:30 AM. Top priority.", "output": {"action": "create", "task": "neighborhood cleanup", "date": "Monday", "time": "11:30", "priority": "high"}}
+{"input": "Tick off piano recital as finished.", "output": {"action": "complete", "task": "piano recital", "date": null, "time": null, "priority": "normal"}}
+{"input": "Take bike repair off my calendar — Friday at 5:00 PM.", "output": {"action": "cancel", "task": "bike repair", "date": "Friday", "time": "17:00", "priority": "normal"}}
+{"input": "I need a new to-do item for bike repair — at 10:00 AM. No rush.", "output": {"action": "create", "task": "bike repair", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Give me a nudge about photography session — tomorrow. Top priority.", "output": {"action": "remind", "task": "photography session", "date": "tomorrow", "time": null, "priority": "high"}}
+{"input": "Do not let me forget photography session — at 10:00 AM. No rush.", "output": {"action": "remind", "task": "photography session", "date": null, "time": "10:00", "priority": "low"}}
+{"input": "Take neighborhood cleanup off my calendar — tomorrow at 5:00 PM. Top priority.", "output": {"action": "cancel", "task": "neighborhood cleanup", "date": "tomorrow", "time": "17:00", "priority": "high"}}
+{"input": "I finished plant watering; check it off — Friday at 9:00 AM.", "output": {"action": "complete", "task": "plant watering", "date": "Friday", "time": "09:00", "priority": "normal"}}
+{"input": "Give me a nudge about passport renewal — at 2:00 PM. No rush.", "output": {"action": "remind", "task": "passport renewal", "date": null, "time": "14:00", "priority": "low"}}
+{"input": "Put design workshop on my checklist — Tuesday at 9:00 AM. Top priority.", "output": {"action": "create", "task": "design workshop", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Put plant watering on my checklist — tomorrow at 9:00 AM. Top priority.", "output": {"action": "create", "task": "plant watering", "date": "tomorrow", "time": "09:00", "priority": "high"}}
+{"input": "Tick off museum visit as finished — Monday at 2:00 PM.", "output": {"action": "complete", "task": "museum visit", "date": "Monday", "time": "14:00", "priority": "normal"}}
+{"input": "Do not let me forget piano recital — Tuesday at 11:30 AM. Top priority.", "output": {"action": "remind", "task": "piano recital", "date": "Tuesday", "time": "11:30", "priority": "high"}}
+{"input": "Do not let me forget design workshop — Monday at 5:00 PM. Top priority.", "output": {"action": "remind", "task": "design workshop", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "Take passport renewal off my calendar — Tuesday at 5:00 PM.", "output": {"action": "cancel", "task": "passport renewal", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Take photography session off my calendar — today. Top priority.", "output": {"action": "cancel", "task": "photography session", "date": "today", "time": null, "priority": "high"}}
+{"input": "Call off science exhibition — Monday at 9:00 AM. Top priority.", "output": {"action": "cancel", "task": "science exhibition", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Tick off plant watering as finished — today at 11:30 AM.", "output": {"action": "complete", "task": "plant watering", "date": "today", "time": "11:30", "priority": "normal"}}
+{"input": "Tick off museum visit as finished — Tuesday at 10:00 AM.", "output": {"action": "complete", "task": "museum visit", "date": "Tuesday", "time": "10:00", "priority": "normal"}}
+{"input": "Put photography session on my checklist — Monday at 10:00 AM. No rush.", "output": {"action": "create", "task": "photography session", "date": "Monday", "time": "10:00", "priority": "low"}}
+{"input": "I finished bike repair; check it off — at 11:30 AM.", "output": {"action": "complete", "task": "bike repair", "date": null, "time": "11:30", "priority": "normal"}}
+{"input": "I need a new to-do item for museum visit — Tuesday at 5:00 PM.", "output": {"action": "create", "task": "museum visit", "date": "Tuesday", "time": "17:00", "priority": "normal"}}
+{"input": "Please reserve a slot for science exhibition — Tuesday at 9:00 AM. Top priority.", "output": {"action": "schedule", "task": "science exhibition", "date": "Tuesday", "time": "09:00", "priority": "high"}}
+{"input": "Put piano recital on my checklist — today at 9:00 AM. Top priority.", "output": {"action": "create", "task": "piano recital", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "I finished piano recital; check it off — today at 2:00 PM. No rush.", "output": {"action": "complete", "task": "piano recital", "date": "today", "time": "14:00", "priority": "low"}}
+{"input": "Give me a nudge about bike repair — today at 2:00 PM.", "output": {"action": "remind", "task": "bike repair", "date": "today", "time": "14:00", "priority": "normal"}}
+{"input": "Call off passport renewal — tomorrow at 11:30 AM. No rush.", "output": {"action": "cancel", "task": "passport renewal", "date": "tomorrow", "time": "11:30", "priority": "low"}}
+{"input": "Can you pencil in design workshop — Monday at 5:00 PM. Top priority.", "output": {"action": "schedule", "task": "design workshop", "date": "Monday", "time": "17:00", "priority": "high"}}
+{"input": "I need a new to-do item for photography session — Monday. Top priority.", "output": {"action": "create", "task": "photography session", "date": "Monday", "time": null, "priority": "high"}}
+{"input": "Give me a nudge about photography session — today at 2:00 PM.", "output": {"action": "remind", "task": "photography session", "date": "today", "time": "14:00", "priority": "normal"}}
+{"input": "Put museum visit on my checklist — Monday at 11:30 AM.", "output": {"action": "create", "task": "museum visit", "date": "Monday", "time": "11:30", "priority": "normal"}}
+{"input": "I finished plant watering; check it off — today. No rush.", "output": {"action": "complete", "task": "plant watering", "date": "today", "time": null, "priority": "low"}}
+{"input": "Put garage cleanup on my checklist — tomorrow at 10:00 AM. Top priority.", "output": {"action": "create", "task": "garage cleanup", "date": "tomorrow", "time": "10:00", "priority": "high"}}
+{"input": "Do not let me forget bike repair — Tuesday. Top priority.", "output": {"action": "remind", "task": "bike repair", "date": "Tuesday", "time": null, "priority": "high"}}
+{"input": "Tick off piano recital as finished — Friday at 5:00 PM. No rush.", "output": {"action": "complete", "task": "piano recital", "date": "Friday", "time": "17:00", "priority": "low"}}
+{"input": "I need a new to-do item for piano recital — Monday at 10:00 AM. Top priority.", "output": {"action": "create", "task": "piano recital", "date": "Monday", "time": "10:00", "priority": "high"}}
+{"input": "Do not let me forget museum visit — today at 10:00 AM. Top priority.", "output": {"action": "remind", "task": "museum visit", "date": "today", "time": "10:00", "priority": "high"}}
+{"input": "Call off science exhibition — Tuesday at 5:00 PM. No rush.", "output": {"action": "cancel", "task": "science exhibition", "date": "Tuesday", "time": "17:00", "priority": "low"}}
+{"input": "Call off garage cleanup — Monday at 11:30 AM. No rush.", "output": {"action": "cancel", "task": "garage cleanup", "date": "Monday", "time": "11:30", "priority": "low"}}
+{"input": "Can you pencil in neighborhood cleanup — tomorrow at 11:30 AM. Top priority.", "output": {"action": "schedule", "task": "neighborhood cleanup", "date": "tomorrow", "time": "11:30", "priority": "high"}}
+{"input": "Tick off science exhibition as finished — Monday at 10:00 AM.", "output": {"action": "complete", "task": "science exhibition", "date": "Monday", "time": "10:00", "priority": "normal"}}
+{"input": "Call off plant watering — tomorrow. No rush.", "output": {"action": "cancel", "task": "plant watering", "date": "tomorrow", "time": null, "priority": "low"}}
+{"input": "Put neighborhood cleanup on my checklist — at 11:30 AM. Top priority.", "output": {"action": "create", "task": "neighborhood cleanup", "date": null, "time": "11:30", "priority": "high"}}
+{"input": "Give me a nudge about passport renewal — Friday at 2:00 PM. Top priority.", "output": {"action": "remind", "task": "passport renewal", "date": "Friday", "time": "14:00", "priority": "high"}}
+{"input": "Take passport renewal off my calendar — Friday at 10:00 AM.", "output": {"action": "cancel", "task": "passport renewal", "date": "Friday", "time": "10:00", "priority": "normal"}}
+{"input": "Can you pencil in bike repair — today at 9:00 AM. Top priority.", "output": {"action": "schedule", "task": "bike repair", "date": "today", "time": "09:00", "priority": "high"}}
+{"input": "Take plant watering off my calendar — today.", "output": {"action": "cancel", "task": "plant watering", "date": "today", "time": null, "priority": "normal"}}
+{"input": "Tick off neighborhood cleanup as finished — today. No rush.", "output": {"action": "complete", "task": "neighborhood cleanup", "date": "today", "time": null, "priority": "low"}}
+{"input": "I need a new to-do item for bike repair — today at 9:00 AM.", "output": {"action": "create", "task": "bike repair", "date": "today", "time": "09:00", "priority": "normal"}}
+{"input": "Can you pencil in photography session — Tuesday at 11:30 AM.", "output": {"action": "schedule", "task": "photography session", "date": "Tuesday", "time": "11:30", "priority": "normal"}}
+{"input": "I need a new to-do item for museum visit — Monday at 9:00 AM. Top priority.", "output": {"action": "create", "task": "museum visit", "date": "Monday", "time": "09:00", "priority": "high"}}
+{"input": "Put plant watering on my checklist — Monday. Top priority.", "output": {"action": "create", "task": "plant watering", "date": "Monday", "time": null, "priority": "high"}}
