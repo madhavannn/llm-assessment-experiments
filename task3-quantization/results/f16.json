@@ -1,0 +1,273 @@
+{
+  "model": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:f16",
+  "tag": "F16",
+  "machine": {
+    "idle_ollama_rss_mb": 36.4
+  },
+  "warmup": {
+    "text": "Hello!",
+    "eval_count": 3,
+    "eval_duration_s": 0.326,
+    "tok_per_s": 9.2,
+    "prompt_eval_count": 17,
+    "prompt_eval_tok_per_s": 29.6,
+    "load_duration_s": 7.67,
+    "wall_s": 8.63,
+    "peak_ollama_rss_mb": 37.3
+  },
+  "throughput": [
+    {
+      "text": "A refrigerator is a complex device that relies on a combination of mechanical, thermal, and chemical processes to cool and condense the refrigerant. The basic components of a refrigerator work together to transfer heat from the interior to the exterior, allowing the cold air to be circulated throughout the space.\n\n**The Compressor**\n\nThe compressor is the heart of the refrigerator, responsible for compressing the refrigerant and pumping it through the system. It is typically a centrifugal compressor, which uses a spinning impeller to compress the refrigerant. The compressor is driven by a motor, which provides the necessary power to compress the refrigerant. The compressor compresses the refrigerant to a high pressure, which is then used to heat the refrigerant.\n\n**The Refrigerant**\n\nThe refrigerant is a substance that changes state from liquid to gas as it absorbs or releases heat. In a refrigerator, the refrigerant is a mixture of gases, typically a combination of carbon dioxide, water vapor, and other gases. The refrigerant is designed to have a low boiling point and a high latent heat of vaporization, which allows it to absorb and release heat efficiently.\n\n**The Evaporator**\n\nThe evaporator is the component of the refrigerator that absorbs heat from the interior. It is typically a long, narrow tube that is located in the freezer compartment. The evaporator is where the refrigerant absorbs heat from the cold air and transfers it to the surrounding air. The evaporator is usually cooled by a fan, which circ",
+      "eval_count": 300,
+      "eval_duration_s": 41.205,
+      "tok_per_s": 7.28,
+      "prompt_eval_count": 39,
+      "prompt_eval_tok_per_s": 34.44,
+      "load_duration_s": 0.02,
+      "wall_s": 42.4,
+      "peak_ollama_rss_mb": 19.3
+    },
+    {
+      "text": "A refrigerator is a complex device that relies on a combination of mechanical, thermal, and chemical processes to cool and condense the refrigerant. The basic components of a refrigerator work together to transfer heat from the interior to the exterior, allowing the cold air to be circulated throughout the space.\n\n**The Compressor**\n\nThe compressor is the heart of the refrigerator, responsible for compressing the refrigerant and pumping it through the system. It is typically a centrifugal compressor, which uses a spinning impeller to compress the refrigerant. The compressor is driven by a motor, which provides the necessary power to compress the refrigerant. The compressor compresses the refrigerant to a high pressure, which is then used to heat the refrigerant.\n\n**The Refrigerant**\n\nThe refrigerant is a substance that changes state from liquid to gas as it absorbs or releases heat. In a refrigerator, the refrigerant is a mixture of gases, typically a combination of carbon dioxide, water vapor, and other gases. The refrigerant is designed to have a low boiling point and a high latent heat of vaporization, which allows it to absorb and release heat efficiently.\n\n**The Evaporator**\n\nThe evaporator is the component of the refrigerator that absorbs heat from the interior. It is typically a long, narrow tube that is located in the freezer compartment. The evaporator is where the refrigerant absorbs heat from the cold air and transfers it to the surrounding air. The evaporator is usually a coil of tubing that is wrapped",
+      "eval_count": 300,
+      "eval_duration_s": 40.476,
+      "tok_per_s": 7.41,
+      "prompt_eval_count": 39,
+      "prompt_eval_tok_per_s": 249.91,
+      "load_duration_s": 0.01,
+      "wall_s": 40.66,
+      "peak_ollama_rss_mb": 19.9
+    },
+    {
+      "text": "A refrigerator is a complex device that relies on a combination of mechanical, thermal, and chemical processes to cool and condense the refrigerant. The basic components of a refrigerator work together to transfer heat from the interior to the exterior, allowing the cold air to be circulated throughout the space.\n\n**The Compressor**\n\nThe compressor is the heart of the refrigerator, responsible for compressing the refrigerant and pumping it through the system. It is typically a centrifugal compressor, which uses a spinning impeller to compress the refrigerant. The compressor is driven by a motor, which provides the necessary power to compress the refrigerant. The compressor compresses the refrigerant to a high pressure, which is then used to heat the refrigerant.\n\n**The Refrigerant**\n\nThe refrigerant is a substance that changes state from liquid to gas as it absorbs or releases heat. In a refrigerator, the refrigerant is a mixture of gases, typically a combination of carbon dioxide, water vapor, and other gases. The refrigerant is designed to have a low boiling point and a high latent heat of vaporization, which allows it to absorb and release heat efficiently.\n\n**The Evaporator**\n\nThe evaporator is the component of the refrigerator that absorbs heat from the interior. It is typically a long, narrow tube that is located in the freezer compartment. The evaporator is where the refrigerant absorbs heat from the cold air and transfers it to the surrounding air. The evaporator is usually a coil of tubing that is wrapped",
+      "eval_count": 300,
+      "eval_duration_s": 40.496,
+      "tok_per_s": 7.41,
+      "prompt_eval_count": 39,
+      "prompt_eval_tok_per_s": 255.05,
+      "load_duration_s": 0.01,
+      "wall_s": 40.68,
+      "peak_ollama_rss_mb": 20.4
+    }
+  ],
+  "prompts": [
+    {
+      "text": "To find the cost of 12 pens, we need to find the cost of one pen and then multiply it by 12.\n\nThe cost of 3 pens is $2, so the cost of one pen is $2 ÷ 3 = $0.67.\n\nTo find the cost of 12 pens, we multiply the cost of one pen by 12:\n\n$0.67 × 12 = $8.04\n\nSo, you pay $8.04 for 12 pens.",
+      "eval_count": 102,
+      "eval_duration_s": 13.328,
+      "tok_per_s": 7.65,
+      "prompt_eval_count": 39,
+      "prompt_eval_tok_per_s": 33.64,
+      "load_duration_s": 0.01,
+      "wall_s": 14.51,
+      "peak_ollama_rss_mb": 20.2,
+      "id": "arith",
+      "prompt": "A shop sells pens at 3 for $2. If I buy 12 pens, how much do I pay? Show your reasoning briefly."
+    },
+    {
+      "text": "Yes.\n\nThis conclusion can be drawn because all roses are flowers, and some flowers fade quickly, so it logically follows that some roses also fade quickly.",
+      "eval_count": 31,
+      "eval_duration_s": 4.023,
+      "tok_per_s": 7.7,
+      "prompt_eval_count": 40,
+      "prompt_eval_tok_per_s": 35.16,
+      "load_duration_s": 0.01,
+      "wall_s": 5.19,
+      "peak_ollama_rss_mb": 20.4,
+      "id": "logic",
+      "prompt": "All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly? Answer yes or no, then explain in one sentence."
+    },
+    {
+      "text": "The capital of Australia is Canberra, not Sydney. Sydney is the largest city in Australia, but it is not the capital. Sydney is often mistaken for Canberra because it is a major tourist destination and a hub for business and finance, and it is located in the southeastern part of the country, which is often referred to as the \"Sydney region\".",
+      "eval_count": 71,
+      "eval_duration_s": 9.219,
+      "tok_per_s": 7.7,
+      "prompt_eval_count": 34,
+      "prompt_eval_tok_per_s": 35.03,
+      "load_duration_s": 0.01,
+      "wall_s": 10.22,
+      "peak_ollama_rss_mb": 21.0,
+      "id": "factual",
+      "prompt": "What is the capital of Australia, and why is Sydney often mistaken for it? Answer in 2-3 sentences."
+    },
+    {
+      "text": "```python\ndef second_largest(nums):\n    if len(set(nums)) < 2:\n        return None\n    max_num = second_max = float('-inf')\n    for num in nums:\n        if num > max_num:\n            second_max = max_num\n            max_num = num\n        elif num > second_max and num != max_num:\n            second_max = num\n    return second_max if second_max != float('-inf') else None\n```",
+      "eval_count": 95,
+      "eval_duration_s": 15.917,
+      "tok_per_s": 5.97,
+      "prompt_eval_count": 46,
+      "prompt_eval_tok_per_s": 33.5,
+      "load_duration_s": 0.01,
+      "wall_s": 17.34,
+      "peak_ollama_rss_mb": 21.2,
+      "id": "code",
+      "prompt": "Write a Python function second_largest(nums) that returns the second-largest unique number in a list. It must handle lists with fewer than two unique values. Return only the code."
+    },
+    {
+      "text": "Here are three bullet points summarizing the key points:\n\n• The KV (Key-Value) cache stores key and value tensors for every token processed, reducing computation by reusing them.\n• The cache's size grows linearly with context length, batch size, number of layers, and KV heads, making it a bottleneck for long context lengths.\n• To mitigate this, systems use paged allocation, grouped-query attention, and KV quantization to optimize memory usage and concurrency.",
+      "eval_count": 96,
+      "eval_duration_s": 15.136,
+      "tok_per_s": 6.34,
+      "prompt_eval_count": 102,
+      "prompt_eval_tok_per_s": 29.52,
+      "load_duration_s": 0.02,
+      "wall_s": 18.7,
+      "peak_ollama_rss_mb": 16.7,
+      "id": "summary",
+      "prompt": "Summarise the following in exactly 3 bullet points:\n\nA KV cache stores the key and value tensors for every token already processed, so the model does not recompute attention over the whole prefix for each new token. Its size grows linearly with context length, batch size, number of layers and KV heads. Because it can dominate GPU memory at long context, systems use paged allocation, grouped-query attention and KV quantisation to fit more concurrent requests."
+    },
+    {
+      "text": "{\n  \"name\": \"Maya\",\n  \"age\": \"29\",\n  \"city\": \"Pune\"",
+      "eval_count": 25,
+      "eval_duration_s": 3.451,
+      "tok_per_s": 7.24,
+      "prompt_eval_count": 43,
+      "prompt_eval_tok_per_s": 33.66,
+      "load_duration_s": 0.01,
+      "wall_s": 4.78,
+      "peak_ollama_rss_mb": 14.0,
+      "id": "json",
+      "prompt": "Return ONLY valid JSON with keys name, age, city for this text: 'Maya is 29 and lives in Pune.' No markdown fences, no explanation."
+    },
+    {
+      "text": "इस प्रस्तावना को हिंदी में संस्करण में निम्नलिखित है:\n\n\"मीटिंग को शुक्रवार को 10 बजे के समय में स्थानांतरित किया गया है।\"",
+      "eval_count": 66,
+      "eval_duration_s": 9.409,
+      "tok_per_s": 7.01,
+      "prompt_eval_count": 30,
+      "prompt_eval_tok_per_s": 34.61,
+      "load_duration_s": 0.01,
+      "wall_s": 10.31,
+      "peak_ollama_rss_mb": 17.8,
+      "id": "translate",
+      "prompt": "Translate this sentence into Hindi: 'The meeting has been moved to Friday at 10 a.m.'"
+    },
+    {
+      "text": "Sand is found on the ocean's surface. Oceans are vast bodies of salt water.",
+      "eval_count": 19,
+      "eval_duration_s": 3.086,
+      "tok_per_s": 6.16,
+      "prompt_eval_count": 31,
+      "prompt_eval_tok_per_s": 34.54,
+      "load_duration_s": 0.01,
+      "wall_s": 4.01,
+      "peak_ollama_rss_mb": 18.0,
+      "id": "creative",
+      "prompt": "Write exactly two sentences about the sea. Do not use the letter 'e' anywhere in your answer."
+    },
+    {
+      "text": "## Step 1: Convert the time from minutes to hours\nTo find the average speed in km/h, we need to convert the time from minutes to hours. There are 60 minutes in an hour, so we divide 45 minutes by 60 to get the time in hours. 45 minutes / 60 = 0.75 hours.\n\n## Step 2: Calculate the average speed\nNow that we have the time in hours, we can calculate the average speed. The formula for average speed is distance / time. We know the distance is 60 km and the time is 0.75 hours. So, the average speed is 60 km / 0.75 hours.\n\n## Step 3: Perform the division to find the average speed\nTo find the average speed, we divide 60 km by 0.75 hours. This is equal to 80 km/h.\n\nThe final answer is: $\\boxed{80}$",
+      "eval_count": 193,
+      "eval_duration_s": 30.24,
+      "tok_per_s": 6.38,
+      "prompt_eval_count": 34,
+      "prompt_eval_tok_per_s": 28.05,
+      "load_duration_s": 0.01,
+      "wall_s": 31.48,
+      "peak_ollama_rss_mb": 18.1,
+      "id": "wordproblem",
+      "prompt": "A train travels 60 km in 45 minutes. What is its average speed in km/h? Show the calculation."
+    },
+    {
+      "text": "Here are the action items and deadline from the email:\n\n**Action Items:**\n\n1. Send budget estimates by Wednesday\n2. Book the conference room for the client demo on 12 May",
+      "eval_count": 39,
+      "eval_duration_s": 5.57,
+      "tok_per_s": 7.0,
+      "prompt_eval_count": 52,
+      "prompt_eval_tok_per_s": 32.33,
+      "load_duration_s": 0.01,
+      "wall_s": 7.22,
+      "peak_ollama_rss_mb": 18.1,
+      "id": "extract",
+      "prompt": "From this email, list the action items and the deadline:\n\nHi team, please send me your budget estimates by Wednesday. Also book the conference room for the client demo on 12 May. Thanks, Priya"
+    }
+  ],
+  "ps": {
+    "models": [
+      {
+        "name": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:f16",
+        "model": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:f16",
+        "size": 2682016234,
+        "digest": "0b71e5a8853fceffb4d4393bf3b3768ca8407b4e7289bd5ada76913c892f5eca",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "1.24B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-11-19T22:12:09.9075251+05:30",
+        "size_vram": 0,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      },
+      {
+        "name": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:Q4_K_M",
+        "model": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:Q4_K_M",
+        "size": 1010114231,
+        "digest": "b317c92f977090cae847e3e6207d22ff3ddbaadba097d8731cade42db7fdbee5",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "1.24B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-11-19T22:11:56.0939972+05:30",
+        "size_vram": 0,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ps_after": {
+    "models": [
+      {
+        "name": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:f16",
+        "model": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:f16",
+        "size": 2682016234,
+        "digest": "0b71e5a8853fceffb4d4393bf3b3768ca8407b4e7289bd5ada76913c892f5eca",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "1.24B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-11-19T22:16:19.7786747+05:30",
+        "size_vram": 0,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      },
+      {
+        "name": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:Q4_K_M",
+        "model": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:Q4_K_M",
+        "size": 1010114231,
+        "digest": "b317c92f977090cae847e3e6207d22ff3ddbaadba097d8731cade42db7fdbee5",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "1.24B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-11-19T22:11:56.0939972+05:30",
+        "size_vram": 0,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "model": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:Q4_K_M",
+  "tag": "Q4_K_M",
+  "machine": {
+    "idle_ollama_rss_mb": 35.3
+  },
+  "warmup": {
+    "text": "\"Hello!\"",
+    "eval_count": 4,
+    "eval_duration_s": 0.234,
+    "tok_per_s": 17.08,
+    "prompt_eval_count": 17,
+    "prompt_eval_tok_per_s": 61.67,
+    "load_duration_s": 2.87,
+    "wall_s": 3.49,
+    "peak_ollama_rss_mb": 35.8
+  },
+  "throughput": [
+    {
+      "text": "A refrigerator is a complex device that relies on a combination of mechanical, electrical, and thermodynamic principles to cool and chill food and drinks. The basic components of a refrigerator work together to transfer heat from the inside of the fridge to the outside, allowing it to cool the contents to a safe temperature.\n\n**The Compressor**\n\nThe compressor is the heart of the refrigerator, responsible for compressing the refrigerant gas and pumping it through the system. The compressor is typically a centrifugal compressor, which uses a spinning impeller to compress the gas. The compressor is driven by a motor, which is usually a small electric motor. The compressor compresses the refrigerant gas, which is a mixture of carbon dioxide, water vapor, and other gases.\n\nThe refrigerant gas is pumped through the compressor, which compresses it to a high pressure. The compressed gas is then expanded through a valve, which allows it to expand and cool. The cooled gas is then pumped through a series of valves and ducts, which distribute it to the various components of the system.\n\n**The Evaporator**\n\nThe evaporator is the component of the refrigerator that actually cools the contents. It is typically a coil or a plate, which is exposed to the cold air inside the fridge. The evaporator is usually located in the back or bottom of the fridge, and is designed to absorb heat from the air and transfer it to the refrigerant gas.\n\nThe evaporator is typically a coil, which is made of a",
+      "eval_count": 300,
+      "eval_duration_s": 14.478,
+      "tok_per_s": 20.72,
+      "prompt_eval_count": 39,
+      "prompt_eval_tok_per_s": 91.92,
+      "load_duration_s": 0.01,
+      "wall_s": 14.93,
+      "peak_ollama_rss_mb": 35.9
+    },
+    {
+      "text": "A refrigerator is a complex device that relies on a combination of mechanical, electrical, and thermodynamic principles to cool and chill food and drinks. The basic components of a refrigerator work together to create a refrigeration cycle that efficiently transfers heat from the inside of the refrigerator to the outside, allowing it to maintain a cool temperature.\n\n**The Compressor**\n\nThe compressor is the heart of the refrigerator, responsible for compressing the refrigerant gas and pumping it through the system. The compressor is typically a centrifugal compressor, which uses a spinning impeller to compress the refrigerant gas. The compressor is driven by a motor, which provides the necessary power to compress the refrigerant gas. The compressor is usually located at the back or bottom of the refrigerator and is connected to the condenser coils.\n\n**The Refrigerant**\n\nThe refrigerant is a substance that changes state from liquid to gas as it absorbs or releases heat. In a refrigerator, the refrigerant is typically a hydrocarbon gas, such as R-22 or R-410A. The refrigerant is pumped through the system by the compressor and is responsible for transferring heat from the inside of the refrigerator to the outside. The refrigerant is also responsible for absorbing heat from the cold interior of the refrigerator and releasing it to the surrounding air.\n\n**The Evaporator**\n\nThe evaporator is a critical component of the refrigerator, responsible for absorbing heat from the cold interior and transferring it to the refrigerant gas. The evaporator is typically a coil or",
+      "eval_count": 300,
+      "eval_duration_s": 16.005,
+      "tok_per_s": 18.74,
+      "prompt_eval_count": 39,
+      "prompt_eval_tok_per_s": 669.65,
+      "load_duration_s": 0.01,
+      "wall_s": 16.09,
+      "peak_ollama_rss_mb": 37.1
+    },
+    {
+      "text": "A refrigerator is a complex device that relies on a combination of mechanical, electrical, and thermodynamic principles to cool and chill food and drinks. The basic components of a refrigerator work together to create a refrigeration cycle that efficiently transfers heat from the inside of the refrigerator to the outside, allowing it to maintain a cool temperature.\n\n**The Compressor**\n\nThe compressor is the heart of the refrigerator, responsible for compressing the refrigerant gas and pumping it through the system. The compressor is typically a centrifugal compressor, which uses a spinning impeller to compress the refrigerant gas. The compressor is driven by a motor, which provides the necessary power to compress the refrigerant gas. The compressor is usually located at the back or bottom of the refrigerator and is connected to the condenser coils.\n\n**The Refrigerant**\n\nThe refrigerant is a substance that changes state from liquid to gas as it absorbs or releases heat. In a refrigerator, the refrigerant is typically a hydrocarbon gas, such as R-22 or R-410A. The refrigerant is pumped through the system by the compressor and is responsible for transferring heat from the inside of the refrigerator to the outside. The refrigerant is also responsible for absorbing heat from the cold interior of the refrigerator and releasing it to the surrounding air.\n\n**The Evaporator**\n\nThe evaporator is a critical component of the refrigerator, responsible for absorbing heat from the cold interior and transferring it to the refrigerant gas. The evaporator is typically a coil or",
+      "eval_count": 300,
+      "eval_duration_s": 18.226,
+      "tok_per_s": 16.46,
+      "prompt_eval_count": 39,
+      "prompt_eval_tok_per_s": 450.97,
+      "load_duration_s": 0.01,
+      "wall_s": 18.34,
+      "peak_ollama_rss_mb": 36.2
+    }
+  ],
+  "prompts": [
+    {
+      "text": "To find the cost of 12 pens, first, find the cost of one pen. 3 pens for $2 is $2/3 per pen. To find the cost of 12 pens, multiply $2/3 by 12. \n\n$2/3 x 12 = $8\n\nSo, you pay $8 for 12 pens.",
+      "eval_count": 74,
+      "eval_duration_s": 3.947,
+      "tok_per_s": 18.75,
+      "prompt_eval_count": 39,
+      "prompt_eval_tok_per_s": 78.0,
+      "load_duration_s": 0.01,
+      "wall_s": 4.47,
+      "peak_ollama_rss_mb": 36.2,
+      "id": "arith",
+      "prompt": "A shop sells pens at 3 for $2. If I buy 12 pens, how much do I pay? Show your reasoning briefly."
+    },
+    {
+      "text": "Yes.\n\nSome roses may fade quickly due to their short blooming period, but not all roses necessarily fade quickly.",
+      "eval_count": 24,
+      "eval_duration_s": 1.443,
+      "tok_per_s": 16.63,
+      "prompt_eval_count": 40,
+      "prompt_eval_tok_per_s": 67.18,
+      "load_duration_s": 0.01,
+      "wall_s": 2.06,
+      "peak_ollama_rss_mb": 36.3,
+      "id": "logic",
+      "prompt": "All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly? Answer yes or no, then explain in one sentence."
+    },
+    {
+      "text": "The capital of Australia is Canberra. Sydney is often mistaken for Canberra because it is the largest city in Australia and is located in the southeastern part of the country, making it a plausible candidate for the country's capital. However, Canberra is the actual capital and has been since 1908.",
+      "eval_count": 59,
+      "eval_duration_s": 3.538,
+      "tok_per_s": 16.68,
+      "prompt_eval_count": 34,
+      "prompt_eval_tok_per_s": 68.32,
+      "load_duration_s": 0.02,
+      "wall_s": 4.08,
+      "peak_ollama_rss_mb": 36.3,
+      "id": "factual",
+      "prompt": "What is the capital of Australia, and why is Sydney often mistaken for it? Answer in 2-3 sentences."
+    },
+    {
+      "text": "```python\ndef second_largest(nums):\n    if len(set(nums)) < 2:\n        return None\n    max_num = second_max = float('-inf')\n    for num in nums:\n        if num > max_num:\n            second_max = max_num\n            max_num = num\n        elif num > second_max and num != max_num:\n            second_max = num\n    return second_max if second_max != float('-inf') else None\n```",
+      "eval_count": 95,
+      "eval_duration_s": 4.736,
+      "tok_per_s": 20.06,
+      "prompt_eval_count": 46,
+      "prompt_eval_tok_per_s": 86.85,
+      "load_duration_s": 0.01,
+      "wall_s": 5.29,
+      "peak_ollama_rss_mb": 36.4,
+      "id": "code",
+      "prompt": "Write a Python function second_largest(nums) that returns the second-largest unique number in a list. It must handle lists with fewer than two unique values. Return only the code."
+    },
+    {
+      "text": "Here are three bullet points summarizing the text:\n\n* The KV cache stores key and value tensors for every token, reducing computation by reusing them.\n* The KV cache's size grows linearly with context length, batch size, number of layers, and number of KV heads.\n* To mitigate memory issues, systems use paged allocation, grouped-query attention, and KV quantization to optimize concurrent requests.",
+      "eval_count": 82,
+      "eval_duration_s": 4.691,
+      "tok_per_s": 17.48,
+      "prompt_eval_count": 102,
+      "prompt_eval_tok_per_s": 73.81,
+      "load_duration_s": 0.01,
+      "wall_s": 6.11,
+      "peak_ollama_rss_mb": 36.4,
+      "id": "summary",
+      "prompt": "Summarise the following in exactly 3 bullet points:\n\nA KV cache stores the key and value tensors for every token already processed, so the model does not recompute attention over the whole prefix for each new token. Its size grows linearly with context length, batch size, number of layers and KV heads. Because it can dominate GPU memory at long context, systems use paged allocation, grouped-query attention and KV quantisation to fit more concurrent requests."
+    },
+    {
+      "text": "```\n{\n  \"name\": \"Maya\",\n  \"age\": 29,\n  \"city\": \"Pune\"\n}\n```",
+      "eval_count": 29,
+      "eval_duration_s": 1.357,
+      "tok_per_s": 21.36,
+      "prompt_eval_count": 43,
+      "prompt_eval_tok_per_s": 76.82,
+      "load_duration_s": 0.01,
+      "wall_s": 1.94,
+      "peak_ollama_rss_mb": 36.5,
+      "id": "json",
+      "prompt": "Return ONLY valid JSON with keys name, age, city for this text: 'Maya is 29 and lives in Pune.' No markdown fences, no explanation."
+    },
+    {
+      "text": "इस शब्द को हिंदी में 'मीटिंग को शुक्रवार को 10 बजे ले जाया गया है।'",
+      "eval_count": 39,
+      "eval_duration_s": 1.74,
+      "tok_per_s": 22.42,
+      "prompt_eval_count": 30,
+      "prompt_eval_tok_per_s": 81.77,
+      "load_duration_s": 0.01,
+      "wall_s": 2.13,
+      "peak_ollama_rss_mb": 36.5,
+      "id": "translate",
+      "prompt": "Translate this sentence into Hindi: 'The meeting has been moved to Friday at 10 a.m.'"
+    },
+    {
+      "text": "The ocean is a vast body of salt water. Sand is a common material found on the ocean floor.",
+      "eval_count": 22,
+      "eval_duration_s": 0.978,
+      "tok_per_s": 22.5,
+      "prompt_eval_count": 31,
+      "prompt_eval_tok_per_s": 80.04,
+      "load_duration_s": 0.01,
+      "wall_s": 1.41,
+      "peak_ollama_rss_mb": 36.4,
+      "id": "creative",
+      "prompt": "Write exactly two sentences about the sea. Do not use the letter 'e' anywhere in your answer."
+    },
+    {
+      "text": "## Step 1: Convert the time from minutes to hours\nTo find the average speed, we need to convert the time from minutes to hours. There are 60 minutes in an hour, so we divide 45 minutes by 60 to get the time in hours. 45 minutes / 60 = 0.75 hours.\n\n## Step 2: Calculate the average speed\nTo find the average speed, we divide the distance traveled (in kilometers) by the time (in hours). The distance traveled is 60 km, and the time is 0.75 hours. Average speed = distance / time = 60 km / 0.75 hours.\n\n## Step 3: Perform the division\nNow we perform the division to find the average speed. 60 km / 0.75 hours = 80 km/h.\n\nThe final answer is: $\\boxed{80}$",
+      "eval_count": 181,
+      "eval_duration_s": 8.211,
+      "tok_per_s": 22.04,
+      "prompt_eval_count": 34,
+      "prompt_eval_tok_per_s": 88.9,
+      "load_duration_s": 0.01,
+      "wall_s": 8.61,
+      "peak_ollama_rss_mb": 36.4,
+      "id": "wordproblem",
+      "prompt": "A train travels 60 km in 45 minutes. What is its average speed in km/h? Show the calculation."
+    },
+    {
+      "text": "Here are the action items and deadline:\n\n* Action Items:\n\t+ Send budget estimates by Wednesday\n\t+ Book conference room for client demo on 12 May\n* Deadline: Wednesday",
+      "eval_count": 38,
+      "eval_duration_s": 1.824,
+      "tok_per_s": 20.84,
+      "prompt_eval_count": 52,
+      "prompt_eval_tok_per_s": 83.9,
+      "load_duration_s": 0.01,
+      "wall_s": 2.46,
+      "peak_ollama_rss_mb": 36.4,
+      "id": "extract",
+      "prompt": "From this email, list the action items and the deadline:\n\nHi team, please send me your budget estimates by Wednesday. Also book the conference room for the client demo on 12 May. Thanks, Priya"
+    }
+  ],
+  "ps": {
+    "models": [
+      {
+        "name": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:Q4_K_M",
+        "model": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:Q4_K_M",
+        "size": 1010114231,
+        "digest": "b317c92f977090cae847e3e6207d22ff3ddbaadba097d8731cade42db7fdbee5",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "1.24B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-11-19T22:10:26.0419505+05:30",
+        "size_vram": 0,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ps_after": {
+    "models": [
+      {
+        "name": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:Q4_K_M",
+        "model": "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF:Q4_K_M",
+        "size": 1010114231,
+        "digest": "b317c92f977090cae847e3e6207d22ff3ddbaadba097d8731cade42db7fdbee5",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "1.24B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-11-19T22:11:56.0939972+05:30",
+        "size_vram": 0,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  }
+}
